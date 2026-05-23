@@ -1,0 +1,288 @@
+{
+  "doc_id": "user_rights_regulations",
+  "doc_name": "User Rights Regulations.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 7,
+  "original_size": [
+    2274,
+    1608
+  ],
+  "inference_size": [
+    1400,
+    989
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_rights_regulations\\page_007.png",
+  "extraction_timestamp": "2026-05-23T15:46:31.899037+00:00",
+  "blocks": [
+    {
+      "block_id": "user_rights_regulations_p007_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 86,
+        "y1": 43,
+        "x2": 409,
+        "y2": 166
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b00_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b01",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1514,
+        "y1": 217,
+        "x2": 1610,
+        "y2": 306
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b01_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b02",
+      "block_type": "header",
+      "text": "المادة (١٠) التعويضات",
+      "bbox": {
+        "x1": 1808,
+        "y1": 240,
+        "x2": 2160,
+        "y2": 283
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b02_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b03",
+      "block_type": "text",
+      "text": "تلتزم الشركات المرخص لها بتعويض المستخدمين ممن ثبتت اخلالهم بالتزاماتهم التعاقدية تجاههم، يشمل ذلك استمرارية جودة الخدمة، الالتزام بالأطر الزمنية المحددة لتوصيل الخدمة أو إلغاءها، وقف الخدمة مؤقتاً أو قطع الخدمة أو إنهاء التعاقد بدون وجه حق، على أن يكون ذلك وفقاً لقائمة التعويضات المعتمدة من الجهاز.",
+      "bbox": {
+        "x1": 84,
+        "y1": 317,
+        "x2": 2176,
+        "y2": 400
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b03_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b04",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1410,
+        "y1": 436,
+        "x2": 1505,
+        "y2": 523
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b04_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b05",
+      "block_type": "header",
+      "text": "المادة (١١) أعمال الصيانة والتحديثات المخطط لها",
+      "bbox": {
+        "x1": 1521,
+        "y1": 455,
+        "x2": 2160,
+        "y2": 502
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b05_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b06",
+      "block_type": "text",
+      "text": "في حالة وجود أعمال صيانة أو تحديثات على الشبكات الخاصة بالشركات المرخص لها تؤثر على جودة الخدمة أو تتسبب في انقطاع أو تعطيل للخدمة تلتزم الشركات بالإبصار المسبق للمستخدمين بمدة يحددها الجهاز قبل الموعد المقرر لإجراء الصيانة أو التحديثات والمدة التي ستستغرقها، مع مراعاة أن تكون أعمال الصيانة والتحديثات المخطط لها خارج أوقات الخروبة (أثناء فترات انخفاض الحركة على الشبكة).",
+      "bbox": {
+        "x1": 84,
+        "y1": 532,
+        "x2": 2176,
+        "y2": 658
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b06_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b07",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1599,
+        "y1": 704,
+        "x2": 1685,
+        "y2": 791
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b07_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b08",
+      "block_type": "header",
+      "text": "المادة (١٢) الإيقاف المؤقت للخدمة",
+      "bbox": {
+        "x1": 1694,
+        "y1": 735,
+        "x2": 2169,
+        "y2": 777
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b08_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b09",
+      "block_type": "text",
+      "text": "تلتزم الشركات بعدم إجراء وقف مؤقت للخدمة بناء على طلب المشترك إلا بعد الحصول على موافقة كتابية منه شخصياً أو عن طريق مكاملة صوتية مسجلة بشرط أن يكون اتصال المشترك من نفس رقم الخط الذي يريد وقف الخدمة عليه، وفي جميع الأحوال يجب تسجيل تحقيق الشخصية للعمل ورقمه القومي.",
+      "bbox": {
+        "x1": 84,
+        "y1": 807,
+        "x2": 2176,
+        "y2": 892
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b09_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b10",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1735,
+        "y1": 933,
+        "x2": 1831,
+        "y2": 1019
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b10_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b11",
+      "block_type": "header",
+      "text": "المادة (١٣) الشفافية",
+      "bbox": {
+        "x1": 1881,
+        "y1": 957,
+        "x2": 2169,
+        "y2": 1002
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b11_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b12",
+      "block_type": "text",
+      "text": "• تلتزم الشركة بإضافة نسخة من العقد المعتمد من الجهاز لتقديم الخدمة وذلك على الصفحة الرئيسية للموقع الإلكتروني الخاص بالشركة في مكان يسهل على المستخدم الوصول إليه. • كما تلتزم الشركات المرخص لها بنشر أسعار الخدمات المرخص لها وكافة تفاصيلها بكل وضوح على موقعها الالكتروني.",
+      "bbox": {
+        "x1": 84,
+        "y1": 1013,
+        "x2": 2176,
+        "y2": 1171
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b12_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b13",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1660,
+        "y1": 1187,
+        "x2": 1753,
+        "y2": 1274
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b13_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b14",
+      "block_type": "header",
+      "text": "المادة (١٤) خاصة نقل الأرقام",
+      "bbox": {
+        "x1": 1776,
+        "y1": 1212,
+        "x2": 2169,
+        "y2": 1257
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b14_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b15",
+      "block_type": "text",
+      "text": "يلتزم مقدمي خدمات التليفون المحمول بتوفير خاصة نقل الأرقام طبقا للقواعد التنظيمية والتعليمات التي يصدرها الجهاز وجميع تعديلاتها، على أن تشمل خاصة نقل الأرقام كلا من الحسابات الفردية (أجلة أو سابقة الدفع) والحسابات المجمعة، شريطة مرور أربعة (٤) أشهر ميلادية للرقم عند مقدم الخدمة الحالي في حالة الحسابات الفردية وعام ميلادي كامل للحسابات المجمعة، على أن تتم عملية النقل للرقم/الحساب طبقا للمدة المحددة بخطه نقل الأرقام وفقاً للقواعد التنظيمية السارية فيه.",
+      "bbox": {
+        "x1": 84,
+        "y1": 1288,
+        "x2": 2176,
+        "y2": 1413
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b15_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b16",
+      "block_type": "footer",
+      "text": "٥",
+      "bbox": {
+        "x1": 61,
+        "y1": 1508,
+        "x2": 93,
+        "y2": 1545
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b16_footer.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p007_b17",
+      "block_type": "footer",
+      "text": "القواعد العامة لحماية حقوق مستخدمي خدمات الاتصالات",
+      "bbox": {
+        "x1": 800,
+        "y1": 1528,
+        "x2": 1408,
+        "y2": 1563
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_007/user_rights_regulations_p007_b17_footer.png"
+    }
+  ]
+}

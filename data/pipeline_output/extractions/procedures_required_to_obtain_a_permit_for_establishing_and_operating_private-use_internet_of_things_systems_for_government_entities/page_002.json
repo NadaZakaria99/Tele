@@ -1,0 +1,108 @@
+{
+  "doc_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities",
+  "doc_name": "Procedures Required to Obtain a Permit for Establishing and Operating Private-Use Internet of Things Systems for Government Entities.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 2,
+  "original_size": [
+    1653,
+    2139
+  ],
+  "inference_size": [
+    1081,
+    1399
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities\\page_002.png",
+  "extraction_timestamp": "2026-05-23T15:13:17.076903+00:00",
+  "blocks": [
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b00",
+      "block_type": "header",
+      "text": "الإجراءات اللازمة للحصول على تصريح إنشاء وتشغيل منظومات إنترنت الأشياء للاستخدام الخاص للجهات الحكومية",
+      "bbox": {
+        "x1": 83,
+        "y1": 148,
+        "x2": 1106,
+        "y2": 184
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_002/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b00_header.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b01",
+      "block_type": "header",
+      "text": "NTRA National Telecommunications Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1205,
+        "y1": 101,
+        "x2": 1531,
+        "y2": 225
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_002/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b01_header.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b02",
+      "block_type": "header",
+      "text": "إجراءات تصريح إنشاء وتشغيل منظومات إنترنت الأشياء للاستخدام الخاص للجهات الحكومية",
+      "bbox": {
+        "x1": 288,
+        "y1": 284,
+        "x2": 1360,
+        "y2": 329
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_002/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b02_header.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b03",
+      "block_type": "text",
+      "text": "١. تقوم الجهة الحكومية بتقديم طلب رسمي للحصول على التصريح وفقاً للمنودج المرفق . ٢. يقوم الجهاز بدراسة الطلب مع التأكيده على ضرورة التزام الجهة على الأخص بالضوابط التالية: ● أن تكون أجهزة اتصالات إنترنت الأشياء المستخدمة حاصلة على شهادة اعتماد النوع. ● في حالة استخدام تقنيات تحديد الموقع، يجب أن يتم تقديم خدمات التبع الأول من خلال الشركات المرخص لها بتقديم خدمات التبع داخل جمهورية مصر العربية. ● أن تكون كافة مكونات الشبكة المستخدمة في الخدمات محل التصريح داخل جمهورية مصر العربية. ● عدم نقل الحركة الخاصة بخدمات إنترنت الأشياء خارج جمهورية مصر العربية إلا بعد الحصول على موافقة كتابية مسبقه من الجهاز. ● الالتزام بعدم تقديم أو إتاحة خدمات انترنت الأشياء للغرب داخل جمهورية مصر العربية بشكل مباشر أو غير مباشر إلا بعد الحصول على ترخيص لتقديم خدمات انترنت الأشياء للغرب من الجهاز. ● الالتزام بربط مكونات المنظومة باستخدام تكنولوجيا الرابطة المسموح بها، وفي حالة الرغبة في استخدام تكنولوجيا أخرى يجب الحصول على موافقة مسبقه من الجهاز. ٣. في حالة قبول الطلب وعدم وجود منظومات حالية لدى الجهة الحكومية ، يقوم الجهاز بموافاة الجهة الحكومية بنسخة من التصريح للاطلاع والموافقة عليه ومن ثم يقوم الجهاز بإصدار تصريح للجهة الحكومية للاستخدام الخاص مع الالتزام بعدم إنشاء أو تشغيل أية منظومات إلا بعد إضافة المنظومات للتحقق التصريح. ٤. - أما في حالة عدم قبول الطلب، يقوم الجهاز بإحطار الجهة الحكومية بالفرض مع توضيح الأسباب التي أدت الى ذلك. ٤. في حالة وجود منظومات عامة عند تقديم الطلب أو في حال الرغبة في إضافة منظومة للتصريح مستقبلاً ، يتم البدء في إجراءات دراسة واعتماد منظومات انترنت الأشياء وذلك وفقاً للمرفق ( إجراءات اعتماد منظومات/أجهزة إنترنت الأشياء )، وفي حالة قبول المنظومة يقوم الجهاز بإصدار ملحق للتصريح يشمل منظومة انترنت الأشياء التي تم الموافقة عليها وذلك مع التزام الجهة الحكومية بعدم التشغيل الفعلي للمنظومة الا بعد استكمال اختبارات الاختراق وتقييم الثغرات للمنظومة كاملة واعتماد المنظومة. ٥. - أما في حالة عدم قبول المنظومة، يقوم الجهاز بإحطار الجهة الحكومية بالفرض مع توضيح الأسباب التي أدت الى ذلك. ٥. في حالة رغبة الجهة الحكومية المصرح لها في إضافة أو تعديل لمنظومة انترنت اشياء، تلتزم الجهة الحكومية بتقديم طلب ستة أشهر على الأقل من التاريخ المخطط للبدء في أي إجراءات تتعلق بالمنظومة.",
+      "bbox": {
+        "x1": 183,
+        "y1": 372,
+        "x2": 1458,
+        "y2": 1760
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_002/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b03_text.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b04",
+      "block_type": "footer",
+      "text": "iot@tra.gov.eg",
+      "bbox": {
+        "x1": 1273,
+        "y1": 2047,
+        "x2": 1509,
+        "y2": 2090
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_002/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b04_footer.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b05",
+      "block_type": "footer",
+      "text": "",
+      "bbox": {
+        "x1": 1506,
+        "y1": 2051,
+        "x2": 1560,
+        "y2": 2103
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_002/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p002_b05_footer.png"
+    }
+  ]
+}

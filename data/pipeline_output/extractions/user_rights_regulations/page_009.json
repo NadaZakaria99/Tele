@@ -1,0 +1,258 @@
+{
+  "doc_id": "user_rights_regulations",
+  "doc_name": "User Rights Regulations.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 9,
+  "original_size": [
+    2274,
+    1608
+  ],
+  "inference_size": [
+    1400,
+    989
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_rights_regulations\\page_009.png",
+  "extraction_timestamp": "2026-05-23T15:49:18.362515+00:00",
+  "blocks": [
+    {
+      "block_id": "user_rights_regulations_p009_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 86,
+        "y1": 43,
+        "x2": 409,
+        "y2": 167
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b00_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b01",
+      "block_type": "text",
+      "text": "٣- في حالة إلغاء الخدمة بناءً على طلب المشترك خلال فترة سريان العقد تلتزم الشركة بإلغاء الخدمة بناءً على طلبه في مدة أقصاها ٢٤ ساعة، لا تشمل العطلات الرسمية، بعد أقصى من تاريخ تقديم الطلب للشركة بعد تسوية الالتزامات المالية مع الشركة (إن وجدت) وذلك بدون أي مصروفات إضافية.",
+      "bbox": {
+        "x1": 86,
+        "y1": 232,
+        "x2": 2178,
+        "y2": 315
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b01_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b02",
+      "block_type": "text",
+      "text": "٤- يلتزم مشغل البنية الأساسية (الشركة المصرية للاتصالات) بالإفصاح للعمل عن إذا كان خطة متاح للتعاقد على خدمة الإنترنت الثابت أم لا مع بيان اسم مقدم الخدمة للعميل في حالة إذا كان الخط مجهز مع أحد مقدمي الخدمة، وذلك في حالة اتصال العميل برقم خدمة العملاء الخاص بمشغل البنية الأساسية من نفس خط التليفون الثابت.",
+      "bbox": {
+        "x1": 86,
+        "y1": 339,
+        "x2": 2178,
+        "y2": 423
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b02_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b03",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1355,
+        "y1": 441,
+        "x2": 1458,
+        "y2": 535
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b03_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b04",
+      "block_type": "header",
+      "text": "المادة (١٧) المحافظة على سرية وخصوصية البيانات",
+      "bbox": {
+        "x1": 1489,
+        "y1": 473,
+        "x2": 2169,
+        "y2": 518
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b04_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b05",
+      "block_type": "text",
+      "text": "• تلتزم الشركات المرخص لها والعاملون لبيهم بالمحافظة على سرية وخصوصية ما يحطون عليه من معلومات ومستندات أيًا كانت طبيعتها تكون متعلقة بموضوع الخدمة ويعدم إفشائها للغير دون مقتضى قانوني، وبعد الإخلال بعداً السرية والخصوصية بمنابة إخلال بشروط الترخيص الصادر إلى الشركة من الجهاز. • تعفي الشركات المرخص لها من التزام السرية وعدم إفشاء البيانات أو المعلومات الموجودة لديها إذا كان هذا الإفشاء تنقيداً للقانون أو بناءً على طلب الجهات القضائية، أو بموافقة العميل بتوقيع منفصل. • تلتزم الشركات المرخص لها باتخاذ ما يلزم من إجراءات داخلية خاصة بها للحفاظ على سرية الاتصالات والمحادثات التليفونية التي تجري على شبكتها وتأمينها بما في ذلك المحافظة على سرية المكالمات وعدم التنصت عليها أو تسجيلها أو إداعتها أو نشرها بأية وسيلة إلا بمقتضى القانون.",
+      "bbox": {
+        "x1": 86,
+        "y1": 545,
+        "x2": 2178,
+        "y2": 818
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b05_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b06",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1578,
+        "y1": 873,
+        "x2": 1660,
+        "y2": 955
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b06_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b07",
+      "block_type": "header",
+      "text": "المادة (١٨) الشكاوى وخدمة العملاء",
+      "bbox": {
+        "x1": 1665,
+        "y1": 902,
+        "x2": 2169,
+        "y2": 947
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b07_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b08",
+      "block_type": "text",
+      "text": "١- تلتزم الشركات المرخص لها بتوفير عمالة مدربة لتلقي استفسارات وشكاوى المستخدمين أو الشكاوى التي ترد إلى الجهاز القومي لتنظيم الاتصالات والاستجابة لها والرد عليها في أقرب وقت ممكن وذلك كله طبقاً لما يحدده الجهاز ويصدره في هذا الشأن، كما يلتزم بوضع نظام يحد من تكرار أسباب الشكاوى المتعلقة بتقديم الخدمات وجودتها.",
+      "bbox": {
+        "x1": 86,
+        "y1": 979,
+        "x2": 2178,
+        "y2": 1063
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b08_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b09",
+      "block_type": "text",
+      "text": "٢- تلتزم الشركات المرخص لها بالاستجابة لشكاوى المستخدمين خلال مدة ٧٢ ساعة بعد أقصى بما لا يتعارض مع شروط وأحكام المدة الزمنية التي يحددها الترخيص.",
+      "bbox": {
+        "x1": 441,
+        "y1": 1085,
+        "x2": 2178,
+        "y2": 1127
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b09_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b10",
+      "block_type": "text",
+      "text": "٣- في حالة تعذر الشركة المرخص لها عن تقديم الحل المناسب للمستخدم أو انقضاء المدة الزمنية للحل يحق للمستخدم تصعيد شكاواه إلى مركز اتصال الجهاز القومي لتنظيم الاتصالات من خلال الاتصال برقم (١٥٥) والرقم المجاني ٨٠٣٣٣٣٠٣٣٣ أو من خلال الوسائل الأخرى المتاحة لتقديم شكاواه إلكترونياً إلى الجهاز.",
+      "bbox": {
+        "x1": 86,
+        "y1": 1150,
+        "x2": 2178,
+        "y2": 1233
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b10_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b11",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1578,
+        "y1": 1253,
+        "x2": 1660,
+        "y2": 1348
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b11_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b12",
+      "block_type": "header",
+      "text": "المادة (١٩) مراكز الإغاثة والطوارئ",
+      "bbox": {
+        "x1": 1665,
+        "y1": 1285,
+        "x2": 2169,
+        "y2": 1331
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b12_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b13",
+      "block_type": "text",
+      "text": "تلتزم الشركات المرخص لها بتخصيص ارقام لخدمات الاتصالات بمراكز الإغاثة والطوارئ وتوفير إمكانية الاتصال بهذه المراكز مصحوبا بالمعلومات والبيانات التي تحدها مراكز الإغاثة",
+      "bbox": {
+        "x1": 86,
+        "y1": 1360,
+        "x2": 2178,
+        "y2": 1401
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b13_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b14",
+      "block_type": "footer",
+      "text": "V",
+      "bbox": {
+        "x1": 61,
+        "y1": 1500,
+        "x2": 98,
+        "y2": 1545
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b14_footer.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p009_b15",
+      "block_type": "footer",
+      "text": "القواعد العامة لحماية حقوق مستخدمي خدمات الاتصالات",
+      "bbox": {
+        "x1": 796,
+        "y1": 1524,
+        "x2": 1408,
+        "y2": 1563
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_009/user_rights_regulations_p009_b15_footer.png"
+    }
+  ]
+}

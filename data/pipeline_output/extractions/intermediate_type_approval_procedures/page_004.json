@@ -1,0 +1,228 @@
+{
+  "doc_id": "intermediate_type_approval_procedures",
+  "doc_name": "Intermediate Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 4,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\intermediate_type_approval_procedures\\page_004.png",
+  "extraction_timestamp": "2026-05-23T15:11:43.297243+00:00",
+  "blocks": [
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecommunications Regulatory Authority الهيئة العامة للاتصالات المصرية",
+      "bbox": {
+        "x1": 1129,
+        "y1": 66,
+        "x2": 1455,
+        "y2": 189
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b00_header.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b01",
+      "block_type": "text",
+      "text": "ملاحظة ٩: لا يسمح بالاجهزة المزينة أو المغلدة أو المنسوخة من أجهزة الماركات المعروفة.",
+      "bbox": {
+        "x1": 453,
+        "y1": 186,
+        "x2": 1463,
+        "y2": 232
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b01_text.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b02",
+      "block_type": "text",
+      "text": "ملاحظة ١٠: يحق للجهاز القومي لتنظيم الاتصالات سحب عينات عشوائية من المنتج المعتمد لإعادة إجراء اختبارات التوافق مع المواصفات الأوروبية (CE Tests) في إحدى معامله المعتمدة و في حالة عدم اجتياز الاختبارات المطلوبة يتحمل المصنع رسوم الاختبار المطبقة من المعمل المعتمد و يتم إلغاء اعتماد النوع للمنتج حتى إصلاح عيوبه الفنية.",
+      "bbox": {
+        "x1": 137,
+        "y1": 266,
+        "x2": 1463,
+        "y2": 393
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b02_text.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b03",
+      "block_type": "text",
+      "text": "ملاحظة ١١: يحق للجهاز القومي لتنظيم الاتصالات فرض متطلبات الجزء H في القواعد الأوروبية للأجهزة اللاسلكية (RED Directive - Module H) على الأجهزة التي تعاني من مشكلات فنية شديدة أو متكررة.",
+      "bbox": {
+        "x1": 137,
+        "y1": 430,
+        "x2": 1463,
+        "y2": 521
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b03_text.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b04",
+      "block_type": "header",
+      "text": "ملاحظات خاصة بالتصنيع في مصر",
+      "bbox": {
+        "x1": 545,
+        "y1": 573,
+        "x2": 1056,
+        "y2": 630
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b04_header.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b05",
+      "block_type": "text",
+      "text": "ملاحظة ١٢: قبل البدء في استيراد مكونات التصنيع من الخارج يقدم المصنع المصري تعهدا بالالتزام بعدم دخول أي منتج سبقتم بتصنيعه إلى السوق المصري إلا بعد اجتيازه جميع الاختبارات المطلوبة و استكمال اعتماد النوع له.",
+      "bbox": {
+        "x1": 137,
+        "y1": 678,
+        "x2": 1463,
+        "y2": 764
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b05_text.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b06",
+      "block_type": "text",
+      "text": "ملاحظة ١٣: عند استيراد شحنة لأي من مكونات التصنيع من الخارج يجب كتابة اسم موديل المنتج النهائي المراد تصنيعه من هذه المكونات في الفاتورة الخاصة بالشحنة.",
+      "bbox": {
+        "x1": 137,
+        "y1": 798,
+        "x2": 1463,
+        "y2": 887
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b06_text.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b07",
+      "block_type": "text",
+      "text": "ملاحظة ١٤: يحتاج المنتج المُصنّع في المصنع المصري إلى اعتماد نوع منفصل حتى و إن كان قد تم اعتماد ذات المنتج من بلد منشأ مختلف من قبل.",
+      "bbox": {
+        "x1": 137,
+        "y1": 921,
+        "x2": 1463,
+        "y2": 1005
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b07_text.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b08",
+      "block_type": "text",
+      "text": "ملاحظة ١٥: يلتزم المصنع المصري بإعداد تقارير دورية تسرد أرقام طلبات الإفراج الخاصة بشحنات مكونات التصنيع التي تم استيرادها و أعداد الأجهزة التي تم تصنيعها و الأجهزة التي تم تصديرها للخارج من كل موديل لتقديمها عند الطلب.",
+      "bbox": {
+        "x1": 137,
+        "y1": 1041,
+        "x2": 1463,
+        "y2": 1128
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b08_text.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b09",
+      "block_type": "footer",
+      "text": "ملف (٣) - إصدار ١ / ٢٠٢٦",
+      "bbox": {
+        "x1": 137,
+        "y1": 2022,
+        "x2": 439,
+        "y2": 2060
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b09_footer.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b10",
+      "block_type": "footer",
+      "text": "مبنى B4 القرية الذكية الكيلو ٢٨ طريق القاهرة الإسكندرية الصحراوي",
+      "bbox": {
+        "x1": 839,
+        "y1": 2085,
+        "x2": 1512,
+        "y2": 2128
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b10_footer.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b11",
+      "block_type": "footer",
+      "text": "ت: ٠٢٢٥٢٤٤٠٠٠٠٠ فاكس: ٠٢٢٥٢٤٤١٥٥٠",
+      "bbox": {
+        "x1": 1036,
+        "y1": 2126,
+        "x2": 1512,
+        "y2": 2158
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b11_footer.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b12",
+      "block_type": "footer",
+      "text": "http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 1224,
+        "y1": 2160,
+        "x2": 1512,
+        "y2": 2197
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b12_footer.png"
+    },
+    {
+      "block_id": "intermediate_type_approval_procedures_p004_b13",
+      "block_type": "footer",
+      "text": "صفحة ٢/٤",
+      "bbox": {
+        "x1": 66,
+        "y1": 2194,
+        "x2": 177,
+        "y2": 2226
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/intermediate_type_approval_procedures/page_004/intermediate_type_approval_procedures_p004_b13_footer.png"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "doc_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices",
+  "doc_name": "Cybersecurity Approval Procedures for Internet of Things (IoT) Devices.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 4,
+  "original_size": [
+    1653,
+    2139
+  ],
+  "inference_size": [
+    1081,
+    1399
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\cybersecurity_approval_procedures_for_internet_of_things__iot__devices\\page_004.png",
+  "extraction_timestamp": "2026-05-23T14:16:14.224977+00:00",
+  "blocks": [
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b00",
+      "block_type": "header",
+      "text": "TLP: WHITE",
+      "bbox": {
+        "x1": 185,
+        "y1": 98,
+        "x2": 349,
+        "y2": 133
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b00_header.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b01",
+      "block_type": "header",
+      "text": "Page 4 of 5",
+      "bbox": {
+        "x1": 1296,
+        "y1": 98,
+        "x2": 1470,
+        "y2": 135
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b01_header.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b02",
+      "block_type": "header",
+      "text": "الإجراءات التنظيمية للحصول على شهادة اعتماد الأمن السيبراني لأجهزة إنترنت الأشياء",
+      "bbox": {
+        "x1": 293,
+        "y1": 169,
+        "x2": 1493,
+        "y2": 222
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b02_header.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b03",
+      "block_type": "text",
+      "text": "١. تقوم الجهة الحكومية بتقديم الوثائق الدالة على نطاق امتثال الأجهزة لمعايير الأمن السيبراني لإنترنت الأشياء الموضحة بكتب الارشادات (Playbook) الصادر عن الجهاز القومي لتنظيم الاتصالات، وذلك وفقًا للحالات التالية:",
+      "bbox": {
+        "x1": 162,
+        "y1": 323,
+        "x2": 1489,
+        "y2": 462
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b03_text.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b04",
+      "block_type": "text",
+      "text": "❖ تقديم إحدى شهادات الامتثال للمعايير الدولية التالية (إن وجدت):",
+      "bbox": {
+        "x1": 564,
+        "y1": 496,
+        "x2": 1438,
+        "y2": 541
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b04_text.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b05",
+      "block_type": "text",
+      "text": "• Common Criteria EAL4+ • PSA Certified Level 3",
+      "bbox": {
+        "x1": 271,
+        "y1": 578,
+        "x2": 693,
+        "y2": 665
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b05_text.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b06",
+      "block_type": "text",
+      "text": "- في حالة وجود ضوابط لا تندرج ضمن نطاق شهادات الامتثال الدولية المقدمة، تقوم الجهة بتقديم (تقرير فني/شهادة) بالامتثال لضوابط الأمن السيبراني لأجهزة إنترنت الأشياء الصادرة عن المجلس الأعلى للأمن السيبراني المصري، وذلك من خلال نيابة الأمن السيبراني بالجهاز، أو من خلال إحدى الجهات/الشركات المعتمدة من الجهاز القومي لتنظيم الاتصالات للقيام بالاختبارات.",
+      "bbox": {
+        "x1": 162,
+        "y1": 702,
+        "x2": 1377,
+        "y2": 888
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b06_text.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b07",
+      "block_type": "text",
+      "text": "❖ في حالة عدم توفر شهادات امتثال دولية، ينبغي للجهة الحكومية الحصول على تقرير فني/شهادة امتثال لضوابط الأمن السيبراني لأجهزة إنترنت الأشياء الصادرة عن المجلس الأعلى للأمن السيبراني المصري وذلك من خلال نيابة الأمن السيبراني بالجهاز، أو من خلال إحدى الجهات/الشركات المعتمدة من الجهاز القومي لتنظيم الاتصالات للقيام بالاختبارات.",
+      "bbox": {
+        "x1": 162,
+        "y1": 933,
+        "x2": 1438,
+        "y2": 1117
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b07_text.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b08",
+      "block_type": "text",
+      "text": "٢. يقوم الجهاز القومي لتنظيم الاتصالات بإصدار شهادة اعتماد أمن سيبراني لجهاز/أجهزة إنترنت الأشياء صالحة لمدة ٥ سنوات عقب الموافقة على الشهادات والتقارير الفنية المقدمة. كما يقوم الجهاز القومي لتنظيم الاتصالات بإضافة الجهاز/الأجهزة الحاصلة على اعتماد الأمن السيبراني إلى سجل أجهزة إنترنت الأشياء المعتمدة.",
+      "bbox": {
+        "x1": 162,
+        "y1": 1147,
+        "x2": 1493,
+        "y2": 1330
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b08_text.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b09",
+      "block_type": "footer",
+      "text": "نيابة الأمن السيبراني",
+      "bbox": {
+        "x1": 162,
+        "y1": 1991,
+        "x2": 387,
+        "y2": 2036
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b09_footer.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b10",
+      "block_type": "footer",
+      "text": "Version 1",
+      "bbox": {
+        "x1": 729,
+        "y1": 1996,
+        "x2": 865,
+        "y2": 2034
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b10_footer.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b11",
+      "block_type": "footer",
+      "text": "July 2023",
+      "bbox": {
+        "x1": 1296,
+        "y1": 1996,
+        "x2": 1441,
+        "y2": 2036
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_004/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p004_b11_footer.png"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "doc_id": "user_rights_regulations",
+  "doc_name": "User Rights Regulations.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 4,
+  "original_size": [
+    2274,
+    1608
+  ],
+  "inference_size": [
+    1400,
+    989
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_rights_regulations\\page_004.png",
+  "extraction_timestamp": "2026-05-23T15:42:38.516748+00:00",
+  "blocks": [
+    {
+      "block_id": "user_rights_regulations_p004_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecommunication Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 86,
+        "y1": 43,
+        "x2": 412,
+        "y2": 166
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_004/user_rights_regulations_p004_b00_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p004_b01",
+      "block_type": "header",
+      "text": "المادة (١) مرجعية العقد",
+      "bbox": {
+        "x1": 1731,
+        "y1": 269,
+        "x2": 2169,
+        "y2": 362
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_004/user_rights_regulations_p004_b01_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p004_b02",
+      "block_type": "text",
+      "text": "مع عدم اللجوء لأحكام القانون رقم ١٠ لسنة ٢٠٠٣ بشأن تنظيم الاتصالات وللأخص المادة (٦-٥) والتراخيص الصادرة من الجهاز القومي لتنظيم الاتصالات للشركات المرخص لها لتقديم خدمات الاتصالات في جمهورية مصر العربية تعتبر القرارات الصادرة من الجهاز القومي لتنظيم الاتصالات بشأن حماية حقوق المستخدمين جزءاً لا يتجزأ من هذه القواعد ومكملاً ومتبعاً لها.",
+      "bbox": {
+        "x1": 84,
+        "y1": 384,
+        "x2": 2176,
+        "y2": 510
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_004/user_rights_regulations_p004_b02_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p004_b03",
+      "block_type": "header",
+      "text": "المادة (٢) تعريفات",
+      "bbox": {
+        "x1": 1731,
+        "y1": 561,
+        "x2": 2169,
+        "y2": 671
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_004/user_rights_regulations_p004_b03_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p004_b04",
+      "block_type": "text",
+      "text": "الجهاز: الجهاز القومي لتنظيم الاتصالات المنشأ بموجب أحكام قانون تنظيم الاتصالات الصادر بالقانون رقم ١٠ لسنة ٢٠٠٣. المستخدم: أي شخص طبيعي أو اعتباري يستعمل خدمات التليفون الثابت والتليفون المحمول أو يستفيد منها. المشترك/العميل: هو الشخص الطبيعي أو الاعتباري المتعاقد مع الشركة مقدمة الخدمة والذي يستفيد من الخدمة ويكون مسؤلاً قانونياً عن التعاقد. مقدم الخدمة: هي الشركة المرخص لها من الجهاز القومي لتنظيم الاتصالات لتقديم خدمات الاتصالات داخل جمهورية مصر العربية. مشغل البنية الأساسية: هي الشركة المرخص لها من الجهاز بإنشاء وتشغيل وتأجير البنية الأساسية للاتصالات للغر داخل جمهورية مصر العربية. القوة القاهرة: يقصد بها أي حدث أو ظرف أو أحداث وظروف مجتمعة لا يمكن دفعها كما لا يمكن التنبؤ بوقوعها وتكون خارجة عن إرادة المرخص والمرخص له وتتسبب في أو / تؤدي إلى / استحالة تنفيذ الالتزامات محل هذا الترخيص أو إلى إعاقة هذا التنفيذ بشكل جسيم وتشمل تلك الأحداث والظروف على سبيل المثال لا الحصر (الحرب والأعمال العدوانية، الإشعاعات النووية، الفيضانات والسيول المؤثرة).",
+      "bbox": {
+        "x1": 84,
+        "y1": 703,
+        "x2": 2176,
+        "y2": 1235
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_004/user_rights_regulations_p004_b04_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p004_b05",
+      "block_type": "footer",
+      "text": "القواعد العامة لحماية حقوق مستخدمي خدمات الاتصالات",
+      "bbox": {
+        "x1": 800,
+        "y1": 1524,
+        "x2": 1408,
+        "y2": 1563
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_004/user_rights_regulations_p004_b05_footer.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p004_b06",
+      "block_type": "footer",
+      "text": "٢",
+      "bbox": {
+        "x1": 61,
+        "y1": 1500,
+        "x2": 130,
+        "y2": 1563
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_004/user_rights_regulations_p004_b06_footer.png"
+    }
+  ]
+}

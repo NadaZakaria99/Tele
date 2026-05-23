@@ -1,0 +1,348 @@
+{
+  "doc_id": "strict_type_approval_procedures",
+  "doc_name": "Strict Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 8,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\strict_type_approval_procedures\\page_008.png",
+  "extraction_timestamp": "2026-05-23T15:37:57.991429+00:00",
+  "blocks": [
+    {
+      "block_id": "strict_type_approval_procedures_p008_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1093,
+        "y1": 52,
+        "x2": 1544,
+        "y2": 221
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b00_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b01",
+      "block_type": "text",
+      "text": "٥-٥) يُمكن في المنتجات ذات الشاشات باللمس الاكثفاء بالنسخة الإلكترونية دليل المستخدم شرط أن تكون مُحملة على الجهاز بصورة سهلة الوصول للمستخدم و ألا يتطلب فتحها اتصال الجهاز بالإنترنت مع ضرورة أن تكون الخطوات الأساسية لتشغيل الجهاز لأول مرة متضمنة في دليل ورقي.",
+      "bbox": {
+        "x1": 137,
+        "y1": 250,
+        "x2": 1473,
+        "y2": 393
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b01_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b02",
+      "block_type": "text",
+      "text": "٦-٥) بالنسبة للأجهزة اللاسلكية يجب كتابة الحيز الترددي وأقصى قدرة خرج لها في دليل المستخدم.",
+      "bbox": {
+        "x1": 343,
+        "y1": 439,
+        "x2": 1473,
+        "y2": 484
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b02_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b03",
+      "block_type": "text",
+      "text": "٧-٥) بالنسبة للأجهزة المتصلة بشبكة المحمول (كالتليفون و التابلات المحمول و الراوتر الهوائي و مودم البيانات (Data USB)....الخ) يجب مراعاة أن تكون الأرقام التعريفية (IMEI numbers) الخاصة بالأجهزة المستوردة مسجلة في قاعدة البيانات الخاصة بمنظمة (GSMA) بالماركة و الموديل الصحيح.",
+      "bbox": {
+        "x1": 137,
+        "y1": 521,
+        "x2": 1476,
+        "y2": 657
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b03_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b04",
+      "block_type": "text",
+      "text": "٨-٥) بالنسبة إلى شحنات أجهزة التليفون المحمول فعلي الشركة المستوردة تسجيل الأرقام التعريفية (IMEI Numbers) للأجهزة الواردة في كل شحنة من خلال منصة الخدمات الرقمية للجهاز القومي لتنظيم الاتصالات.",
+      "bbox": {
+        "x1": 137,
+        "y1": 705,
+        "x2": 1476,
+        "y2": 803
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b04_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b05",
+      "block_type": "header",
+      "text": "ملاحظات عامة",
+      "bbox": {
+        "x1": 685,
+        "y1": 910,
+        "x2": 913,
+        "y2": 964
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b05_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b06",
+      "block_type": "text",
+      "text": "ملاحظة ١: يجب الالتزام باتباع الخطوات السابقة بالترتيب المذكور.",
+      "bbox": {
+        "x1": 762,
+        "y1": 1012,
+        "x2": 1476,
+        "y2": 1057
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b06_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b07",
+      "block_type": "text",
+      "text": "ملاحظة ٢: من حق الشركة المقدمة استرداد جميع عينات الاختبار المقدمة خلال أي من الخطوات السابقة خلال فترة ٤٥ يوم بعد أقصى من تاريخ تقديم العينات.",
+      "bbox": {
+        "x1": 137,
+        "y1": 1069,
+        "x2": 1476,
+        "y2": 1153
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b07_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b08",
+      "block_type": "text",
+      "text": "ملاحظة ٣: للجهاز القومي لتنظيم الاتصالات الحق في سحب عينات من الشحنات لاختبارها قبل الإفراج عنها حتى و إن كانت لموديلات معتمدة من قبل.",
+      "bbox": {
+        "x1": 137,
+        "y1": 1167,
+        "x2": 1476,
+        "y2": 1253
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b08_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b09",
+      "block_type": "text",
+      "text": "ملاحظة ٤: بحق للجهاز القومي لتنظيم الاتصالات فرض متطلبات الجزء H في القواعد الأوروبية للأجهزة اللاسلكية (RED Directive - Module H) على الأجهزة التي تعاني من مشكلات فنية شديدة أو متكررة.",
+      "bbox": {
+        "x1": 137,
+        "y1": 1267,
+        "x2": 1476,
+        "y2": 1362
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b09_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b10",
+      "block_type": "text",
+      "text": "ملاحظة ٥: عند استيراد المنتج المعتمد من الخارج يجب مراعاة تطبيق اسم الموديل الوارد في فاتورة الشحن مع موديل المنتج المعتمد.",
+      "bbox": {
+        "x1": 137,
+        "y1": 1373,
+        "x2": 1476,
+        "y2": 1458
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b10_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b11",
+      "block_type": "text",
+      "text": "ملاحظة ٦: لا يسمح بالأجهزة المزيفة أو المقلدة أو المنسوخة من أجهزة الماركات المعروفة كما لا يسمح باحتواء المنتج على أي أجزاء تؤدي لخداع للمشتري في خواصه الوظيفية.",
+      "bbox": {
+        "x1": 137,
+        "y1": 1471,
+        "x2": 1476,
+        "y2": 1562
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b11_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b12",
+      "block_type": "text",
+      "text": "ملاحظة ٧: اعتماد النوع لا يعطى الحق في استخدام الجهاز في تقديم خدمات الاتصالات للأخرين و إنما لاستخدام الجهة فقط و لا يتضمن أي نشاط يحتاج إلى ترخيص أو تصريح طبقا لقانون الاتصالات رقم ١٠ لسنة ٢٠٠٣.",
+      "bbox": {
+        "x1": 137,
+        "y1": 1571,
+        "x2": 1476,
+        "y2": 1660
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b12_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b13",
+      "block_type": "text",
+      "text": "ملاحظة ٨: شهادة اعتماد النوع هي شهادة بمطابقة الجهاز لمواصفات السلامة الدولية المعتمدة و لا تعتبر تصريحا لاستيراد ولا موافقة على الشحنات الواردة منه.",
+      "bbox": {
+        "x1": 137,
+        "y1": 1671,
+        "x2": 1476,
+        "y2": 1758
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b13_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b14",
+      "block_type": "text",
+      "text": "ملاحظة ٩: اعتماد النوع لا يتضمن الموافقة على أي محتوى رقمي مُحمل على الجهاز المعتمد.",
+      "bbox": {
+        "x1": 490,
+        "y1": 1771,
+        "x2": 1476,
+        "y2": 1817
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b14_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b15",
+      "block_type": "text",
+      "text": "ملاحظة ١٠: إجراءات اعتماد النوع هي إجراءات منفصلة عن كل من إجراءات إدارة خدمات الاستيراد المختصة بإصدار تصريح الاستيراد للشركة و إجراءات إدارة تراخيص الأجهزة اللاسلكية فعلي الشركة المستوردة استيفاء كافة هذه الإجراءات من خلال منصة الخدمات الرقمية للجهاز القومي لتنظيم الاتصالات.",
+      "bbox": {
+        "x1": 137,
+        "y1": 1828,
+        "x2": 1476,
+        "y2": 1953
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b15_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b16",
+      "block_type": "footer",
+      "text": "ملف (٢) - إصدار ٢ / ٢٠٢٦",
+      "bbox": {
+        "x1": 137,
+        "y1": 2026,
+        "x2": 423,
+        "y2": 2065
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b16_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b17",
+      "block_type": "footer",
+      "text": "فاكس: ٠٢٢٥٣٤٤١٥٥",
+      "bbox": {
+        "x1": 174,
+        "y1": 2060,
+        "x2": 381,
+        "y2": 2097
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b17_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b18",
+      "block_type": "footer",
+      "text": "ت: ٠٢٢٥٣٤٤٠٠٠",
+      "bbox": {
+        "x1": 542,
+        "y1": 2060,
+        "x2": 722,
+        "y2": 2097
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b18_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b19",
+      "block_type": "footer",
+      "text": "مبنى B4 القرية التكية الكيلو ٢٨ طريق القاهرة الإسكندرية الصحراوي",
+      "bbox": {
+        "x1": 847,
+        "y1": 2060,
+        "x2": 1484,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b19_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b20",
+      "block_type": "footer",
+      "text": "http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 656,
+        "y1": 2101,
+        "x2": 917,
+        "y2": 2138
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b20_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p008_b21",
+      "block_type": "footer",
+      "text": "صفحة ٨/٨",
+      "bbox": {
+        "x1": 137,
+        "y1": 2172,
+        "x2": 254,
+        "y2": 2206
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_008/strict_type_approval_procedures_p008_b21_footer.png"
+    }
+  ]
+}

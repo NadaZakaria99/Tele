@@ -1,0 +1,63 @@
+{
+  "doc_id": "user_rights_regulations",
+  "doc_name": "User Rights Regulations.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 1,
+  "original_size": [
+    2274,
+    1608
+  ],
+  "inference_size": [
+    1400,
+    989
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_rights_regulations\\page_001.png",
+  "extraction_timestamp": "2026-05-23T15:40:00.896283+00:00",
+  "blocks": [
+    {
+      "block_id": "user_rights_regulations_p001_b00",
+      "block_type": "text",
+      "text": "The logo of the National Telecom Regulatory Authority (NTRA) of Egypt. It consists of a circular emblem on the left made of a grid of white dots of varying sizes. To the right of the emblem, the acronym 'NTRA' is written in large, bold, white capital letters. Below 'NTRA', the full name 'National Telecom Regulatory Authority' is written in a smaller, white font. At the bottom, the Arabic equivalent 'الجهاز القومي لتنظيم الاتصالات' is written in white.",
+      "bbox": {
+        "x1": 744,
+        "y1": 220,
+        "x2": 1553,
+        "y2": 516
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_001/user_rights_regulations_p001_b00_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p001_b01",
+      "block_type": "header",
+      "text": "القواعد العامة لحماية حقوق مستخدمي الاتصالات في جمهورية مصر العربية",
+      "bbox": {
+        "x1": 214,
+        "y1": 698,
+        "x2": 2097,
+        "y2": 937
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_001/user_rights_regulations_p001_b01_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p001_b02",
+      "block_type": "text",
+      "text": "An illustration of a document with a magnifying glass. The document is a white rectangle with a dark blue border, containing several lines of horizontal text. A magnifying glass with a purple handle and a dark blue lens is positioned over the right side of the document, symbolizing investigation or review.",
+      "bbox": {
+        "x1": 875,
+        "y1": 979,
+        "x2": 1392,
+        "y2": 1475
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_001/user_rights_regulations_p001_b02_text.png"
+    }
+  ]
+}

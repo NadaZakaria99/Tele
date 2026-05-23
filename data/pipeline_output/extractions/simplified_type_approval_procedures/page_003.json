@@ -1,0 +1,243 @@
+{
+  "doc_id": "simplified_type_approval_procedures",
+  "doc_name": "Simplified Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 3,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\simplified_type_approval_procedures\\page_003.png",
+  "extraction_timestamp": "2026-05-23T15:19:36.137577+00:00",
+  "blocks": [
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b00",
+      "block_type": "header",
+      "text": "NTRA الهيئة الوطنية للتراب National Telecom Regulatory Authority",
+      "bbox": {
+        "x1": 1143,
+        "y1": 66,
+        "x2": 1468,
+        "y2": 189
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b00_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b01",
+      "block_type": "header",
+      "text": "ملاحظات عامة",
+      "bbox": {
+        "x1": 683,
+        "y1": 200,
+        "x2": 915,
+        "y2": 248
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b01_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b02",
+      "block_type": "text",
+      "text": "ملاحظة ١: من حق الشركة المتقدمة استرداد جميع عينات الاختبار المقدمة خلال فترة ٤٥ يوم بعد أقصي من تاريخ تقديم العينات.",
+      "bbox": {
+        "x1": 138,
+        "y1": 282,
+        "x2": 1473,
+        "y2": 368
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b02_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b03",
+      "block_type": "text",
+      "text": "ملاحظة ٢: بالنسبة للمنتجات ذات شاشة باللمس (كأجهزة التابلت و نحوها) يُمكن الاكتفاء بالنسخة الإلكترونية لدليل المستخدم دون النسخة الورقية شرط أن تكون مُحَمَّلة على الجهاز بصورة سهلة الوصول للمستخدم و ألا يتطلب فتحها اتصال الجهاز بالإنترنت مع ضرورة أن تكون الخطوات الأساسية لتشغيل الجهاز لأول مرة متضمنة في دليل ورفقي.",
+      "bbox": {
+        "x1": 138,
+        "y1": 421,
+        "x2": 1473,
+        "y2": 548
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b03_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b04",
+      "block_type": "text",
+      "text": "ملاحظة ٣: عند استيراد المنتج المعتمد من الخارج يجب مراعاة تطبيق اسم الموديل الوارد في قاتورة الشحن مع موديل المنتج المعتمد.",
+      "bbox": {
+        "x1": 138,
+        "y1": 580,
+        "x2": 1473,
+        "y2": 662
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b04_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b05",
+      "block_type": "text",
+      "text": "ملاحظة ٤: في حالة بيع المنتج المعتمد بالسوق دون الشاحن أو محول الجهد الخاص به يجب أن يتضمن دليل المستخدم المواصفات الفنية للشاحن أو محول الجهد المتوافق مع المنتج.",
+      "bbox": {
+        "x1": 138,
+        "y1": 707,
+        "x2": 1473,
+        "y2": 798
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b05_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b06",
+      "block_type": "text",
+      "text": "ملاحظة ٥: يجب الالتزام بوضع البيانات المطلوبة على المنتج المعتمد و البطارية الخارجية و الشاحن و العلبه الخارجية الخاصة به و كرائين الشحن طبقاً لجداول ٣ بصورة واضحة و سهلة الرؤية و بطريقة صعبة الإزالة.",
+      "bbox": {
+        "x1": 138,
+        "y1": 848,
+        "x2": 1473,
+        "y2": 932
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b06_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b07",
+      "block_type": "text",
+      "text": "جدول ٣: البيانات المطلوبة على المنتج.",
+      "bbox": {
+        "x1": 1122,
+        "y1": 976,
+        "x2": 1473,
+        "y2": 1012
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b07_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b08",
+      "block_type": "table",
+      "text": "البند البيانات المطلوبة الأجهزة الطرفية الخلوية (المتصلة بشبكة المحمول) الأجهزة الأخرى الجهاز* ١- الماركة. ١- الماركة. ١- الماركة. ٢- الموديل. ٢- الموديل. ٢- الموديل. ٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC mark). ٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC mark). ٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC mark). ٤- بلد المنشأ. ٤- بلد المنشأ. ٤- بلد المنشأ. ٥- أرقام ال IMEI (فقط في حالة إمكانية فتح النظام الخلوي من المستخدم). ٥- أرقام ال IMEI (فقط في حالة إمكانية فتح النظام الخلوي من المستخدم). ٥- الرقم المسلسل. العلبة الخارجية للمنتج ١- الماركة. ١- الماركة. ١- الماركة. ٢- الموديل. ٢- الموديل. ٢- الموديل. ٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC mark). ٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC mark). ٣- الأرقام المسلسلة للأجهزة داخل كل كرتونة. ٤- بلد المنشأ. ٤- بلد المنشأ. ٥- أرقام ال IMEI. ٥- أرقام ال IMEI. كراتين الشحن ١- الماركة. ١- الماركة. ٢- الموديل. ٢- الموديل. ٣- أرقام ال IMEI للأجهزة داخل كل كرتونة. ٣- أرقام ال IMEI للأجهزة داخل كل كرتونة. ٤- بلد المنشأ. ٤- بلد المنشأ. ٥- المواصفات الكهربائية (قيم الفولت و الأمبير الداخلة و الخارجة). ٥- المواصفات الكهربائية (قيم الفولت و الأمبير الداخلة و الخارجة). البطارية الخارجية و الشاحن (أو محول الجهد) ١- الماركة. ١- الماركة. ٢- الموديل. ٢- الموديل. ٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC or UL mark). ٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC or UL mark). ٤- بلد المنشأ. ٤- بلد المنشأ. ٥- المواصفات الكهربائية (قيم الفولت و الأمبير الداخلة و الخارجة). ٥- المواصفات الكهربائية (قيم الفولت و الأمبير الداخلة و الخارجة).",
+      "bbox": {
+        "x1": 138,
+        "y1": 1003,
+        "x2": 1463,
+        "y2": 1944
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\">\n<thead>\n<tr>\n<th>البند</th>\n<th>البيانات المطلوبة</th>\n<th>الأجهزة الطرفية الخلوية (المتصلة بشبكة المحمول)</th>\n<th>الأجهزة الأخرى</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"5\">الجهاز*</td>\n<td>١- الماركة.</td>\n<td>١- الماركة.</td>\n<td>١- الماركة.</td>\n</tr>\n<tr>\n<td>٢- الموديل.</td>\n<td>٢- الموديل.</td>\n<td>٢- الموديل.</td>\n</tr>\n<tr>\n<td>٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC mark).</td>\n<td>٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC mark).</td>\n<td>٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC mark).</td>\n</tr>\n<tr>\n<td>٤- بلد المنشأ.</td>\n<td>٤- بلد المنشأ.</td>\n<td>٤- بلد المنشأ.</td>\n</tr>\n<tr>\n<td>٥- أرقام ال IMEI (فقط في حالة إمكانية فتح النظام الخلوي من المستخدم).</td>\n<td>٥- أرقام ال IMEI (فقط في حالة إمكانية فتح النظام الخلوي من المستخدم).</td>\n<td>٥- الرقم المسلسل.</td>\n</tr>\n<tr>\n<td rowspan=\"5\">العلبة الخارجية للمنتج</td>\n<td>١- الماركة.</td>\n<td>١- الماركة.</td>\n<td>١- الماركة.</td>\n</tr>\n<tr>\n<td>٢- الموديل.</td>\n<td>٢- الموديل.</td>\n<td>٢- الموديل.</td>\n</tr>\n<tr>\n<td>٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC mark).</td>\n<td>٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC mark).</td>\n<td>٣- الأرقام المسلسلة للأجهزة داخل كل كرتونة.</td>\n</tr>\n<tr>\n<td>٤- بلد المنشأ.</td>\n<td>٤- بلد المنشأ.</td>\n<td></td>\n</tr>\n<tr>\n<td>٥- أرقام ال IMEI.</td>\n<td>٥- أرقام ال IMEI.</td>\n<td></td>\n</tr>\n<tr>\n<td rowspan=\"5\">كراتين الشحن</td>\n<td>١- الماركة.</td>\n<td>١- الماركة.</td>\n<td></td>\n</tr>\n<tr>\n<td>٢- الموديل.</td>\n<td>٢- الموديل.</td>\n<td></td>\n</tr>\n<tr>\n<td>٣- أرقام ال IMEI للأجهزة داخل كل كرتونة.</td>\n<td>٣- أرقام ال IMEI للأجهزة داخل كل كرتونة.</td>\n<td></td>\n</tr>\n<tr>\n<td>٤- بلد المنشأ.</td>\n<td>٤- بلد المنشأ.</td>\n<td></td>\n</tr>\n<tr>\n<td>٥- المواصفات الكهربائية (قيم الفولت و الأمبير الداخلة و الخارجة).</td>\n<td>٥- المواصفات الكهربائية (قيم الفولت و الأمبير الداخلة و الخارجة).</td>\n<td></td>\n</tr>\n<tr>\n<td rowspan=\"5\">البطارية الخارجية و الشاحن (أو محول الجهد)</td>\n<td>١- الماركة.</td>\n<td>١- الماركة.</td>\n<td></td>\n</tr>\n<tr>\n<td>٢- الموديل.</td>\n<td>٢- الموديل.</td>\n<td></td>\n</tr>\n<tr>\n<td>٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC or UL mark).</td>\n<td>٣- علامة التوافق مع المواصفات الأوروبية (CE Mark) أو الأمريكية (FCC or UL mark).</td>\n<td></td>\n</tr>\n<tr>\n<td>٤- بلد المنشأ.</td>\n<td>٤- بلد المنشأ.</td>\n<td></td>\n</tr>\n<tr>\n<td>٥- المواصفات الكهربائية (قيم الفولت و الأمبير الداخلة و الخارجة).</td>\n<td>٥- المواصفات الكهربائية (قيم الفولت و الأمبير الداخلة و الخارجة).</td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b08_table.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b09",
+      "block_type": "text",
+      "text": "* في حال فقط كان الجهاز صغير الحجم بحيث لا يمكن كتابة جميع البيانات المطلوبة عليه يُكتفى بكتابة الماركة و الموديل عليه دون الإخلال بالبيانات المطلوبة باقي البنود.",
+      "bbox": {
+        "x1": 138,
+        "y1": 1960,
+        "x2": 1473,
+        "y2": 2038
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b09_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b10",
+      "block_type": "text",
+      "text": "ملف (١) - إصدار ٢٠٢٦ / ١",
+      "bbox": {
+        "x1": 138,
+        "y1": 2047,
+        "x2": 391,
+        "y2": 2085
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b10_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b11",
+      "block_type": "footer",
+      "text": "مبنى B4 القرية الذكية الكيل ٢٨ طريق القاهرة الإسكندرية الصحراوي",
+      "bbox": {
+        "x1": 957,
+        "y1": 2101,
+        "x2": 1526,
+        "y2": 2138
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b11_footer.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b12",
+      "block_type": "footer",
+      "text": "ت: ٢٣٥٣٤٤١٥٥٠ فاكس: ٢٣٥٣٤٤١٥٥٠",
+      "bbox": {
+        "x1": 1114,
+        "y1": 2133,
+        "x2": 1526,
+        "y2": 2167
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b12_footer.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b13",
+      "block_type": "footer",
+      "text": "http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 1274,
+        "y1": 2163,
+        "x2": 1526,
+        "y2": 2197
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b13_footer.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p003_b14",
+      "block_type": "footer",
+      "text": "صفحة ٢/٣",
+      "bbox": {
+        "x1": 68,
+        "y1": 2194,
+        "x2": 172,
+        "y2": 2229
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_003/simplified_type_approval_procedures_p003_b14_footer.png"
+    }
+  ]
+}

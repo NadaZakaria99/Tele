@@ -1,0 +1,138 @@
+{
+  "doc_id": "user_awareness_guide_for_international_mobile_roaming_service",
+  "doc_name": "User Awareness Guide for International Mobile Roaming Service.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 1,
+  "original_size": [
+    1608,
+    2275
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_awareness_guide_for_international_mobile_roaming_service\\page_001.png",
+  "extraction_timestamp": "2026-05-23T15:39:05.142236+00:00",
+  "blocks": [
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p001_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 133,
+        "y1": 86,
+        "x2": 508,
+        "y2": 232
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_001/user_awareness_guide_for_international_mobile_roaming_service_p001_b00_header.png"
+    },
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p001_b01",
+      "block_type": "header",
+      "text": "دليل توجيه المستخدم بخدمة التجوال الدولي للتليفون المحمول",
+      "bbox": {
+        "x1": 307,
+        "y1": 255,
+        "x2": 1293,
+        "y2": 394
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_001/user_awareness_guide_for_international_mobile_roaming_service_p001_b01_header.png"
+    },
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p001_b02",
+      "block_type": "text",
+      "text": "خاصية التجوال الدولي هي استخدام خط تليفونك المحمول خارج حدود مصر لإجراء المكالمات الصوتية أو استخدام الإنترنت على شبكة مقدم خدمة محمول آخر في دولة أخرى.",
+      "bbox": {
+        "x1": 224,
+        "y1": 439,
+        "x2": 1378,
+        "y2": 607
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_001/user_awareness_guide_for_international_mobile_roaming_service_p001_b02_text.png"
+    },
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p001_b03",
+      "block_type": "header",
+      "text": "كيف يتم التحاسب لهذه الخدمة؟",
+      "bbox": {
+        "x1": 899,
+        "y1": 635,
+        "x2": 1475,
+        "y2": 694
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_001/user_awareness_guide_for_international_mobile_roaming_service_p001_b03_header.png"
+    },
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p001_b04",
+      "block_type": "text",
+      "text": "• بدأ من دفع تكلفة الخدمة لمقدم الخدمة في الدولة المستضيفة، يتم احتساب التكلفة على مقدم الخدمة المحلي الخاص بك، الذي يقوم بدوره بتضمين قيمة استهلاكك في فاتورتك أو خصمها من رصيدك طبقاً لتعريفة التجوال المعلنة لكل دولة من دول العالم. • يجب الأخذ في الاعتبار أن أسعار خدمات التجوال الدولي سواء للمكالمات الصوتية أو استخدام الإنترنت عبر التليفون المحمول مرتفعة مقارنة بتعريفة الاستخدام المحلي، لذا عليك الرجوع لمقدم الخدمة الخاص بك أولاً قبل المغادرة للاستفسار منه عن تكلفة الخدمة في الدولة المقصودة. • تختلف أسعار خدمات التجوال الدولي للمكالمات والإنترنت عبر التليفون المحمول حسب تعريفة كل مقدم خدمة داخل الدولة المقصودة، احرص على الاطلاع على تلك الأسعار من خلال مقدم الخدمة المحلي الخاص بك قبل السفر، وعلى أي حال عند الوصول إلى الدولة المقصودة، ستطلب رسائل من مقدم الخدمة المحلي الخاص بك تتضمن تكلفة استخدام المكالمات الصوتية والإنترنت في الدولة المقصودة. • يطرح كافة مقدمي خدمات التليفون المحمول بمصر عروض مختلفة لخدمات التجوال الدولي سواء للمكالمات الصوتية أو لاستخدام الإنترنت على شبكات المحمول، وقبل المغادرة يمكنك الاختيار من بين تلك العروض بما يناسب احتياجاتك من خلال التواصل مع مقدم الخدمة الخاص بك أو الدخول على موقعه الإلكتروني حيث تتوفر كافة التفاصيل المتعلقة بتلك العروض.",
+      "bbox": {
+        "x1": 114,
+        "y1": 712,
+        "x2": 1478,
+        "y2": 1472
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_001/user_awareness_guide_for_international_mobile_roaming_service_p001_b04_text.png"
+    },
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p001_b05",
+      "block_type": "header",
+      "text": "كيف أقلل من مصاريف مكالماتي عند استخدام خدمة التجوال الدولي؟",
+      "bbox": {
+        "x1": 827,
+        "y1": 1547,
+        "x2": 1475,
+        "y2": 1665
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_001/user_awareness_guide_for_international_mobile_roaming_service_p001_b05_header.png"
+    },
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p001_b06",
+      "block_type": "text",
+      "text": "• تذكر دائماً أنك ستدفع قيمة كافة المكالمات الصادرة أو الواردة إليك، لذا عليك اختيار المكالمات التي تريد عليها، مع العلم أن سعر الحقيقة الواردة أقل من سعر الحقيقة الصادرة في معظم الأحيان. • عند الصعود للطائرة للسفر إلى الدولة المقصودة، تذكر أن تتأكد من عدم تفعيل خاصية استخدام الإنترنت أثناء التجوال بتليفونك المحمول، هذا لأن ترك هذه الخاصية مفعله يعني أن تليفونك المحمول مهيأ تلقائياً لاستقبال بيانات كالصور والفيديوهات على مختلف تطبيقات الماحدات الشخصية مما قد يؤدي إلى ارتفاع التكاليف جراء تحميل تلك البيانات.",
+      "bbox": {
+        "x1": 412,
+        "y1": 1681,
+        "x2": 1452,
+        "y2": 2134
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_001/user_awareness_guide_for_international_mobile_roaming_service_p001_b06_text.png"
+    },
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p001_b07",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 109,
+        "y1": 1520,
+        "x2": 412,
+        "y2": 2136
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_001/user_awareness_guide_for_international_mobile_roaming_service_p001_b07_text.png"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "doc_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices",
+  "doc_name": "Cybersecurity Approval Procedures for Internet of Things (IoT) Devices.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 1,
+  "original_size": [
+    1653,
+    2139
+  ],
+  "inference_size": [
+    1545,
+    2000
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\cybersecurity_approval_procedures_for_internet_of_things__iot__devices\\page_001.png",
+  "extraction_timestamp": "2026-05-23T14:05:22.280323+00:00",
+  "blocks": [
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1055,
+        "y1": 130,
+        "x2": 1580,
+        "y2": 327
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_001/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b00_header.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b01",
+      "block_type": "header",
+      "text": "Regulatory Procedures for Accreditation Certification of Internet of Things Devices for Operational Technology (IoT/OT) Cybersecurity in the ARE",
+      "bbox": {
+        "x1": 164,
+        "y1": 571,
+        "x2": 1488,
+        "y2": 922
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_001/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b01_header.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b02",
+      "block_type": "text",
+      "text": "الإجراءات التنظيمية للحصول على شهادة اعتماد الأمن السيبراني لأجهزة اتترنت الأشياء لتكنولوجيا التشغيل للجهات الحكومية بجمهورية مصر العربية",
+      "bbox": {
+        "x1": 235,
+        "y1": 1016,
+        "x2": 1413,
+        "y2": 1281
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_001/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b02_text.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b03",
+      "block_type": "text",
+      "text": "يوليو ٢٠٢٣",
+      "bbox": {
+        "x1": 724,
+        "y1": 1484,
+        "x2": 926,
+        "y2": 1540
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_001/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b03_text.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b04",
+      "block_type": "footer",
+      "text": "نئاسة الأمن السيبراني",
+      "bbox": {
+        "x1": 162,
+        "y1": 1996,
+        "x2": 387,
+        "y2": 2038
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_001/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b04_footer.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b05",
+      "block_type": "footer",
+      "text": "Version 1",
+      "bbox": {
+        "x1": 731,
+        "y1": 2000,
+        "x2": 865,
+        "y2": 2034
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_001/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b05_footer.png"
+    },
+    {
+      "block_id": "cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b06",
+      "block_type": "footer",
+      "text": "July 2023",
+      "bbox": {
+        "x1": 1298,
+        "y1": 2000,
+        "x2": 1435,
+        "y2": 2036
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/cybersecurity_approval_procedures_for_internet_of_things__iot__devices/page_001/cybersecurity_approval_procedures_for_internet_of_things__iot__devices_p001_b06_footer.png"
+    }
+  ]
+}

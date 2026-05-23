@@ -1,0 +1,153 @@
+{
+  "doc_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities",
+  "doc_name": "Procedures Required to Obtain a Permit for Establishing and Operating Private-Use Internet of Things Systems for Government Entities.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 3,
+  "original_size": [
+    1653,
+    2139
+  ],
+  "inference_size": [
+    1081,
+    1399
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities\\page_003.png",
+  "extraction_timestamp": "2026-05-23T15:14:14.142492+00:00",
+  "blocks": [
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b00",
+      "block_type": "header",
+      "text": "الإجراءات اللازمة للحصول على تصريح لإنشاء وتشغيل منظومات إنترنت الأشياء للاستخدام الخاص للجهات الحكومية",
+      "bbox": {
+        "x1": 83,
+        "y1": 150,
+        "x2": 1108,
+        "y2": 186
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_003/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b00_header.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b01",
+      "block_type": "header",
+      "text": "NTRA National Telecommunications Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1205,
+        "y1": 101,
+        "x2": 1531,
+        "y2": 225
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_003/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b01_header.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b02",
+      "block_type": "header",
+      "text": "تموذج طلب الحصول على تصريح لإنشاء وتشغيل منظومة إنترنت الأشياء للاستخدام الخاص",
+      "bbox": {
+        "x1": 336,
+        "y1": 282,
+        "x2": 1312,
+        "y2": 327
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_003/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b02_header.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b03",
+      "block_type": "text",
+      "text": "إيماء إلى الإطار التنظيمي لخدمات انترنت الأشياء وحيث ترغب ..... في إنشاء وتشغيل منظومات انترنت الأشياء للاستخدام الخاص وذلك بدون تقديم خدمات للغير، يرجى التكرم باغناء الإجراءات اللازمة نحو الموافقة على إصدار تصريح لإنشاء وتشغيل منظومة انترنت الأشياء المتعلقة بالمرافق الخيرية للاستخدام الخاص وذلك وفقاً للبيانات المرفقة: -",
+      "bbox": {
+        "x1": 185,
+        "y1": 361,
+        "x2": 1461,
+        "y2": 524
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_003/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b03_text.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b04",
+      "block_type": "text",
+      "text": "● اسم الجهة الحكومية ..... / الجهة المستفيدة بالمنظومة ..... ● بيانات الاتصال/العنوان..... ● الخدمات المستهدفة",
+      "bbox": {
+        "x1": 397,
+        "y1": 565,
+        "x2": 1410,
+        "y2": 749
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_003/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b04_text.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b05",
+      "block_type": "header",
+      "text": "في حالة وجود منظومة يرفق بالطلب البيانات الآتية: -",
+      "bbox": {
+        "x1": 907,
+        "y1": 860,
+        "x2": 1412,
+        "y2": 901
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_003/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b05_header.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b06",
+      "block_type": "text",
+      "text": "● اسم المنظومة المخطط انشائها. ● النطاق الجغرافي للمنظومة وتحديد أماكن استخدام الأجهزة. ● المواصفات الفنية لكافة انواع الاجهزة / الوحدات المستخدمة بالمنظومة/الاعداد. ● توضيح طرق الاتصالات/ التكمال بين الأجهزة والخوادم/مراكز البيانات وأماكن الخوادم. ● تصميم الحل المتكامل للمنظومة / مكونات الشبكة مثل: (الاجهزة / الوحدات - مجموعات MDM/HES/تطبيقات...). ● التصميم المخطط للشبكة تتضمن طرق الاتصالات ( fiber - RS485 - RF-2G/3G/4G....) والبيانات الآتية: ○ طرق التأمين (الأجهزة - الخوادم - الاتصالات). ○ طرق تجميع البيانات وطرق عرض البيانات واتاحتها. ○ إمكانية تحديث نظام التشغيل. ○ إمكانية غلق/فصل/اتاحة الاتصال عن بعد. ● مستوى جودة الخدمة المطلوب للاتصال / الحد الأدنى المطلوب لخدمات الاتصالات.",
+      "bbox": {
+        "x1": 208,
+        "y1": 935,
+        "x2": 1410,
+        "y2": 1718
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_003/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b06_text.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b07",
+      "block_type": "footer",
+      "text": "iot@tra.gov.eg",
+      "bbox": {
+        "x1": 1273,
+        "y1": 2049,
+        "x2": 1509,
+        "y2": 2090
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_003/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b07_footer.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b08",
+      "block_type": "footer",
+      "text": "",
+      "bbox": {
+        "x1": 1506,
+        "y1": 2051,
+        "x2": 1560,
+        "y2": 2103
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_003/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p003_b08_footer.png"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "doc_id": "strict_type_approval_procedures",
+  "doc_name": "Strict Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 5,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\strict_type_approval_procedures\\page_005.png",
+  "extraction_timestamp": "2026-05-23T15:31:56.914598+00:00",
+  "blocks": [
+    {
+      "block_id": "strict_type_approval_procedures_p005_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1093,
+        "y1": 52,
+        "x2": 1544,
+        "y2": 221
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b00_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b01",
+      "block_type": "table",
+      "text": "٥٤٠٠ جهاز محمول جيل ثاني + جيل ثالث + جيل رابع (٤ حيزات ترددية) + بلوتوث + انترنت لاسلكي (٢,٤ جيجا هرتز + الحيز الترددي الأول بحيزات الـ ٤ جيجا هرتز) + تحديد مواقع 2G (GSM) + 3G (WCDMA) + 4G (LTE for 4 bands) + BT + WiFi (2.4GHz) + WiFi (5GHz band 1) + GPS ٢٣ ٥٨٠٠ جهاز محمول جيل ثاني + جيل ثالث + جيل رابع (٤ حيزات ترددية) + بلوتوث + انترنت لاسلكي (٢,٤ جيجا هرتز + الحيز الترددي الأول و الرابع بحيزات الـ ٤ جيجا هرتز) + تحديد مواقع 2G (GSM)+3G (WCDMA) + 4G (LTE for 4 bands) + BT + WiFi (2.4GHz) + WiFi (5GHz bands 1+4) + GPS ٢٤ ٧٢٠٠ جهاز محمول جيل ثاني + جيل ثالث + جيل رابع (٤ حيزات ترددية) + بلوتوث + انترنت لاسلكي (٢,٤ جيجا هرتز + الحيز الترددي الأول و الرابع بحيزات الـ ٤ جيجا هرتز) + تحديد مواقع 2G (GSM)+3G (WCDMA)+4G (LTE for 4bands)+BT+WiFi(2.4GHz)+ WiFi (5GHz bands 1+4+2+3 client) + GPS ٢٥ ٥٠٠ حيز ترددي إضافي بالجيل الرابع زيادة عن ٤ حيزات Extra LTE (4G) bands more than 4 bands - price / extra band (if necessary) ٢٦ ٤٠٠٠ جيل خامس ٤ حيزات ترددية 5G NR 4 bands ٢٧ ١٠٠٠ حيز ترددي إضافي جيل خامس Extra 5G NR band ٢٨ ٨٠٠ حيز ترددي واحد للإنترنت اللاسلكي في نطاق ٦ جيجا هرتز WiFi 6GHz one band ٢٩",
+      "bbox": {
+        "x1": 140,
+        "y1": 250,
+        "x2": 1465,
+        "y2": 1114
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\">\n<tr>\n<td>٥٤٠٠</td>\n<td>جهاز محمول جيل ثاني + جيل ثالث + جيل رابع (٤ حيزات ترددية) + بلوتوث + انترنت لاسلكي (٢,٤ جيجا هرتز + الحيز الترددي الأول بحيزات الـ ٤ جيجا هرتز) + تحديد مواقع 2G (GSM) + 3G (WCDMA) + 4G (LTE for 4 bands) + BT + WiFi (2.4GHz) + WiFi (5GHz band 1) + GPS</td>\n<td>٢٣</td>\n</tr>\n<tr>\n<td>٥٨٠٠</td>\n<td>جهاز محمول جيل ثاني + جيل ثالث + جيل رابع (٤ حيزات ترددية) + بلوتوث + انترنت لاسلكي (٢,٤ جيجا هرتز + الحيز الترددي الأول و الرابع بحيزات الـ ٤ جيجا هرتز) + تحديد مواقع 2G (GSM)+3G (WCDMA) + 4G (LTE for 4 bands) + BT + WiFi (2.4GHz) + WiFi (5GHz bands 1+4) + GPS</td>\n<td>٢٤</td>\n</tr>\n<tr>\n<td>٧٢٠٠</td>\n<td>جهاز محمول جيل ثاني + جيل ثالث + جيل رابع (٤ حيزات ترددية) + بلوتوث + انترنت لاسلكي (٢,٤ جيجا هرتز + الحيز الترددي الأول و الرابع بحيزات الـ ٤ جيجا هرتز) + تحديد مواقع 2G (GSM)+3G (WCDMA)+4G (LTE for 4bands)+BT+WiFi(2.4GHz)+ WiFi (5GHz bands 1+4+2+3 client) + GPS</td>\n<td>٢٥</td>\n</tr>\n<tr>\n<td>٥٠٠</td>\n<td>حيز ترددي إضافي بالجيل الرابع زيادة عن ٤ حيزات<br/>Extra LTE (4G) bands more than 4 bands - price / extra band (if necessary)</td>\n<td>٢٦</td>\n</tr>\n<tr>\n<td>٤٠٠٠</td>\n<td>جيل خامس ٤ حيزات ترددية 5G NR 4 bands</td>\n<td>٢٧</td>\n</tr>\n<tr>\n<td>١٠٠٠</td>\n<td>حيز ترددي إضافي جيل خامس Extra 5G NR band</td>\n<td>٢٨</td>\n</tr>\n<tr>\n<td>٨٠٠</td>\n<td>حيز ترددي واحد للإنترنت اللاسلكي في نطاق ٦ جيجا هرتز WiFi 6GHz one band</td>\n<td>٢٩</td>\n</tr>\n</table>",
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b01_table.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b02",
+      "block_type": "header",
+      "text": "الخطوة الثانية",
+      "bbox": {
+        "x1": 691,
+        "y1": 1182,
+        "x2": 905,
+        "y2": 1237
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b02_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b03",
+      "block_type": "text",
+      "text": "تقوم الشركة بتقديم الملفات الموضحة في جدول ٥ للمنتج من خلال البوابة الرقمية لخدمات اعتماد النوع .",
+      "bbox": {
+        "x1": 272,
+        "y1": 1289,
+        "x2": 1478,
+        "y2": 1337
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b03_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b04",
+      "block_type": "header",
+      "text": "الخطوة الثالثة",
+      "bbox": {
+        "x1": 691,
+        "y1": 1414,
+        "x2": 905,
+        "y2": 1467
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b04_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b05",
+      "block_type": "text",
+      "text": "تقوم الشركة بتقديم عينات الاختبار المطلوبة للمنتج في جدول ٥ مع دفع رسوم الاختبار المقررة و المنشورة على صفحة إجراءات اعتماد النوع .",
+      "bbox": {
+        "x1": 140,
+        "y1": 1517,
+        "x2": 1478,
+        "y2": 1612
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b05_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b06",
+      "block_type": "header",
+      "text": "الخطوة الرابعة",
+      "bbox": {
+        "x1": 685,
+        "y1": 1685,
+        "x2": 912,
+        "y2": 1737
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b06_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b07",
+      "block_type": "text",
+      "text": "في حالة قبول الملفات و اجتياز العينات الاختبارات المطلوبة تقوم الشركة المقدمة بدفع رسوم اعتماد النوع المقررة و المنشورة على صفحة إجراءات اعتماد النوع و يتم اعتماد نوع المنتج المقبول و إصدار شهادة اعتماد النوع له.",
+      "bbox": {
+        "x1": 140,
+        "y1": 1744,
+        "x2": 1478,
+        "y2": 1835
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b07_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b08",
+      "block_type": "footer",
+      "text": "ملف (٢) - إصدار ٢٠٢٦",
+      "bbox": {
+        "x1": 140,
+        "y1": 2026,
+        "x2": 423,
+        "y2": 2063
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b08_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b09",
+      "block_type": "footer",
+      "text": "فاكس: ٠٢٢٥٢٤٤١٥٥",
+      "bbox": {
+        "x1": 175,
+        "y1": 2060,
+        "x2": 381,
+        "y2": 2097
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b09_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b10",
+      "block_type": "footer",
+      "text": "ت: ٠٢٢٥٢٤٤٠٠٠",
+      "bbox": {
+        "x1": 542,
+        "y1": 2060,
+        "x2": 722,
+        "y2": 2097
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b10_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b11",
+      "block_type": "footer",
+      "text": "مبنى B4 القرية التكية الكبير ٢٨ طريق القاهرة الإسكندرية الصحراوي",
+      "bbox": {
+        "x1": 847,
+        "y1": 2060,
+        "x2": 1484,
+        "y2": 2101
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b11_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b12",
+      "block_type": "footer",
+      "text": "http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 656,
+        "y1": 2101,
+        "x2": 917,
+        "y2": 2138
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b12_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p005_b13",
+      "block_type": "footer",
+      "text": "صفحة ٨/٥",
+      "bbox": {
+        "x1": 140,
+        "y1": 2172,
+        "x2": 254,
+        "y2": 2206
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_005/strict_type_approval_procedures_p005_b13_footer.png"
+    }
+  ]
+}

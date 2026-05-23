@@ -1,0 +1,153 @@
+{
+  "doc_id": "strict_type_approval_procedures",
+  "doc_name": "Strict Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 4,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\strict_type_approval_procedures\\page_004.png",
+  "extraction_timestamp": "2026-05-23T15:29:57.893052+00:00",
+  "blocks": [
+    {
+      "block_id": "strict_type_approval_procedures_p004_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1093,
+        "y1": 52,
+        "x2": 1544,
+        "y2": 221
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_004/strict_type_approval_procedures_p004_b00_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p004_b01",
+      "block_type": "table",
+      "text": "السعر (بالدولار الأمريكي) الجهاز م ٧٠٠ جهاز لاسلكي قصير المدى (حيز ترددي واحد) Short range wireless(one band) ١ ٨٠٠ جهاز zigbee/ zwave ٢ ١٦٠٠ جهاز walk-talker/UHF ٣ ٨٠٠ جهاز بلوتوث BT(4.0/5.0) ٤ ٨٠٠ جهاز انترنت لاسلكي ٢,٤ جيجاهرتز WiFi 2.4 GHz ٥ ١٣٠٠ جهاز انترنت لاسلكي ٢,٤ جيجاهرتز + بلوتوث BT + 2.4GHz WiFi ٦ ١٣٠٠ جهاز انترنت لاسلكي ٢,٤ جيجاهرتز + الحيز الترددي الأول بحيزات الـ جيجاهرتز WiFi (2.4GHz + 5GHz band 1) ٧ ١٦٠٠ جهاز انترنت لاسلكي ٢,٤ جيجاهرتز + الحيز الترددي الأول و الرابع بحيزات الـ جيجاهرتز WiFi (2.4GHz + 5GHz bands 1+4) ٨ ٤٥٠٠ جهاز انترنت لاسلكي رئيسي ٢,٤ جيجاهرتز + الحيز الترددي الأول و الثاني و الثالث و الرابع بحيزات الـ جيجاهرتز WiFi (2.4GHz + 5GHz bands 1+4+2+3 master) ٩ ٣٢٠٠ جهاز انترنت لاسلكي تابع ٢,٤ جيجاهرتز + الحيز الترددي الأول و الثاني و الثالث و الرابع بحيزات الـ جيجاهرتز WiFi (2.4GHz + 5GHz bands 1+4+2+3 client) ١٠ ٢٥٠٠ تليفون لاسلكي بنظام الـ DECT ١١ ٨٠٠ تليفون سلكي ١٢ ٧٠٠ جهاز سلكي يعمل بتغذية كهربائية (Wired product(electric supply)) ١٣ ٣٥٠ جهاز سلكي يعمل بقوة كهربائية ضعيفة (Wired product( low power)) ١٤ ٦٠٠ شاحن / محول Power adaptor/Charger ١٥ ٧٠٠ بطارية Battery ١٦ ٦٠٠ جهاز ملاحي GPS product ١٧ ١٦٠٠ جهاز محمول جيل ثاني 2G (GSM) ١٨ ٢٠٠٠ جهاز محمول جيل ثاني + بلوتوث BT (4.0/5.0) + 2G (GSM) ١٩ ٢٣٠٠ جهاز محمول جيل ثاني + بلوتوث + انترنت لاسلكي ٢,٤ جيجاهرتز WiFi (2.4GHz) + BT + 2G (GSM) ٢٠ ٣٠٠٠ جهاز محمول جيل ثاني + بلوتوث + انترنت لاسلكي ٢,٤ جيجاهرتز + تحديد مواقع WiFi (2.4GHz) + BT + 2G (GSM) + 3G (WCDMA) ٢١ ٥٠٠٠ جهاز محمول جيل ثاني + جيل ثالث + جيل رابع (٤ حيزات ترددية) + بلوتوث + انترنت لاسلكي ٢,٤ جيجاهرتز + تحديد مواقع WiFi (2.4GHz) + BT + 2G (GSM) + 3G (WCDMA) + 4G (LTE for 4 bands) + GPS ٢٢",
+      "bbox": {
+        "x1": 140,
+        "y1": 250,
+        "x2": 1465,
+        "y2": 1833
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\">\n<thead>\n<tr>\n<th>السعر (بالدولار الأمريكي)</th>\n<th>الجهاز</th>\n<th>م</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>٧٠٠</td>\n<td>جهاز لاسلكي قصير المدى (حيز ترددي واحد) Short range wireless(one band)</td>\n<td>١</td>\n</tr>\n<tr>\n<td>٨٠٠</td>\n<td>جهاز zigbee/ zwave</td>\n<td>٢</td>\n</tr>\n<tr>\n<td>١٦٠٠</td>\n<td>جهاز walk-talker/UHF</td>\n<td>٣</td>\n</tr>\n<tr>\n<td>٨٠٠</td>\n<td>جهاز بلوتوث BT(4.0/5.0)</td>\n<td>٤</td>\n</tr>\n<tr>\n<td>٨٠٠</td>\n<td>جهاز انترنت لاسلكي ٢,٤ جيجاهرتز WiFi 2.4 GHz</td>\n<td>٥</td>\n</tr>\n<tr>\n<td>١٣٠٠</td>\n<td>جهاز انترنت لاسلكي ٢,٤ جيجاهرتز + بلوتوث BT + 2.4GHz WiFi</td>\n<td>٦</td>\n</tr>\n<tr>\n<td>١٣٠٠</td>\n<td>جهاز انترنت لاسلكي ٢,٤ جيجاهرتز + الحيز الترددي الأول بحيزات الـ جيجاهرتز WiFi (2.4GHz + 5GHz band 1)</td>\n<td>٧</td>\n</tr>\n<tr>\n<td>١٦٠٠</td>\n<td>جهاز انترنت لاسلكي ٢,٤ جيجاهرتز + الحيز الترددي الأول و الرابع بحيزات الـ جيجاهرتز WiFi (2.4GHz + 5GHz bands 1+4)</td>\n<td>٨</td>\n</tr>\n<tr>\n<td>٤٥٠٠</td>\n<td>جهاز انترنت لاسلكي رئيسي ٢,٤ جيجاهرتز + الحيز الترددي الأول و الثاني و الثالث و الرابع بحيزات الـ جيجاهرتز WiFi (2.4GHz + 5GHz bands 1+4+2+3 master)</td>\n<td>٩</td>\n</tr>\n<tr>\n<td>٣٢٠٠</td>\n<td>جهاز انترنت لاسلكي تابع ٢,٤ جيجاهرتز + الحيز الترددي الأول و الثاني و الثالث و الرابع بحيزات الـ جيجاهرتز WiFi (2.4GHz + 5GHz bands 1+4+2+3 client)</td>\n<td>١٠</td>\n</tr>\n<tr>\n<td>٢٥٠٠</td>\n<td>تليفون لاسلكي بنظام الـ DECT</td>\n<td>١١</td>\n</tr>\n<tr>\n<td>٨٠٠</td>\n<td>تليفون سلكي</td>\n<td>١٢</td>\n</tr>\n<tr>\n<td>٧٠٠</td>\n<td>جهاز سلكي يعمل بتغذية كهربائية (Wired product(electric supply))</td>\n<td>١٣</td>\n</tr>\n<tr>\n<td>٣٥٠</td>\n<td>جهاز سلكي يعمل بقوة كهربائية ضعيفة (Wired product( low power))</td>\n<td>١٤</td>\n</tr>\n<tr>\n<td>٦٠٠</td>\n<td>شاحن / محول Power adaptor/Charger</td>\n<td>١٥</td>\n</tr>\n<tr>\n<td>٧٠٠</td>\n<td>بطارية Battery</td>\n<td>١٦</td>\n</tr>\n<tr>\n<td>٦٠٠</td>\n<td>جهاز ملاحي GPS product</td>\n<td>١٧</td>\n</tr>\n<tr>\n<td>١٦٠٠</td>\n<td>جهاز محمول جيل ثاني 2G (GSM)</td>\n<td>١٨</td>\n</tr>\n<tr>\n<td>٢٠٠٠</td>\n<td>جهاز محمول جيل ثاني + بلوتوث BT (4.0/5.0) + 2G (GSM)</td>\n<td>١٩</td>\n</tr>\n<tr>\n<td>٢٣٠٠</td>\n<td>جهاز محمول جيل ثاني + بلوتوث + انترنت لاسلكي ٢,٤ جيجاهرتز WiFi (2.4GHz) + BT + 2G (GSM)</td>\n<td>٢٠</td>\n</tr>\n<tr>\n<td>٣٠٠٠</td>\n<td>جهاز محمول جيل ثاني + بلوتوث + انترنت لاسلكي ٢,٤ جيجاهرتز + تحديد مواقع WiFi (2.4GHz) + BT + 2G (GSM) + 3G (WCDMA)</td>\n<td>٢١</td>\n</tr>\n<tr>\n<td>٥٠٠٠</td>\n<td>جهاز محمول جيل ثاني + جيل ثالث + جيل رابع (٤ حيزات ترددية) + بلوتوث + انترنت لاسلكي ٢,٤ جيجاهرتز + تحديد مواقع WiFi (2.4GHz) + BT + 2G (GSM) + 3G (WCDMA) + 4G (LTE for 4 bands) + GPS</td>\n<td>٢٢</td>\n</tr>\n</tbody>\n</table>",
+      "crop_path": "crops/strict_type_approval_procedures/page_004/strict_type_approval_procedures_p004_b01_table.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p004_b02",
+      "block_type": "text",
+      "text": "تابع جنود ٤: الأسعار الموحدة لاختيارات المواصفات الأوروبية بمعامل المجموعة (١) بالحصين لأجهزة الاتصالات ذات الماركات المصرية",
+      "bbox": {
+        "x1": 153,
+        "y1": 1965,
+        "x2": 1478,
+        "y2": 2008
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_004/strict_type_approval_procedures_p004_b02_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p004_b03",
+      "block_type": "text",
+      "text": "ملف (٢) - إصدار ٢٠٢٦ / ٢",
+      "bbox": {
+        "x1": 140,
+        "y1": 2026,
+        "x2": 423,
+        "y2": 2065
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_004/strict_type_approval_procedures_p004_b03_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p004_b04",
+      "block_type": "text",
+      "text": "فاكس: ٠٢٢٥٣٤٤١٥٥",
+      "bbox": {
+        "x1": 174,
+        "y1": 2060,
+        "x2": 383,
+        "y2": 2097
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_004/strict_type_approval_procedures_p004_b04_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p004_b05",
+      "block_type": "text",
+      "text": "ت: ٠٢٢٥٣٤٤٠٠٠",
+      "bbox": {
+        "x1": 542,
+        "y1": 2060,
+        "x2": 724,
+        "y2": 2097
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_004/strict_type_approval_procedures_p004_b05_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p004_b06",
+      "block_type": "text",
+      "text": "مبنى B4 القرية الذكية الكيلو ٢٨ طريق القاهرة الإسكندرية الصحراوي",
+      "bbox": {
+        "x1": 847,
+        "y1": 2060,
+        "x2": 1484,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_004/strict_type_approval_procedures_p004_b06_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p004_b07",
+      "block_type": "text",
+      "text": "http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 656,
+        "y1": 2101,
+        "x2": 917,
+        "y2": 2138
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_004/strict_type_approval_procedures_p004_b07_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p004_b08",
+      "block_type": "footer",
+      "text": "صفحة ٨/٤",
+      "bbox": {
+        "x1": 140,
+        "y1": 2172,
+        "x2": 254,
+        "y2": 2208
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_004/strict_type_approval_procedures_p004_b08_footer.png"
+    }
+  ]
+}

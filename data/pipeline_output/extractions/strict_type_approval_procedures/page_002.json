@@ -1,0 +1,153 @@
+{
+  "doc_id": "strict_type_approval_procedures",
+  "doc_name": "Strict Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 2,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\strict_type_approval_procedures\\page_002.png",
+  "extraction_timestamp": "2026-05-23T15:25:07.733378+00:00",
+  "blocks": [
+    {
+      "block_id": "strict_type_approval_procedures_p002_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1093,
+        "y1": 52,
+        "x2": 1544,
+        "y2": 221
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_002/strict_type_approval_procedures_p002_b00_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p002_b01",
+      "block_type": "text",
+      "text": "جدول ٢: المعامل المعتمدة من المجموعة (١) بدولة الصين",
+      "bbox": {
+        "x1": 928,
+        "y1": 252,
+        "x2": 1494,
+        "y2": 293
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_002/strict_type_approval_procedures_p002_b01_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p002_b02",
+      "block_type": "table",
+      "text": "بيانات الاتصال المعنوان المعمل م Name: Mr. Joe Chan Tel: +86 (0)755 2532 8508 Mobile: +86 134 2425 9622 Email: Joe-L_Chan@sgs.com Shenzhen Branch: No.1 Workshop, M10, Middle Section, Science & Technology Park, NanShan District, Shenzhen, China SGS-CSTC Standards Technical Ltd. Services Co., ١ Name: Micheal Niu Cell: +86 199 2160 0250 Email: Micheal.niu@sgs.com Shanghai Branch: No.588 West JinDu Road, SongJiang District, Shanghai, China Name: Vico Cui Cell: +86 181 2403 0042 Email: Vico.cui@sgs.com Guangzhou Branch: No.198 Kezhu Road, Science City Economic & Technology Development Area, Guangzhou, Guangdong, China Name: Ms. Lola Wang Tel.: +86-755-33320018 Cellular: +86-18688799312 Email: bacllola@baclcorp.com / lola.wang@baclcorp.com Shenzhen Branch: 6/f, the 3rd Phase of Wanli Industrial Building, Shihua Road, Futian Free Trade Zone, Shenzhen, Guangdong, P.R.China Bay Area Compliance Labs., Corp. ٢ Name: Ellen Li Tel. +86-512-86175000 Cellular: +86-15895461769 Email: bacllola@baclcorp.com / ellen.li@baclcorp.com Kunshan Branch: No. 248 Chenghu Road Kunshan, Jiangsu Province, P.R. China Name: Jeanne Han Tel. +86-769-86858888 Cellular: +86-13590267970 Email: bacllola@baclcorp.com / Jeanne.han@baclcorp.com Dongguan Branch: No. 12, Pulong East Road, Tangxia Town, Dongguan City, Guangdong Province, P.R. China Name: Frank Yue Tel.: +86-592-3301333 Cellular: +86-18665840569 Email: bacllola@baclcorp.com / frank.yue@baclcorp.com Xiamen Branch: No.102, Building 2, Ziguang Science and Technology Park, No.902, Meifeng South Road, Binhai West Avenue, Tong'an District, Xiamen City Shenzhen Academy of Metrology and Quality Inspection (SMQ) ٣ 1) Name: Miss Wan Xiaojing Tel.: +86- 755-86009898-31371 Fax: +86-755-86009898-31396 Email: wanxi@smq.com.cn 2) Name: Lin Bin Tel.: +86- 755-86928936 Fax: +86-755-86009898-31396 Email: linb@smq.com.cn NETC Building, No.4 Tongfa Rd., Xili, Nanshan, Shenzhen, China",
+      "bbox": {
+        "x1": 140,
+        "y1": 291,
+        "x2": 1465,
+        "y2": 1965
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\">\n<thead>\n<tr>\n<th>بيانات الاتصال</th>\n<th>المعنوان</th>\n<th>المعمل</th>\n<th>م</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n<b>Name:</b> Mr. Joe Chan<br/>\n<b>Tel:</b> +86 (0)755 2532 8508<br/>\n<b>Mobile:</b> +86 134 2425 9622<br/>\n<b>Email:</b> Joe-L_Chan@sgs.com\n        </td>\n<td>\n<b>Shenzhen Branch:</b><br/>\n          No.1 Workshop, M10, Middle Section, Science &amp; Technology Park, NanShan District, Shenzhen, China\n        </td>\n<td rowspan=\"3\">\n          SGS-CSTC Standards Technical Ltd. Services Co.,\n        </td>\n<td rowspan=\"3\">١</td>\n</tr>\n<tr>\n<td>\n<b>Name:</b> Micheal Niu<br/>\n<b>Cell:</b> +86 199 2160 0250<br/>\n<b>Email:</b> Micheal.niu@sgs.com\n        </td>\n<td>\n<b>Shanghai Branch:</b><br/>\n          No.588 West JinDu Road, SongJiang District, Shanghai, China\n        </td>\n</tr>\n<tr>\n<td>\n<b>Name:</b> Vico Cui<br/>\n<b>Cell:</b> +86 181 2403 0042<br/>\n<b>Email:</b> Vico.cui@sgs.com\n        </td>\n<td>\n<b>Guangzhou Branch:</b><br/>\n          No.198 Kezhu Road, Science City Economic &amp; Technology Development Area, Guangzhou, Guangdong, China\n        </td>\n</tr>\n<tr>\n<td>\n<b>Name:</b> Ms. Lola Wang<br/>\n<b>Tel.:</b> +86-755-33320018<br/>\n<b>Cellular:</b> +86-18688799312<br/>\n<b>Email:</b> bacllola@baclcorp.com / lola.wang@baclcorp.com\n        </td>\n<td>\n<b>Shenzhen Branch:</b><br/>\n          6/f, the 3rd Phase of Wanli Industrial Building, Shihua Road, Futian Free Trade Zone, Shenzhen, Guangdong, P.R.China\n        </td>\n<td rowspan=\"3\">\n          Bay Area Compliance Labs., Corp.\n        </td>\n<td rowspan=\"3\">٢</td>\n</tr>\n<tr>\n<td>\n<b>Name:</b> Ellen Li<br/>\n<b>Tel.</b> +86-512-86175000<br/>\n<b>Cellular:</b> +86-15895461769<br/>\n<b>Email:</b> bacllola@baclcorp.com / ellen.li@baclcorp.com\n        </td>\n<td>\n<b>Kunshan Branch:</b><br/>\n          No. 248 Chenghu Road Kunshan, Jiangsu Province, P.R. China\n        </td>\n</tr>\n<tr>\n<td>\n<b>Name:</b> Jeanne Han<br/>\n<b>Tel.</b> +86-769-86858888<br/>\n<b>Cellular:</b> +86-13590267970<br/>\n<b>Email:</b> bacllola@baclcorp.com / Jeanne.han@baclcorp.com\n        </td>\n<td>\n<b>Dongguan Branch:</b><br/>\n          No. 12, Pulong East Road, Tangxia Town, Dongguan City, Guangdong Province, P.R. China\n        </td>\n</tr>\n<tr>\n<td>\n<b>Name:</b> Frank Yue<br/>\n<b>Tel.:</b> +86-592-3301333<br/>\n<b>Cellular:</b> +86-18665840569<br/>\n<b>Email:</b> bacllola@baclcorp.com / frank.yue@baclcorp.com\n        </td>\n<td>\n<b>Xiamen Branch:</b><br/>\n          No.102, Building 2, Ziguang Science and Technology Park, No.902, Meifeng South Road, Binhai West Avenue, Tong'an District, Xiamen City\n        </td>\n<td rowspan=\"2\">\n          Shenzhen Academy of Metrology and Quality Inspection (SMQ)\n        </td>\n<td rowspan=\"2\">٣</td>\n</tr>\n<tr>\n<td>\n<b>1) Name:</b> Miss Wan Xiaojing<br/>\n<b>Tel.:</b> +86- 755-86009898-31371<br/>\n<b>Fax:</b> +86-755-86009898-31396<br/>\n<b>Email:</b> wanxi@smq.com.cn<br/><br/>\n<b>2) Name:</b> Lin Bin<br/>\n<b>Tel.:</b> +86- 755-86928936<br/>\n<b>Fax:</b> +86-755-86009898-31396<br/>\n<b>Email:</b> linb@smq.com.cn\n        </td>\n<td>\n          NETC Building, No.4 Tongfa Rd., Xili, Nanshan, Shenzhen, China\n        </td>\n</tr>\n</tbody>\n</table>",
+      "crop_path": "crops/strict_type_approval_procedures/page_002/strict_type_approval_procedures_p002_b02_table.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p002_b03",
+      "block_type": "footer",
+      "text": "ملف (٢) - إصدار ٢٠٢٦",
+      "bbox": {
+        "x1": 140,
+        "y1": 2028,
+        "x2": 423,
+        "y2": 2065
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_002/strict_type_approval_procedures_p002_b03_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p002_b04",
+      "block_type": "footer",
+      "text": "فاكس: ٠٣٣٥٣٤٤١٥٥",
+      "bbox": {
+        "x1": 175,
+        "y1": 2063,
+        "x2": 381,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_002/strict_type_approval_procedures_p002_b04_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p002_b05",
+      "block_type": "footer",
+      "text": "ت: ٠٣٣٥٣٤٤٠٠٠",
+      "bbox": {
+        "x1": 542,
+        "y1": 2063,
+        "x2": 722,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_002/strict_type_approval_procedures_p002_b05_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p002_b06",
+      "block_type": "footer",
+      "text": "مبنى B4 القرية التكنولوجية الكيلو ٢٨ طريق القمارة الإلكترونية الصحراوي",
+      "bbox": {
+        "x1": 847,
+        "y1": 2063,
+        "x2": 1484,
+        "y2": 2101
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_002/strict_type_approval_procedures_p002_b06_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p002_b07",
+      "block_type": "footer",
+      "text": "http://www.tra.gov.eh",
+      "bbox": {
+        "x1": 656,
+        "y1": 2101,
+        "x2": 917,
+        "y2": 2140
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_002/strict_type_approval_procedures_p002_b07_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p002_b08",
+      "block_type": "footer",
+      "text": "صفحة ٨/٢",
+      "bbox": {
+        "x1": 140,
+        "y1": 2172,
+        "x2": 254,
+        "y2": 2208
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_002/strict_type_approval_procedures_p002_b08_footer.png"
+    }
+  ]
+}

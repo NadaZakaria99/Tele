@@ -1,0 +1,198 @@
+{
+  "doc_id": "user_rights_regulations",
+  "doc_name": "User Rights Regulations.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 6,
+  "original_size": [
+    2274,
+    1608
+  ],
+  "inference_size": [
+    1400,
+    989
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_rights_regulations\\page_006.png",
+  "extraction_timestamp": "2026-05-23T15:45:00.085297+00:00",
+  "blocks": [
+    {
+      "block_id": "user_rights_regulations_p006_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 86,
+        "y1": 43,
+        "x2": 409,
+        "y2": 166
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b00_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b01",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1726,
+        "y1": 224,
+        "x2": 1826,
+        "y2": 314
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b01_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b02",
+      "block_type": "header",
+      "text": "المادة (٧) قواعد البيانات",
+      "bbox": {
+        "x1": 1826,
+        "y1": 249,
+        "x2": 2160,
+        "y2": 294
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b02_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b03",
+      "block_type": "text",
+      "text": "تلتزم الشركات المرخص لها بإعداد قاعدة بيانات تشمل كافة العملاء المشتركين لديها، كما تلتزم بإجراء تحديث مستمر لبيانات على أن تُحفظ بقاعدة البيانات الخاصة بالشركة كما تخفظ تعاملات العملاء التي تمت مع الشركة وفقاً لما يحدده الترخيص الصادر إلى الشركة من مدد حسب نوع كل خدمة. كما تلتزم الشركات المرخص لها بموافاة الجهاز بأبي من تلك البيانات عند طلبها وذلك كله في إطار القواعد القانونية المعمول بها في جمهورية مصر العربية.",
+      "bbox": {
+        "x1": 84,
+        "y1": 323,
+        "x2": 2178,
+        "y2": 452
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b03_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b04",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1728,
+        "y1": 502,
+        "x2": 1826,
+        "y2": 595
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b04_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b05",
+      "block_type": "header",
+      "text": "المادة (٨) التعريف",
+      "bbox": {
+        "x1": 1887,
+        "y1": 526,
+        "x2": 2153,
+        "y2": 569
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b05_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b06",
+      "block_type": "text",
+      "text": "• يحق للشركات المرخص لها الحصول من المستخدمين للخدمة على مقابل مالي (تعريفة) نظير الخدمات التي تقدمها للمستخدمين. وعلى الشركة المرخص لها أن تتقدم إلى الجهاز القومي لتنظيم الاتصالات قبل بدء الخدمة بالتعريفة المقترحة وطرق التحصيل لها لأخذ الموافقة عليها من الجهاز وفقاً للأسس والقواعد التي يقررها ويصدرها الجهاز بهذا الشأن والتي ستلتزم بها الشركة المرخص لها. ويترتب على تعاقب الشركة المرخص لها مع المستخدمين على تعريفة لم يتم الموافقة عليها من قبل المرخص وفقاً للأسس والقواعد التي يقررها ويصدرها الجهاز بهذا الشأن إخلالاً من جانب الشركة المرخص لها. • لا يجوز للشركة المرخص لها تعديل أو تغيير التعريفة أو طرق التحصيل إلا بعد الحصول على موافقة مسبقة من الجهاز على ذلك وفقاً للأسس والقواعد التي يقررها ويصدرها الجهاز في هذا الشأن.",
+      "bbox": {
+        "x1": 84,
+        "y1": 634,
+        "x2": 2178,
+        "y2": 920
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b06_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b07",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1726,
+        "y1": 1002,
+        "x2": 1826,
+        "y2": 1092
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b07_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b08",
+      "block_type": "header",
+      "text": "المادة (٩) جودة الخدمة",
+      "bbox": {
+        "x1": 1835,
+        "y1": 1028,
+        "x2": 2160,
+        "y2": 1071
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b08_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b09",
+      "block_type": "text",
+      "text": "تلتزم الشركات المرخص لها بتقديم جميع الخدمات المرخص لها بها من الجهاز القومي لتنظيم الاتصالات بمستوى أداء يتطابق مع المحددات والمعايير الدولية المتعارف عليها وتوصيات الاتحاد الدولي للاتصالات ITU، وكذلك بالمحددات والضوابط المنصوص عليها بالترخيص. كما تلتزم بالمحددات والمعايير وأليات التحقق منها الصادرة من الجهاز القومي لتنظيم الاتصالات والمتعلقة بجودة الخدمة وعلى ما يستجد عليها من تحديثات من قبل الجهاز.",
+      "bbox": {
+        "x1": 84,
+        "y1": 1110,
+        "x2": 2178,
+        "y2": 1237
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b09_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b10",
+      "block_type": "footer",
+      "text": "٤",
+      "bbox": {
+        "x1": 61,
+        "y1": 1502,
+        "x2": 98,
+        "y2": 1549
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b10_footer.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p006_b11",
+      "block_type": "footer",
+      "text": "القواعد العامة لحماية حقوق مستخدمي خدمات الاتصالات",
+      "bbox": {
+        "x1": 796,
+        "y1": 1523,
+        "x2": 1408,
+        "y2": 1563
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_006/user_rights_regulations_p006_b11_footer.png"
+    }
+  ]
+}

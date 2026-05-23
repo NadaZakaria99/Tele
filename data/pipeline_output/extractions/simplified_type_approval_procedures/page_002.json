@@ -1,0 +1,168 @@
+{
+  "doc_id": "simplified_type_approval_procedures",
+  "doc_name": "Simplified Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 2,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\simplified_type_approval_procedures\\page_002.png",
+  "extraction_timestamp": "2026-05-23T15:16:55.662885+00:00",
+  "blocks": [
+    {
+      "block_id": "simplified_type_approval_procedures_p002_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1143,
+        "y1": 66,
+        "x2": 1457,
+        "y2": 182
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_002/simplified_type_approval_procedures_p002_b00_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p002_b01",
+      "block_type": "header",
+      "text": "جدول ٢: المعامل المعتمدة للإجراءات المبنية.",
+      "bbox": {
+        "x1": 1013,
+        "y1": 180,
+        "x2": 1462,
+        "y2": 216
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_002/simplified_type_approval_procedures_p002_b01_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p002_b02",
+      "block_type": "table",
+      "text": "الدولة المعامل المعتمدة للإجراءات المبنية الصين ١- معامل المجموعة (أ) المذكورة في ملف- ٢. الخاص بالإجراءات المحكمة . ٢- المعامل الحاصلة على شهادة الأيزو ١٧٠٢٥ في نطاق الاختبارات المطبقة، وذلك من جهتي اعتماد مختلفتين هما: ٢-١) منظمة الاعتماد الصينية CNAS ٢-٢) أي جهة اعتماد أخرى تقع بأي من دول الفئة الأولى و تكون ضمن جهات الاعتماد الدولية المسجلة بمنظمة (ILAC International Laboratory Accreditation Cooperation). و يتم قبول التقارير الصادرة من هذه المعامل بعد مراجعة جهاز تنظيم الاتصالات لها كل حالة على حدة. ١- معامل المجموعة (أ) المذكورة في ملف- ٢. الخاص بالإجراءات المحكمة . ٢- المعامل الحاصلة على شهادة الأيزو ١٧٠٢٥ من أي من جهات الاعتماد الدولية المسجلة بمنظمة ILAC في نطاق الاختبارات المطبقة.",
+      "bbox": {
+        "x1": 138,
+        "y1": 214,
+        "x2": 1455,
+        "y2": 825
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\">\n<thead>\n<tr>\n<th>الدولة</th>\n<th>المعامل المعتمدة للإجراءات المبنية</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"2\">الصين</td>\n<td>١- معامل المجموعة (أ) المذكورة في <u>ملف- ٢. الخاص بالإجراءات المحكمة</u>.<br/>٢- المعامل الحاصلة على شهادة الأيزو ١٧٠٢٥ في نطاق الاختبارات المطبقة، وذلك من جهتي اعتماد مختلفتين هما:<br/>٢-١) منظمة الاعتماد الصينية CNAS<br/>٢-٢) أي جهة اعتماد أخرى تقع بأي من دول الفئة الأولى و تكون ضمن جهات الاعتماد الدولية المسجلة بمنظمة (ILAC International Laboratory Accreditation Cooperation).<br/>و يتم قبول التقارير الصادرة من هذه المعامل بعد مراجعة جهاز تنظيم الاتصالات لها كل حالة على حدة.</td>\n</tr>\n<tr>\n<td>١- معامل المجموعة (أ) المذكورة في <u>ملف- ٢. الخاص بالإجراءات المحكمة</u>.<br/>٢- المعامل الحاصلة على شهادة الأيزو ١٧٠٢٥ من أي من جهات الاعتماد الدولية المسجلة بمنظمة ILAC في نطاق الاختبارات المطبقة.</td>\n</tr>\n</tbody>\n</table>",
+      "crop_path": "crops/simplified_type_approval_procedures/page_002/simplified_type_approval_procedures_p002_b02_table.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p002_b03",
+      "block_type": "header",
+      "text": "الخطوة الثالثة",
+      "bbox": {
+        "x1": 703,
+        "y1": 882,
+        "x2": 897,
+        "y2": 932
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_002/simplified_type_approval_procedures_p002_b03_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p002_b04",
+      "block_type": "text",
+      "text": "في حالة قبول الملفات و اجتياز العينات الاختبارات المطلوبة تقوم الشركة المتقدمة بدفع رسوم اعتماد النوع المقررة و المنشورة على صفحة إجراءات اعتماد النوع و في حالة عدم اجتياز العينات الاختبارات المطلوبة تطبق رسوم الاختبار فقط المنشورة على ذات الصفحة و يتم إلغاء طلب اعتماد النوع للمنتج.",
+      "bbox": {
+        "x1": 135,
+        "y1": 989,
+        "x2": 1466,
+        "y2": 1114
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_002/simplified_type_approval_procedures_p002_b04_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p002_b05",
+      "block_type": "header",
+      "text": "الخطوة الرابعة",
+      "bbox": {
+        "x1": 701,
+        "y1": 1205,
+        "x2": 900,
+        "y2": 1258
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_002/simplified_type_approval_procedures_p002_b05_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p002_b06",
+      "block_type": "text",
+      "text": "يتم اعتماد نوع المنتج و إصدار شهادة اعتماد النوع له.",
+      "bbox": {
+        "x1": 865,
+        "y1": 1319,
+        "x2": 1466,
+        "y2": 1362
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_002/simplified_type_approval_procedures_p002_b06_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p002_b07",
+      "block_type": "footer",
+      "text": "ملف (١) - إصدار ٢٠٢٦ / ١",
+      "bbox": {
+        "x1": 138,
+        "y1": 2049,
+        "x2": 394,
+        "y2": 2085
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_002/simplified_type_approval_procedures_p002_b07_footer.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p002_b08",
+      "block_type": "footer",
+      "text": "مبنى B4 القرية الذكية الكيلو ٢٨ طريق القاهرة الإسكندرية الصحراوي ت: ٢٣٥٣٤٤٠٠٠ فاكس: ٢٣٥٣٤٤١٥٥ http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 958,
+        "y1": 2103,
+        "x2": 1513,
+        "y2": 2197
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_002/simplified_type_approval_procedures_p002_b08_footer.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p002_b09",
+      "block_type": "footer",
+      "text": "صفحة ٢/٢٦",
+      "bbox": {
+        "x1": 64,
+        "y1": 2197,
+        "x2": 170,
+        "y2": 2229
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_002/simplified_type_approval_procedures_p002_b09_footer.png"
+    }
+  ]
+}

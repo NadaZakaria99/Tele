@@ -1,0 +1,168 @@
+{
+  "doc_id": "simplified_type_approval_procedures",
+  "doc_name": "Simplified Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 4,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\simplified_type_approval_procedures\\page_004.png",
+  "extraction_timestamp": "2026-05-23T15:20:36.803296+00:00",
+  "blocks": [
+    {
+      "block_id": "simplified_type_approval_procedures_p004_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة العامة لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1143,
+        "y1": 66,
+        "x2": 1457,
+        "y2": 184
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_004/simplified_type_approval_procedures_p004_b00_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p004_b01",
+      "block_type": "text",
+      "text": "ملاحظة ٦: بالنسبة إلى شحنتات أجهزة التليفون المحمول فعلي الشركة المسؤولة تسجيل الأرقام التعريفية (IMEI) للأجهزة الواردة في كل شحنة من خلال منصة الخدمات الرقمية للجهاز القومي لتنظيم الاتصالات .",
+      "bbox": {
+        "x1": 225,
+        "y1": 223,
+        "x2": 1465,
+        "y2": 309
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_004/simplified_type_approval_procedures_p004_b01_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p004_b02",
+      "block_type": "text",
+      "text": "ملاحظة ٧: بحق للجهاز القومي لتنظيم الاتصالات سحب عينات عشوائية من المنتج المعتمد لإعادة إجراء اختبارات التطبيق مع المواصفات المطلوبة في إحدى معامله المعتمدة و في حالة عدم اجتناز الاختبارات المطلوبة يتحمل المصنع رسوم الاختبار المطبقة من المعمل المعتمد ويتم إلغاء اعتماد النوع للمنتج حتى إصلاح عيوبه الفنية.",
+      "bbox": {
+        "x1": 137,
+        "y1": 346,
+        "x2": 1465,
+        "y2": 471
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_004/simplified_type_approval_procedures_p004_b02_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p004_b03",
+      "block_type": "header",
+      "text": "ملاحظات خاصة بالتصنيع في مصر",
+      "bbox": {
+        "x1": 603,
+        "y1": 509,
+        "x2": 1002,
+        "y2": 553
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_004/simplified_type_approval_procedures_p004_b03_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p004_b04",
+      "block_type": "text",
+      "text": "ملاحظة ٨: قبل البدء في استيراد مكونات التصنيع من الخارج يقدم المصنع المصري تعهدا بالالتزام بعدم دخول أي منتج سبقوم بتصنيعه إلى السوق المصري إلا بعد اجتيازه جميع الاختبارات المطلوبة و استكمال اعتماد النوع له.",
+      "bbox": {
+        "x1": 137,
+        "y1": 589,
+        "x2": 1465,
+        "y2": 673
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_004/simplified_type_approval_procedures_p004_b04_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p004_b05",
+      "block_type": "text",
+      "text": "ملاحظة ٩: عند استيراد شحنة لأي من مكونات التصنيع من الخارج يجب كتابة اسم موديل المنتج النهائي المراد تصنيعه من هذه المكونات في الفاتورة الخاصة بالشحنة.",
+      "bbox": {
+        "x1": 137,
+        "y1": 707,
+        "x2": 1465,
+        "y2": 796
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_004/simplified_type_approval_procedures_p004_b05_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p004_b06",
+      "block_type": "text",
+      "text": "ملاحظة ١٠: يلتزم المصنع المصري بإعداد تقارير دورية تسرد أرقام طلبات الإفراج الخاصة بشحنتات مكونات التصنيع التي تم استيرادها و أعداد الأجهزة التي تم تصنيعها و الأجهزة التي تم تصديرها للخارج من كل موديل لتقدمها عند الطلب.",
+      "bbox": {
+        "x1": 137,
+        "y1": 832,
+        "x2": 1465,
+        "y2": 919
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_004/simplified_type_approval_procedures_p004_b06_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p004_b07",
+      "block_type": "footer",
+      "text": "ملف (١) - إصدار ٢٠٢٦ / ١",
+      "bbox": {
+        "x1": 137,
+        "y1": 2049,
+        "x2": 394,
+        "y2": 2085
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_004/simplified_type_approval_procedures_p004_b07_footer.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p004_b08",
+      "block_type": "footer",
+      "text": "مبنى B4 القرية الذكية الكيلو ٢٨ طريق القاهرة الإسكندرية الصحراوي ت: ٢٢٥٣٤٤٠٠٠٠ فاكس: ٢٢٥٣٤٤١٥٥٠ http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 958,
+        "y1": 2103,
+        "x2": 1512,
+        "y2": 2197
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_004/simplified_type_approval_procedures_p004_b08_footer.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p004_b09",
+      "block_type": "footer",
+      "text": "صفحة ٣/٤",
+      "bbox": {
+        "x1": 64,
+        "y1": 2197,
+        "x2": 169,
+        "y2": 2226
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_004/simplified_type_approval_procedures_p004_b09_footer.png"
+    }
+  ]
+}

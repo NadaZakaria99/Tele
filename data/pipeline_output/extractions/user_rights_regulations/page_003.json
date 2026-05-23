@@ -1,0 +1,123 @@
+{
+  "doc_id": "user_rights_regulations",
+  "doc_name": "User Rights Regulations.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 3,
+  "original_size": [
+    2274,
+    1608
+  ],
+  "inference_size": [
+    1400,
+    989
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_rights_regulations\\page_003.png",
+  "extraction_timestamp": "2026-05-23T15:41:31.743330+00:00",
+  "blocks": [
+    {
+      "block_id": "user_rights_regulations_p003_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecommunication Regulatory Authority الهيئة العامة لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 86,
+        "y1": 43,
+        "x2": 412,
+        "y2": 166
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_003/user_rights_regulations_p003_b00_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p003_b01",
+      "block_type": "header",
+      "text": "تمهيد",
+      "bbox": {
+        "x1": 1126,
+        "y1": 252,
+        "x2": 1223,
+        "y2": 296
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_003/user_rights_regulations_p003_b01_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p003_b02",
+      "block_type": "text",
+      "text": "لما كان الجهاز القومي لتنظيم الاتصالات هو الجهة المختصة بتنظيم قطاع الاتصالات في جمهورية مصر العربية ومنح تراخيص خدمات الاتصالات وذلك على نحو يواكب أحدث وسائل التكنولوجيا ويلبي احتياجات المستخدمين بأسبب الأسعار في ظل المنافسة الحرة القائمة على عدم التمييز بين الشركات المقدمة لخدمات الاتصالات وبشكل يحمي ويحفظ حقوق جمهور المستخدمين لدى تلك الشركات.",
+      "bbox": {
+        "x1": 159,
+        "y1": 383,
+        "x2": 2181,
+        "y2": 593
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_003/user_rights_regulations_p003_b02_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p003_b03",
+      "block_type": "text",
+      "text": "ورغبة من الجهاز القومي لتنظيم الاتصالات في تحقيق أهدافه المنصوص عليها في القانون رقم ١٠ لسنة ٢٠٠٣ بشأن تنظيم الاتصالات وخاصة المتعلقة بحماية حقوق المستخدمين، ورغبة منه في ضمان التزام الشركات المرخص لها بمراعاة حقوق المستخدمين.",
+      "bbox": {
+        "x1": 91,
+        "y1": 645,
+        "x2": 2181,
+        "y2": 778
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_003/user_rights_regulations_p003_b03_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p003_b04",
+      "block_type": "text",
+      "text": "فقد ارتأى الجهاز القومي لتنظيم الاتصالات إصدار القواعد العامة لحماية حقوق المستخدمين وذلك عند تقديم الخدمات المرخص بها للمستخدمين وتضمينها داخل عقود الخدمة التي يتم إبرامها معهم، وذلك كله على النحو المبين فيما يلي:",
+      "bbox": {
+        "x1": 105,
+        "y1": 831,
+        "x2": 2181,
+        "y2": 965
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_003/user_rights_regulations_p003_b04_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p003_b05",
+      "block_type": "footer",
+      "text": "القواعد العامة لحماية حقوق مستخدمي خدمات الاتصالات",
+      "bbox": {
+        "x1": 800,
+        "y1": 1524,
+        "x2": 1408,
+        "y2": 1563
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_003/user_rights_regulations_p003_b05_footer.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p003_b06",
+      "block_type": "footer",
+      "text": "I",
+      "bbox": {
+        "x1": 73,
+        "y1": 1503,
+        "x2": 93,
+        "y2": 1545
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_003/user_rights_regulations_p003_b06_footer.png"
+    }
+  ]
+}

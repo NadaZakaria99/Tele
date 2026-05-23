@@ -1,0 +1,153 @@
+{
+  "doc_id": "user_rights_regulations",
+  "doc_name": "User Rights Regulations.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 12,
+  "original_size": [
+    2274,
+    1608
+  ],
+  "inference_size": [
+    1400,
+    989
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_rights_regulations\\page_012.png",
+  "extraction_timestamp": "2026-05-23T16:06:14.467403+00:00",
+  "blocks": [
+    {
+      "block_id": "user_rights_regulations_p012_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecommunication Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 86,
+        "y1": 45,
+        "x2": 412,
+        "y2": 166
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_012/user_rights_regulations_p012_b00_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p012_b01",
+      "block_type": "text",
+      "text": "الإشارة في العقد لها بفيد اعتماده من الجهاز القومي لتنظيم الاتصالات.",
+      "bbox": {
+        "x1": 1353,
+        "y1": 227,
+        "x2": 2178,
+        "y2": 280
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_012/user_rights_regulations_p012_b01_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p012_b02",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1521,
+        "y1": 307,
+        "x2": 1626,
+        "y2": 418
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_012/user_rights_regulations_p012_b02_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p012_b03",
+      "block_type": "header",
+      "text": "المادة (٢١) عدم الوفاء بالقواعد الماثلة",
+      "bbox": {
+        "x1": 1640,
+        "y1": 343,
+        "x2": 2172,
+        "y2": 388
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_012/user_rights_regulations_p012_b03_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p012_b04",
+      "block_type": "text",
+      "text": "في حالة مخالفة أي من الشركات المرخص لها لتقديم خدمات الاتصالات المرخص بها للقواعد الصادرة من الجهاز أو عدم الالتزام بشروط عقد تقديم الخدمة بينها وبين المشتركين سيتم تطبيق لائحة الجزاءات الصادرة من الجهاز على الشركة المخالفة.",
+      "bbox": {
+        "x1": 84,
+        "y1": 434,
+        "x2": 2178,
+        "y2": 518
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_012/user_rights_regulations_p012_b04_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p012_b05",
+      "block_type": "text",
+      "text": "يسري فيما لم يرد به نص بالقواعد الماثلة، أحكام القانون رقم ١٠ لسنة ٢٠٠٣ بإصدار قانون تنظيم الاتصالات، والتراخيص الصادرة للشركات المرخص لها وكافة القواعد التنظيمية الصادرة من الجهاز وما يطراً عليها من تعجيلات",
+      "bbox": {
+        "x1": 619,
+        "y1": 815,
+        "x2": 1972,
+        "y2": 904
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_012/user_rights_regulations_p012_b05_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p012_b06",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1060,
+        "y1": 994,
+        "x2": 1392,
+        "y2": 1367
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_012/user_rights_regulations_p012_b06_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p012_b07",
+      "block_type": "footer",
+      "text": "١٠",
+      "bbox": {
+        "x1": 48,
+        "y1": 1500,
+        "x2": 130,
+        "y2": 1574
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_012/user_rights_regulations_p012_b07_footer.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p012_b08",
+      "block_type": "footer",
+      "text": "القواعد العامة لحماية حقوق مستخدمي خدمات الاتصالات",
+      "bbox": {
+        "x1": 796,
+        "y1": 1524,
+        "x2": 1410,
+        "y2": 1565
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_012/user_rights_regulations_p012_b08_footer.png"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "doc_id": "strict_type_approval_procedures",
+  "doc_name": "Strict Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 6,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\strict_type_approval_procedures\\page_006.png",
+  "extraction_timestamp": "2026-05-23T15:33:52.820760+00:00",
+  "blocks": [
+    {
+      "block_id": "strict_type_approval_procedures_p006_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1093,
+        "y1": 52,
+        "x2": 1542,
+        "y2": 221
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b00_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b01",
+      "block_type": "text",
+      "text": "جدول ٥: الملفات و العيّنات المطلوبة لاعتماد النوع الموديل.",
+      "bbox": {
+        "x1": 941,
+        "y1": 252,
+        "x2": 1473,
+        "y2": 289
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b01_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b02",
+      "block_type": "table",
+      "text": "نوع الجهاز تليفون أو تابلت محمول جهاز تقوية شبكة المحمول (Cellular Repeater) تليفون لاسلكي بنظام الـ DECT أجهزة أخرى العيّنات المطلوبة عدد ١ عينة نهائية + عدد ١ عينة مزودة بمخرج سلكي لإشارة المحمول من نوع SMA عدد ١ عينة مزودة بمخرج سلكية لإشارة المحمول من نوع N-Type أو SMA. عدد ١ عينة نهائية. لا تتطلب تقديم عيّنات ما لم يطلب صراحة من جهاز تنظيم الاتصالات. الملفات المطلوبة ١- نموذج التقدم لاعتماد النوع. ٢- تقارير الاختبارات الخاصة بالموديل الصادرة في الخطوة الأولى. ٣- شهادة مطابقة المواصفات (VOC) الصادرة بالخطوة الأولى. ٤- شهادات الأيزو والحاصلة عليها الشركة المصنعة (مالك الماركة) حال التوافق. ٥- البيانات الفنية للمنتج و نظرية عمله. ٦- دليل المستخدم باللغة العربية (للمنتجات التي تستهدف عامة الناس كالتليفون المنزلي و التليفون المحمول و الراوتر المنزلي...الخ) و يجب أن يتضمن دليل المستخدم اسم و بيانات الاتصال الخاصة بالجهة القائمة بالترجمة على أن تكون جهة حاصلة على شهادة (ISO 17100) أو جهة معتمدة من أي من الجهات الحكومية بأي من الدول العربية.",
+      "bbox": {
+        "x1": 140,
+        "y1": 284,
+        "x2": 1462,
+        "y2": 1051
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\">\n<thead>\n<tr>\n<th>نوع الجهاز</th>\n<th>تليفون أو تابلت محمول</th>\n<th>جهاز تقوية شبكة المحمول (Cellular Repeater)</th>\n<th>تليفون لاسلكي بنظام الـ DECT</th>\n<th>أجهزة أخرى</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><b>العيّنات المطلوبة</b></td>\n<td>عدد ١ عينة نهائية +<br/>عدد ١ عينة مزودة بمخرج سلكي لإشارة المحمول من نوع SMA</td>\n<td>عدد ١ عينة مزودة بمخرج سلكية لإشارة المحمول من نوع N-Type أو SMA.</td>\n<td>عدد ١ عينة نهائية.</td>\n<td>لا تتطلب تقديم عيّنات ما لم يطلب صراحة من جهاز تنظيم الاتصالات.</td>\n</tr>\n<tr>\n<td><b>الملفات المطلوبة</b></td>\n<td colspan=\"4\">\n<p><b>١- نموذج التقدم لاعتماد النوع.</b></p>\n<p>٢- تقارير الاختبارات الخاصة بالموديل الصادرة في الخطوة الأولى.</p>\n<p>٣- شهادة مطابقة المواصفات (VOC) الصادرة بالخطوة الأولى.</p>\n<p>٤- شهادات الأيزو والحاصلة عليها الشركة المصنعة (مالك الماركة) حال التوافق.</p>\n<p>٥- البيانات الفنية للمنتج و نظرية عمله.</p>\n<p>٦- دليل المستخدم باللغة العربية (للمنتجات التي تستهدف عامة الناس كالتليفون المنزلي و التليفون المحمول و الراوتر المنزلي...الخ) و يجب أن يتضمن دليل المستخدم اسم و بيانات الاتصال الخاصة بالجهة القائمة بالترجمة على أن تكون جهة حاصلة على شهادة (ISO 17100) أو جهة معتمدة من أي من الجهات الحكومية بأي من الدول العربية.</p>\n</td>\n</tr>\n</tbody>\n</table>",
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b02_table.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b03",
+      "block_type": "header",
+      "text": "الخطوة الخامسة",
+      "bbox": {
+        "x1": 675,
+        "y1": 1123,
+        "x2": 921,
+        "y2": 1173
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b03_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b04",
+      "block_type": "text",
+      "text": "قبل البدء في استيراد أي شحنة من المنتج المعتمد على الشركة المصنعة التقدم لنفس معمل المجموعة (أ) للقيام بفحص الشحنة و إصدار شهادة مطابقة المواصفات (PVOC) لها و يجب تقديم تلك الشهادة قبل وصول الشحنة للموانئ المصرية إما بتقديم أصلها أو بأن يقوم معمل المجموعة (أ) بإرسال نسخة إلكترونية منها مباشرة بالبريد الإلكتروني إلى الجهاز القومي لتنظيم الاتصالات.",
+      "bbox": {
+        "x1": 143,
+        "y1": 1230,
+        "x2": 1476,
+        "y2": 1414
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b04_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b05",
+      "block_type": "header",
+      "text": "ملاحظات:",
+      "bbox": {
+        "x1": 1339,
+        "y1": 1464,
+        "x2": 1478,
+        "y2": 1508
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b05_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b06",
+      "block_type": "text",
+      "text": "٥-١) خطوة (٥) إلزامية قبل أي شحنة سواء كانت الموديلات بها جديدة أو معتمدة باستثناء الأجهزة التي لا تُعد خاصة الاتصالات فيها خاصية أساسية كما في الأجهزة الطبية فهي معفاة من هذه الخطوة.",
+      "bbox": {
+        "x1": 140,
+        "y1": 1519,
+        "x2": 1473,
+        "y2": 1612
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b06_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b07",
+      "block_type": "text",
+      "text": "٥-٢) بالنسبة للشحنات المراد تصديرها إلى موزع بدولة خارج مصر قبل تصديرها إلى مصر يقوم معمل المجموعة (أ) بإصدار شهادة مطابقة مواصفات الشحنة (PVOC) على مرحتين الأولى تكون فحصا شاملا للشحنة بموقع المصنع الثانية تكون فحصا للشحنة بموقع الموزع بالفيديو المباشر عن بعد.",
+      "bbox": {
+        "x1": 140,
+        "y1": 1660,
+        "x2": 1476,
+        "y2": 1799
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b07_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b08",
+      "block_type": "text",
+      "text": "٥-٢) يجب أن تتضمن علبة المنتج الشاحن أو محول الجهد المتوافق معه.",
+      "bbox": {
+        "x1": 653,
+        "y1": 1844,
+        "x2": 1473,
+        "y2": 1892
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b08_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b09",
+      "block_type": "text",
+      "text": "٥-٤) يجب الالتزام بكتابة البيانات المطلوبة على المنتج المعتمد طبقا لجدول ٦ بصورة واضحة و سهلة الرؤية و صعبة الإزالة مع الالتزام بطريقة الكتابة المذكورة بالجدول.",
+      "bbox": {
+        "x1": 140,
+        "y1": 1937,
+        "x2": 1473,
+        "y2": 2028
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b09_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b10",
+      "block_type": "footer",
+      "text": "ملف (٢) - إصدار ٢٠٢٦",
+      "bbox": {
+        "x1": 140,
+        "y1": 2026,
+        "x2": 423,
+        "y2": 2065
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b10_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b11",
+      "block_type": "footer",
+      "text": "فاكس: ٠٢٢٥٢٤٤١٥٥",
+      "bbox": {
+        "x1": 174,
+        "y1": 2060,
+        "x2": 381,
+        "y2": 2097
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b11_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b12",
+      "block_type": "footer",
+      "text": "ت: ٠٢٢٥٢٤٤٠٠٠",
+      "bbox": {
+        "x1": 544,
+        "y1": 2060,
+        "x2": 722,
+        "y2": 2097
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b12_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b13",
+      "block_type": "footer",
+      "text": "مبنى 84 القرية التكية الكيلو ٢٨ طريق القاهرة الإسكندرية الصحراوي",
+      "bbox": {
+        "x1": 847,
+        "y1": 2060,
+        "x2": 1483,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b13_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b14",
+      "block_type": "footer",
+      "text": "http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 658,
+        "y1": 2099,
+        "x2": 917,
+        "y2": 2138
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b14_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p006_b15",
+      "block_type": "footer",
+      "text": "صفحة ٨/٦",
+      "bbox": {
+        "x1": 140,
+        "y1": 2169,
+        "x2": 254,
+        "y2": 2206
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_006/strict_type_approval_procedures_p006_b15_footer.png"
+    }
+  ]
+}

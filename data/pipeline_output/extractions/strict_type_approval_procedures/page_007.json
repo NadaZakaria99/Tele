@@ -1,0 +1,168 @@
+{
+  "doc_id": "strict_type_approval_procedures",
+  "doc_name": "Strict Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 7,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\strict_type_approval_procedures\\page_007.png",
+  "extraction_timestamp": "2026-05-23T15:35:55.918985+00:00",
+  "blocks": [
+    {
+      "block_id": "strict_type_approval_procedures_p007_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1093,
+        "y1": 52,
+        "x2": 1542,
+        "y2": 221
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_007/strict_type_approval_procedures_p007_b00_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p007_b01",
+      "block_type": "text",
+      "text": "جدول ٦: البيانات المطلوبة على المنتج و أماكن و كيفية كتابتها.",
+      "bbox": {
+        "x1": 913,
+        "y1": 252,
+        "x2": 1473,
+        "y2": 289
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_007/strict_type_approval_procedures_p007_b01_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p007_b02",
+      "block_type": "table",
+      "text": "الاجهزة الاخرى الاجهزة الطرفية الخلووية (المتصلة بشبكة المحمول) البند ١- الماركة ٢- الموديل ٣- علامة ال CE ٤- بلد المنشأ ٥- الرقم المسلسل ٦- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol) ١- الماركة ٢- الموديل ٣- علامة ال CE ٤- بلد المنشأ ٥- أرقام ال IMEI (فقط في حالة إمكانية فتح الغطاء الخلفي) ٦- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol) البيانات المطلوبة * الجهاز الصق أو الطباعة باللزير على الجسم الخارجي للجهاز الغطاء الخلفي قابل للفتح طريقة الكتابة الصق أو الطباعة باللزير على الظهير الداخلي للجهاز الغطاء الخلفي غير قابل للفتح ١- الماركة ٢- الموديل ٣- علامة ال CE ٤- بلد المنشأ ٥- الرقم المسلسل ٦- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol) ١- الماركة ٢- الموديل ٣- علامة ال CE ٤- بلد المنشأ ٥- أرقام ال IMEI ٦- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol) البيانات المطلوبة العلبة الخارجية الصق أو الطباعة باللزير طريقة الكتابة ١- الماركة. ٢- الموديل. ٣- الأرقام المسلسلة للاحجهزة داخل كل كرتونة. ١- الماركة. ٢- الموديل. ٣- أرقام ال IMEI للاحجهزة داخل كل كرتونة. البيانات المطلوبة كراتين الشحن الصق أو الطباعة طريقة الكتابة ١- الماركة ٢- الموديل ٣- علامة ال CE ٤- بلد المنشأ ٥- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol) ١- الماركة ٢- الموديل ٣- علامة ال CE ٤- بلد المنشأ ٥- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol) البيانات المطلوبة البطارية الخارجية و الشحن الصق أو الطباعة باللزير طريقة الكتابة",
+      "bbox": {
+        "x1": 140,
+        "y1": 289,
+        "x2": 1473,
+        "y2": 1862
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\">\n<thead>\n<tr>\n<th colspan=\"2\">الاجهزة الاخرى</th>\n<th>الاجهزة الطرفية الخلووية (المتصلة بشبكة المحمول)</th>\n<th colspan=\"2\">البند</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td colspan=\"2\">\n          ١- الماركة<br/>\n          ٢- الموديل<br/>\n          ٣- علامة ال CE<br/>\n          ٤- بلد المنشأ<br/>\n          ٥- الرقم المسلسل<br/>\n          ٦- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol)\n        </td>\n<td>\n          ١- الماركة<br/>\n          ٢- الموديل<br/>\n          ٣- علامة ال CE<br/>\n          ٤- بلد المنشأ<br/>\n          ٥- أرقام ال IMEI (فقط في حالة إمكانية فتح الغطاء الخلفي)<br/>\n          ٦- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol)\n        </td>\n<td>البيانات المطلوبة</td>\n<td rowspan=\"4\">* الجهاز</td>\n</tr>\n<tr>\n<td colspan=\"2\" rowspan=\"3\">الصق أو الطباعة باللزير على الجسم الخارجي للجهاز</td>\n<td>الغطاء الخلفي قابل للفتح</td>\n<td rowspan=\"3\">طريقة الكتابة</td>\n</tr>\n<tr>\n<td>الصق أو الطباعة باللزير على الظهير الداخلي للجهاز</td>\n</tr>\n<tr>\n<td>الغطاء الخلفي غير قابل للفتح</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n          ١- الماركة<br/>\n          ٢- الموديل<br/>\n          ٣- علامة ال CE<br/>\n          ٤- بلد المنشأ<br/>\n          ٥- الرقم المسلسل<br/>\n          ٦- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol)\n        </td>\n<td>\n          ١- الماركة<br/>\n          ٢- الموديل<br/>\n          ٣- علامة ال CE<br/>\n          ٤- بلد المنشأ<br/>\n          ٥- أرقام ال IMEI<br/>\n          ٦- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol)\n        </td>\n<td>البيانات المطلوبة</td>\n<td rowspan=\"2\">العلبة الخارجية</td>\n</tr>\n<tr>\n<td colspan=\"2\">الصق أو الطباعة باللزير</td>\n<td>طريقة الكتابة</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n          ١- الماركة.<br/>\n          ٢- الموديل.<br/>\n          ٣- الأرقام المسلسلة للاحجهزة داخل كل كرتونة.\n        </td>\n<td>\n          ١- الماركة.<br/>\n          ٢- الموديل.<br/>\n          ٣- أرقام ال IMEI للاحجهزة داخل كل كرتونة.\n        </td>\n<td>البيانات المطلوبة</td>\n<td rowspan=\"2\">كراتين الشحن</td>\n</tr>\n<tr>\n<td colspan=\"2\">الصق أو الطباعة</td>\n<td>طريقة الكتابة</td>\n</tr>\n<tr>\n<td colspan=\"2\">\n          ١- الماركة<br/>\n          ٢- الموديل<br/>\n          ٣- علامة ال CE<br/>\n          ٤- بلد المنشأ<br/>\n          ٥- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol)\n        </td>\n<td>\n          ١- الماركة<br/>\n          ٢- الموديل<br/>\n          ٣- علامة ال CE<br/>\n          ٤- بلد المنشأ<br/>\n          ٥- الرمز الخاص بالتقنيات الكهربائية و الإلكترونية (WEEE Symbol)\n        </td>\n<td>البيانات المطلوبة</td>\n<td rowspan=\"2\">البطارية الخارجية و الشحن</td>\n</tr>\n<tr>\n<td colspan=\"2\">الصق أو الطباعة باللزير</td>\n<td>طريقة الكتابة</td>\n</tr>\n</tbody>\n</table>",
+      "crop_path": "crops/strict_type_approval_procedures/page_007/strict_type_approval_procedures_p007_b02_table.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p007_b03",
+      "block_type": "text",
+      "text": "* في حال فقط كان الجهاز صغير الحجم بحيث لا يمكن كتابة جميع البيانات المطلوبة عليه يُكتفى بكتابة الماركة و الموديل عليه دون الإخلال بالبيانات المطلوبة لباقي ملحقات المنتج.",
+      "bbox": {
+        "x1": 140,
+        "y1": 1860,
+        "x2": 1473,
+        "y2": 1942
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_007/strict_type_approval_procedures_p007_b03_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p007_b04",
+      "block_type": "footer",
+      "text": "ملف (٢) - إصدار ٢٠٢٦ / ٢",
+      "bbox": {
+        "x1": 140,
+        "y1": 2028,
+        "x2": 423,
+        "y2": 2063
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_007/strict_type_approval_procedures_p007_b04_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p007_b05",
+      "block_type": "footer",
+      "text": "فاكس: ٠٢٢٥٣٤٤١٥٥",
+      "bbox": {
+        "x1": 174,
+        "y1": 2063,
+        "x2": 381,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_007/strict_type_approval_procedures_p007_b05_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p007_b06",
+      "block_type": "footer",
+      "text": "ت: ٠٢٢٥٣٤٤٠٠٠",
+      "bbox": {
+        "x1": 542,
+        "y1": 2063,
+        "x2": 719,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_007/strict_type_approval_procedures_p007_b06_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p007_b07",
+      "block_type": "footer",
+      "text": "مبنى B4 القرية الذكية الكيلو ٢٨ طريق القاهرة الإسكندرية الصحراوي",
+      "bbox": {
+        "x1": 847,
+        "y1": 2063,
+        "x2": 1483,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_007/strict_type_approval_procedures_p007_b07_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p007_b08",
+      "block_type": "footer",
+      "text": "http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 656,
+        "y1": 2101,
+        "x2": 917,
+        "y2": 2138
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_007/strict_type_approval_procedures_p007_b08_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p007_b09",
+      "block_type": "footer",
+      "text": "صفحة ٨/٧",
+      "bbox": {
+        "x1": 140,
+        "y1": 2172,
+        "x2": 254,
+        "y2": 2206
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_007/strict_type_approval_procedures_p007_b09_footer.png"
+    }
+  ]
+}

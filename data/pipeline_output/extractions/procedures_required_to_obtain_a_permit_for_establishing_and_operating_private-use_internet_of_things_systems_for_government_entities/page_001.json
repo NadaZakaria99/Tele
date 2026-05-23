@@ -1,0 +1,138 @@
+{
+  "doc_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities",
+  "doc_name": "Procedures Required to Obtain a Permit for Establishing and Operating Private-Use Internet of Things Systems for Government Entities.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 1,
+  "original_size": [
+    1653,
+    2139
+  ],
+  "inference_size": [
+    1081,
+    1399
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities\\page_001.png",
+  "extraction_timestamp": "2026-05-23T15:12:12.882974+00:00",
+  "blocks": [
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة القومية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 560,
+        "y1": 34,
+        "x2": 1058,
+        "y2": 220
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_001/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b00_header.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b01",
+      "block_type": "header",
+      "text": "الإجراءات اللازمة للحصول على تصريح لإنشاء وتشغيل منظومات إنترنت الأشياء للاستخدام الخاص للجهات الحكومية",
+      "bbox": {
+        "x1": 192,
+        "y1": 473,
+        "x2": 1460,
+        "y2": 727
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_001/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b01_header.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b02",
+      "block_type": "text",
+      "text": "في جمهورية مصر العربية",
+      "bbox": {
+        "x1": 592,
+        "y1": 864,
+        "x2": 1038,
+        "y2": 928
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_001/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b02_text.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b03",
+      "block_type": "text",
+      "text": "الصادر عن الجهاز القومي لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 347,
+        "y1": 1688,
+        "x2": 1261,
+        "y2": 1760
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_001/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b03_text.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b04",
+      "block_type": "text",
+      "text": "٢٠٢٣",
+      "bbox": {
+        "x1": 749,
+        "y1": 1792,
+        "x2": 861,
+        "y2": 1835
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_001/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b04_text.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b05",
+      "block_type": "footer",
+      "text": "Tel. (+202) 35344000 Fax (+202) 35344155",
+      "bbox": {
+        "x1": 51,
+        "y1": 1932,
+        "x2": 342,
+        "y2": 2011
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_001/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b05_footer.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b06",
+      "block_type": "footer",
+      "text": "www.tra.gov.eg",
+      "bbox": {
+        "x1": 1256,
+        "y1": 1959,
+        "x2": 1602,
+        "y2": 2015
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_001/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b06_footer.png"
+    },
+    {
+      "block_id": "procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b07",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1541,
+        "y1": 1961,
+        "x2": 1603,
+        "y2": 2017
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities/page_001/procedures_required_to_obtain_a_permit_for_establishing_and_operating_private-use_internet_of_things_systems_for_government_entities_p001_b07_text.png"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "doc_id": "user_rights_regulations",
+  "doc_name": "User Rights Regulations.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 2,
+  "original_size": [
+    2274,
+    1608
+  ],
+  "inference_size": [
+    1400,
+    989
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_rights_regulations\\page_002.png",
+  "extraction_timestamp": "2026-05-23T15:40:55.559823+00:00",
+  "blocks": [
+    {
+      "block_id": "user_rights_regulations_p002_b00",
+      "block_type": "header",
+      "text": "الفهرس",
+      "bbox": {
+        "x1": 1046,
+        "y1": 92,
+        "x2": 1214,
+        "y2": 145
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_002/user_rights_regulations_p002_b00_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p002_b01",
+      "block_type": "text",
+      "text": "١..... تمهيد ٢..... المادة (٢) تعريفات..... ٣..... المادة (٣) نموذج العقد..... ٣..... المادة (٤) التعديلات على نموذج العقد..... ٣..... المادة (٥) التعاقد على الخدمات..... ٣..... المادة (٦) إتاحة الخدمات دون تمييز..... ٤..... المادة (٧) قواعد البيانات..... ٤..... المادة (٨) التعريفة..... ٤..... المادة (٩) جودة الخدمة..... ٥..... المادة (١٠) التعويضات..... ٥..... المادة (١١) أعمال الصيانة والتحديثات المخطط لها..... ٥..... المادة (١٢) الإيقاف المؤقت للخدمة..... ٥..... المادة (١٣) الشفافية..... ٥..... المادة (١٤) خاصة نقل الأرقام..... ٦..... المادة (١٥) خدمات القيمة المضافة..... ٦..... المادة (١٦) التعاقد والإبلاغ لخدمات الإنترنت الثابت..... ٧..... المادة (١٧) المحافظة على سرية وخصوصية البيانات..... ٧..... المادة (١٨) الشكاوى وخدمة العملاء..... ٨..... المادة (١٩) مراكز الإغاثة والطوارئ..... ٨..... المادة (٢٠) الشروط التي يجب توافرها في عقود شركات الاتصالات المرخص لها في جمهورية مصر العربية..... ١٠..... المادة (٢١) عدم الوفاء بالقواعد المائلة.....",
+      "bbox": {
+        "x1": 114,
+        "y1": 244,
+        "x2": 2153,
+        "y2": 1367
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_002/user_rights_regulations_p002_b01_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p002_b02",
+      "block_type": "footer",
+      "text": "القواعد العامة لحماية حقوق مستخدمي خدمات الاتصالات",
+      "bbox": {
+        "x1": 823,
+        "y1": 1513,
+        "x2": 1437,
+        "y2": 1552
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_002/user_rights_regulations_p002_b02_footer.png"
+    }
+  ]
+}

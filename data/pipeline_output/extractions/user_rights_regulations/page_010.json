@@ -1,0 +1,228 @@
+{
+  "doc_id": "user_rights_regulations",
+  "doc_name": "User Rights Regulations.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 10,
+  "original_size": [
+    2274,
+    1608
+  ],
+  "inference_size": [
+    1400,
+    989
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_rights_regulations\\page_010.png",
+  "extraction_timestamp": "2026-05-23T15:50:45.784170+00:00",
+  "blocks": [
+    {
+      "block_id": "user_rights_regulations_p010_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 86,
+        "y1": 43,
+        "x2": 409,
+        "y2": 166
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b00_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b01",
+      "block_type": "text",
+      "text": "والطوارئ، وبالأخص بيانات المتصل (رقمه، موقعه)؛ وإتاحة الاتصال بمرکز الإغاثة والطوارئ للمشاركين من أي مكان يتصلون فيه بشبكات الشركة المرخص لها وفي أي وقت وذلك دون سدادهم لأي مقابل مستخدمين في ذلك أجهزة الاتصالات المتنوعة والمتصلة بشبكات الشركة المرخص لها وبشكل يضمن إرسال واستقبال المكالمات وتحديد موقع المتصل وفقاً للمعايير والمتطلبات الفنية التي يحددها الجهاز على ذات الخط وبدون أي قيود على الاتصالات.",
+      "bbox": {
+        "x1": 84,
+        "y1": 230,
+        "x2": 2181,
+        "y2": 359
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b01_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b02",
+      "block_type": "text",
+      "text": "يقصد بمرکز الإغاثة والطوارئ ما تحدده السلطات المختصة بالبلد من جهات تقديم خدمات الإغاثة والطوارئ وبالأخص الجهات التي تقدم ما يلي: -",
+      "bbox": {
+        "x1": 625,
+        "y1": 381,
+        "x2": 2181,
+        "y2": 423
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b02_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b03",
+      "block_type": "text",
+      "text": "• خدمات المطافي والدفاع المدني. • خدمات الإسعاف. • خدمات شرطة النجدة.",
+      "bbox": {
+        "x1": 1910,
+        "y1": 428,
+        "x2": 2181,
+        "y2": 542
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b03_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b04",
+      "block_type": "text",
+      "text": "المادة (٢٠) الشروط التي يجب توافرها في عقود شركات الاتصالات المرخص لها في جمهورية مصر العربية",
+      "bbox": {
+        "x1": 1235,
+        "y1": 616,
+        "x2": 2176,
+        "y2": 706
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b04_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b05",
+      "block_type": "text",
+      "text": "يتم التعاقد مع المشاركين وفقاً للنموذج الذي يتم إقراره واعتماده من الجهاز القومي لتنظيم الاتصالات قبل إبرامهِ مع المشاركين مرفقاً به بيانات يوضح الشخصية للمشارك والبنود الأساسية للخدمة المقدمة ويجب أن تتضمن هذا العقد على الأخص الشروط الآتية:",
+      "bbox": {
+        "x1": 84,
+        "y1": 745,
+        "x2": 2181,
+        "y2": 827
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b05_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b06",
+      "block_type": "text",
+      "text": "تقسيم الشروط والاحكام في العقد المبرم بين الشركة والمشارك إلى ثلاثة أقسام:",
+      "bbox": {
+        "x1": 1260,
+        "y1": 859,
+        "x2": 2181,
+        "y2": 902
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b06_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b07",
+      "block_type": "text",
+      "text": "• بنود عامة. • التزامات المشارك. • التزامات الشركة.",
+      "bbox": {
+        "x1": 1922,
+        "y1": 921,
+        "x2": 2160,
+        "y2": 1044
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b07_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b08",
+      "block_type": "text",
+      "text": "تحديد نوع الخدمة أو الخدمات المتعاقد عليها وسعرها ومواصفات تقديمها، وطرق وشروط السداد الحالية المعتمدة من الجهاز منظمة المصاريف الإدارية والضرائب وأية أعباء أخرى.",
+      "bbox": {
+        "x1": 209,
+        "y1": 1055,
+        "x2": 2181,
+        "y2": 1098
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b08_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b09",
+      "block_type": "text",
+      "text": "التزام الشركات المرخص لها بالحفاظ على سرية المعلومات والبيانات الخاصة بالمشاركين واتصالاتهم وفقاً لأحكام القانون. وتعفى الشركة من هذا الالتزام إذا جاء هذا الإفشاء تنفيذاً للقانون أو بناء على طلب الجهات القضائية أو بموافقة العميل بتوقيع كتابي منفصل، وذلك وفقاً لأحكام القانون والارشيص الصادر من الجهاز إلى الشركة المرخص لها.",
+      "bbox": {
+        "x1": 84,
+        "y1": 1121,
+        "x2": 2181,
+        "y2": 1208
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b09_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b10",
+      "block_type": "text",
+      "text": "مدة التعاقد والمدد التي يحدد لها مع توضح طريقة عدم التجديد والتزامات الطرفين.",
+      "bbox": {
+        "x1": 1235,
+        "y1": 1232,
+        "x2": 2181,
+        "y2": 1275
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b10_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b11",
+      "block_type": "text",
+      "text": "حقوق والتزامات المشارك والشركات المرخص لها في حالة الإخلال بالعقد المبرم بينهما أو في حالة إنهاء العقد قبل نهايته مدته ووفاء الطرف المخل بكافة الجزاءات المالية والتعويضات.",
+      "bbox": {
+        "x1": 84,
+        "y1": 1298,
+        "x2": 2181,
+        "y2": 1380
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b11_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b12",
+      "block_type": "footer",
+      "text": "٨",
+      "bbox": {
+        "x1": 61,
+        "y1": 1503,
+        "x2": 100,
+        "y2": 1549
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b12_footer.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p010_b13",
+      "block_type": "footer",
+      "text": "القواعد العامة لحماية حقوق مستخدمي خدمات الاتصالات",
+      "bbox": {
+        "x1": 796,
+        "y1": 1524,
+        "x2": 1408,
+        "y2": 1563
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_010/user_rights_regulations_p010_b13_footer.png"
+    }
+  ]
+}

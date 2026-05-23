@@ -1,0 +1,198 @@
+{
+  "doc_id": "simplified_type_approval_procedures",
+  "doc_name": "Simplified Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 1,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\simplified_type_approval_procedures\\page_001.png",
+  "extraction_timestamp": "2026-05-23T15:15:44.360219+00:00",
+  "blocks": [
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة العامة للتطبيقات",
+      "bbox": {
+        "x1": 1143,
+        "y1": 66,
+        "x2": 1468,
+        "y2": 189
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b00_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b01",
+      "block_type": "header",
+      "text": "الإجراءات المبسطة",
+      "bbox": {
+        "x1": 651,
+        "y1": 198,
+        "x2": 946,
+        "y2": 255
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b01_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b02",
+      "block_type": "header",
+      "text": "اعتماد النوع لأجهزة الاتصالات",
+      "bbox": {
+        "x1": 539,
+        "y1": 284,
+        "x2": 1045,
+        "y2": 346
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b02_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b03",
+      "block_type": "header",
+      "text": "الخطوة الأولى",
+      "bbox": {
+        "x1": 701,
+        "y1": 416,
+        "x2": 899,
+        "y2": 471
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b03_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b04",
+      "block_type": "text",
+      "text": "تقوم الشركة المتقدمة بتقديم الملفات الموضحة في جدول ١ الموديل المراد اعتماده من خلال البوابة الرقمية لخدمات اعتماد النوع .",
+      "bbox": {
+        "x1": 138,
+        "y1": 521,
+        "x2": 1475,
+        "y2": 609
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b04_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b05",
+      "block_type": "header",
+      "text": "الخطوة الثانية",
+      "bbox": {
+        "x1": 701,
+        "y1": 700,
+        "x2": 896,
+        "y2": 755
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b05_header.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b06",
+      "block_type": "text",
+      "text": "تقوم الشركة المتقدمة بتقديم عينات الاختبار المطلوبة طبقا لجدول ١ .",
+      "bbox": {
+        "x1": 704,
+        "y1": 803,
+        "x2": 1468,
+        "y2": 853
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b06_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b07",
+      "block_type": "text",
+      "text": "جدول ١: الملفات و العينات المطلوبة لاعتماد النوع لكل موديل.",
+      "bbox": {
+        "x1": 870,
+        "y1": 866,
+        "x2": 1473,
+        "y2": 907
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b07_text.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b08",
+      "block_type": "table",
+      "text": "نوع الجهاز تليفون محمول / تابلت محمول جهاز تقوية شبكة المحمول (Cellular Repeater) تليفون لاسلكي بنظام ال DECT أجهزة أخرى العينات المطلوبة عدد ١ عينة نهائية + عدد ١ عينة مزودة بمخرج سلكي لإشارة المحمول من نوع WWAN (SMA) (Conducted sample) عدد ١ عينة مزودة بمخرج سلكي لإشارة المحمول من نوع N-Type أو SMA . عدد ١ عينة نهائية. لا تتطلب تقديم عينات ما لم يطلب صراحة من الجهاز القومي لتنظيم الاتصالات. ال ملفات المطلوبة (١) نموذج التقدم لاعتماد النوع . (٢) البيانات الفنية للمنتج و نظرية عمله. (٣) شهادات الأيزو والحاصلة عليها الشركة المصنعة (مالكة الماركة) حال توافرها. (٤) شهادة الفحص النوعي للاتحاد الأوروبي (EU Type Examination Certificate) حال توفرها. (٥) شهادة مطابقة المواصفات من الشركة المصنعة (مالكة الماركة) (Declaration of Conformity). (٦) تقارير الاختبارات الكاملة للتوافق مع المواصفات الأوروبية (CE) أو المواصفات الأمريكية (FCC, UL) أو المواصفات الدولية (IEC) و ذلك على أن تكون التقارير صادرة من معامل ضمن المعامل المعتمدة للإجراءات المبسطة المذكورة في جدول ٢ . (٧) صور داخلية و خارجية للمنتج. (٨) صور للبيانات الملصقة على المنتج. (٩) دليل المستخدم باللغة العربية (المنتجات التي تستهدف عامة الناس كالتليفون المنزلي و التليفون المحمول و الراوتر المنزلي...الخ).",
+      "bbox": {
+        "x1": 138,
+        "y1": 901,
+        "x2": 1457,
+        "y2": 1890
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\">\n<thead>\n<tr>\n<th>نوع الجهاز</th>\n<th>تليفون محمول / تابلت محمول</th>\n<th>جهاز تقوية شبكة المحمول (Cellular Repeater)</th>\n<th>تليفون لاسلكي بنظام ال DECT</th>\n<th>أجهزة أخرى</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>العينات المطلوبة</td>\n<td>عدد ١ عينة نهائية + عدد ١ عينة مزودة بمخرج سلكي لإشارة المحمول من نوع <u>WWAN (SMA)</u> (Conducted sample)</td>\n<td>عدد ١ عينة مزودة بمخرج سلكي لإشارة المحمول من نوع <u>N-Type</u> أو <u>SMA</u>.</td>\n<td>عدد ١ عينة نهائية.</td>\n<td>لا تتطلب تقديم عينات ما لم يطلب صراحة من الجهاز القومي لتنظيم الاتصالات.</td>\n</tr>\n<tr>\n<td>ال ملفات المطلوبة</td>\n<td colspan=\"4\">\n<p>(١) <u>نموذج التقدم لاعتماد النوع</u>.</p>\n<p>(٢) البيانات الفنية للمنتج و نظرية عمله.</p>\n<p>(٣) شهادات الأيزو والحاصلة عليها الشركة المصنعة (مالكة الماركة) حال توافرها.</p>\n<p>(٤) شهادة الفحص النوعي للاتحاد الأوروبي (EU Type Examination Certificate) حال توفرها.</p>\n<p>(٥) شهادة مطابقة المواصفات من الشركة المصنعة (مالكة الماركة) (Declaration of Conformity).</p>\n<p>(٦) تقارير الاختبارات الكاملة للتوافق مع المواصفات الأوروبية (CE) أو المواصفات الأمريكية (FCC, UL) أو المواصفات الدولية (IEC) و ذلك على أن تكون التقارير صادرة من معامل ضمن المعامل المعتمدة للإجراءات المبسطة المذكورة في <u>جدول ٢</u>.</p>\n<p>(٧) صور داخلية و خارجية للمنتج.</p>\n<p>(٨) صور للبيانات الملصقة على المنتج.</p>\n<p>(٩) دليل المستخدم باللغة العربية (المنتجات التي تستهدف عامة الناس كالتليفون المنزلي و التليفون المحمول و الراوتر المنزلي...الخ).</p>\n</td>\n</tr>\n</tbody>\n</table>",
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b08_table.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b09",
+      "block_type": "footer",
+      "text": "ملف (١) - إصدار ٢٠٢٦ / ١",
+      "bbox": {
+        "x1": 138,
+        "y1": 2047,
+        "x2": 392,
+        "y2": 2085
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b09_footer.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b10",
+      "block_type": "footer",
+      "text": "مبنى B4 القرية الذكية الكيلو ٢٨ طريق القاهرة الإسكندرية الصحراوي ت: ٢٣٥٣٤٤٠٠٠٠ فاكس: ٢٣٥٣٤٤١٥٥ http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 957,
+        "y1": 2099,
+        "x2": 1526,
+        "y2": 2197
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b10_footer.png"
+    },
+    {
+      "block_id": "simplified_type_approval_procedures_p001_b11",
+      "block_type": "footer",
+      "text": "صفحة ٢/١١",
+      "bbox": {
+        "x1": 66,
+        "y1": 2194,
+        "x2": 170,
+        "y2": 2229
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/simplified_type_approval_procedures/page_001/simplified_type_approval_procedures_p001_b11_footer.png"
+    }
+  ]
+}

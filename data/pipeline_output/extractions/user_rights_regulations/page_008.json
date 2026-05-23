@@ -1,0 +1,183 @@
+{
+  "doc_id": "user_rights_regulations",
+  "doc_name": "User Rights Regulations.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 8,
+  "original_size": [
+    2274,
+    1608
+  ],
+  "inference_size": [
+    1400,
+    989
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_rights_regulations\\page_008.png",
+  "extraction_timestamp": "2026-05-23T15:47:40.874358+00:00",
+  "blocks": [
+    {
+      "block_id": "user_rights_regulations_p008_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecommunication Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 86,
+        "y1": 43,
+        "x2": 409,
+        "y2": 166
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b00_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p008_b01",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1592,
+        "y1": 251,
+        "x2": 1667,
+        "y2": 336
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b01_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p008_b02",
+      "block_type": "header",
+      "text": "المادة (١٥) خدمات القيمة المضافة",
+      "bbox": {
+        "x1": 1694,
+        "y1": 281,
+        "x2": 2176,
+        "y2": 323
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b02_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p008_b03",
+      "block_type": "text",
+      "text": "تلتزم الشركات المرخص لها بما يلي:",
+      "bbox": {
+        "x1": 1787,
+        "y1": 349,
+        "x2": 2178,
+        "y2": 389
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b03_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p008_b04",
+      "block_type": "text",
+      "text": "١- عدم اشراك العميل في أي خدمة بدون موافقته المسبقة حتى إذا كانت الخدمة مجانية ٢- رسالة الإعلان عن الخدمة يجب أن تشمل توضيح الخدمة، سعر الخدمة، طريقة المحاسبة (سواء يومية أو أسبوعية أو شهرية)، وكيفية الاشتراك ٣- توفير ونشر أكواد مجانية لإلغاء الاشتراك في جميع خدمات القيمة المضافة. ٤- إرسال رسالة نصية قصيرة مجانية للمستخدم أسبوعياً في كل مرة قبل تجديد الاشتراك لتذكيره بتفاصيل الاشتراك وكيفية إلغاء الخدمة. ٥- إرسال رسالة نصية قصيرة مجانية لكل خصم يتم من رصيد المستخدم مصاحب معه كود إلغاء الخدمة ٦- عدم التظليل بأي شكل من الأشكال في الخدمات المعلن عنها مع وضوح وشفافية الرسالة الإعلانية ٧- اتخاذ كافة الإجراءات والخطوات المؤسسية والفعلية اللازمة لحماية وسرية المعلومات والبيانات الخاصة بالمستخدمين. ٨- أن تتضمن الرسالة النصية القصيرة للإعلان عن الخدمات أو المنتجات اسم الفرسل أو الجهة. ٩- عدم إرسال رسائل نصية قصيرة دعائية أو تسويقية للمستخدمين بعد الساعة الـ ٩ مساء وحتى الساعة الـ ٩ صباحا ١٠- إيقاف أي رسائل دعائية أو تسويقية فرسلة من الشركة لا يرغب المستخدم في استلامها.",
+      "bbox": {
+        "x1": 730,
+        "y1": 404,
+        "x2": 2178,
+        "y2": 1032
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b04_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p008_b05",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 1385,
+        "y1": 1039,
+        "x2": 1487,
+        "y2": 1140
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b05_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p008_b06",
+      "block_type": "header",
+      "text": "المادة (١٦) التعاقد والإلغاء لخدمات الإنترنت الثابت",
+      "bbox": {
+        "x1": 1503,
+        "y1": 1085,
+        "x2": 2169,
+        "y2": 1127
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b06_header.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p008_b07",
+      "block_type": "text",
+      "text": "تلتزم الشركات المرخص لها بتقديم خدمة الإنترنت الثابت بما يلي:",
+      "bbox": {
+        "x1": 1487,
+        "y1": 1174,
+        "x2": 2174,
+        "y2": 1216
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b07_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p008_b08",
+      "block_type": "text",
+      "text": "١- عدم حجز خط للعميل إلا بعد موافقة العميل كتابياً من خلال توقيعها على استمارة حجز الخط، والتي تتضمن تحقيق الشخصية العميل ورقمه القومي ورقم الخط واسم الساترال والشركة الراغب في حجز الخط معها. ٢- توثيق الخدمة للعميل خلال ٤٨ ساعة، لا تشمل العطلات الرسمية، من تاريخ استيفاء العميل لاجراءات التعاقد.",
+      "bbox": {
+        "x1": 86,
+        "y1": 1238,
+        "x2": 2178,
+        "y2": 1389
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b08_text.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p008_b09",
+      "block_type": "footer",
+      "text": "١",
+      "bbox": {
+        "x1": 61,
+        "y1": 1500,
+        "x2": 107,
+        "y2": 1549
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b09_footer.png"
+    },
+    {
+      "block_id": "user_rights_regulations_p008_b10",
+      "block_type": "footer",
+      "text": "القواعد العامة لحماية حقوق مستخدمي خدمات الاتصالات",
+      "bbox": {
+        "x1": 796,
+        "y1": 1523,
+        "x2": 1408,
+        "y2": 1563
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_rights_regulations/page_008/user_rights_regulations_p008_b10_footer.png"
+    }
+  ]
+}

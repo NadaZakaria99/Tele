@@ -1,0 +1,183 @@
+{
+  "doc_id": "strict_type_approval_procedures",
+  "doc_name": "Strict Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 3,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\strict_type_approval_procedures\\page_003.png",
+  "extraction_timestamp": "2026-05-23T15:27:26.645278+00:00",
+  "blocks": [
+    {
+      "block_id": "strict_type_approval_procedures_p003_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الجهاز القومي لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1093,
+        "y1": 52,
+        "x2": 1542,
+        "y2": 221
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b00_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p003_b01",
+      "block_type": "table",
+      "text": "Name: Mr. Xue Zhen Tel: +86-10-62304633-2683 Cell: +86-13911820511 Fax: +86-10-62304633-2504 Email: xuezhen@catr.cn Beijing HQ: No 52, Huayuan Bei Road, Haidian District, Beijing, P.R.China 100191 China Telecommunication Technology Labs (CTTL) ٤ 1) Name: Mr. Shen Haotao Mobile: +86 136 0263 1527 Email: lipeng@caict.ac.cn 2) Name: Mr. Li Peng Tel: +86-0755-33322000 Mobile: +86 135 5486 5211 Email: lipeng@caict.ac.cn Shenzhen Branch(SAICT): Building G,Shenzhen International Innovation Center, No.1006 Shennan Road, Futian District, Shenzhen, China",
+      "bbox": {
+        "x1": 140,
+        "y1": 250,
+        "x2": 1462,
+        "y2": 750
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\">\n<tr>\n<td>\n<b>Name:</b> Mr. Xue Zhen<br/>\n<b>Tel:</b> +86-10-62304633-2683<br/>\n<b>Cell:</b> +86-13911820511<br/>\n<b>Fax:</b> +86-10-62304633-2504<br/>\n<b>Email:</b> xuezhen@catr.cn\n            </td>\n<td>\n<b>Beijing HQ:</b><br/>\n                No 52, Huayuan Bei Road, Haidian District, Beijing, P.R.China 100191\n            </td>\n<td rowspan=\"2\">\n                China Telecommunication Technology Labs (CTTL)\n            </td>\n<td rowspan=\"2\">٤</td>\n</tr>\n<tr>\n<td>\n<b>1) Name:</b> Mr. Shen Haotao<br/>\n<b>Mobile:</b> +86 136 0263 1527<br/>\n<b>Email:</b> lipeng@caict.ac.cn<br/><br/>\n<b>2) Name:</b> Mr. Li Peng<br/>\n<b>Tel:</b> +86-0755-33322000<br/>\n<b>Mobile:</b> +86 135 5486 5211<br/>\n<b>Email:</b> lipeng@caict.ac.cn\n            </td>\n<td>\n<b>Shenzhen Branch(SAICT):</b><br/>\n                Building G,Shenzhen International Innovation Center, No.1006 Shennan Road, Futian District, Shenzhen, China\n            </td>\n</tr>\n</table>",
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b01_table.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p003_b02",
+      "block_type": "text",
+      "text": "جدول ٣: المعامل المعتمدة من المجموعة (أ) بدولة الهند",
+      "bbox": {
+        "x1": 920,
+        "y1": 787,
+        "x2": 1473,
+        "y2": 828
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b02_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p003_b03",
+      "block_type": "table",
+      "text": "بيانات الاتصال العنوان المعمل م Name: Mr. Manas Das [Head - Quality, Accreditation and Inspection] Tel: +91-11-41595580 +91-22-42450223/0 Cell: +91-9820213510 Email: manas.das@intertek.com Mumbai Lab: F th Wing, Tex Centre, Chandivali Farm Road, Andheri (East), Mumbai – 400072, India Intertek India Private Limited ١ New Delhi Lab: E-20 & E-26, Block B1, Mohan Cooperative Industrial Area, Mathura Road, New Delhi -110044, India Name: C.Gnanaprakasam [Technical Manager] Cell: :+91 9884093409 Tel: +91-80-40213911 Fax: 91-80- 40213915 Email: gnanaprakasam.c@intertek.com Bangalore Lab: 17/F, II stage, Industrial Suburb, Yeshwanthpur Indl. Area, Bangalore - 560022,INDIA TÜV Rheinland India Pvt. Ltd. ٢ Name: Guruprasad BR Phone Number: +91 9620288803 Land Line: +91 80 46498000 Email: guruprasad.br@ind.tuv.com Ground & First Floor, 27/B, 2nd Cross Road, Electronic City Phase 1, Bengaluru, Karnataka, India Name: Mr. K.ANANDAN Tel: +91 80-33034800 Cell: +91-9940091418 Fax: +91 80 67458058 Email: k.anandan@tuv-sud.in 2 nd Floor, Kushal Garden Arcade, 1A, 2 nd Phase, Peenya Industrial Area, Bangalore-560058, India TÜV-SUD South Asia Pvt. Ltd. ٣",
+      "bbox": {
+        "x1": 140,
+        "y1": 825,
+        "x2": 1462,
+        "y2": 1928
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\">\n<thead>\n<tr>\n<th>بيانات الاتصال</th>\n<th>العنوان</th>\n<th>المعمل</th>\n<th>م</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td rowspan=\"2\">\n<b>Name:</b> Mr. Manas Das [Head - Quality, Accreditation and Inspection]<br/>\n<b>Tel:</b> +91-11-41595580<br/>\n                    +91-22-42450223/0<br/>\n<b>Cell:</b> +91-9820213510<br/>\n<b>Email:</b> manas.das@intertek.com\n                </td>\n<td>\n<b>Mumbai Lab:</b><br/>\n                    F<sup>th</sup> Wing, Tex Centre, Chandivali Farm Road, Andheri (East), Mumbai – 400072, India\n                </td>\n<td rowspan=\"2\">\n                    Intertek India Private Limited\n                </td>\n<td rowspan=\"2\">١</td>\n</tr>\n<tr>\n<td>\n<b>New Delhi Lab:</b><br/>\n                    E-20 &amp; E-26, Block B1, Mohan Cooperative Industrial Area, Mathura Road, New Delhi -110044, India\n                </td>\n</tr>\n<tr>\n<td>\n<b>Name:</b> C.Gnanaprakasam [Technical Manager]<br/>\n<b>Cell:</b> :+91 9884093409<br/>\n<b>Tel:</b>+91-80-40213911<br/>\n<b>Fax:</b> 91-80- 40213915<br/>\n<b>Email:</b>gnanaprakasam.c@intertek.com\n                </td>\n<td>\n<b>Bangalore Lab:</b><br/>\n                    17/F, II stage, Industrial Suburb, Yeshwanthpur Indl. Area, Bangalore - 560022,INDIA\n                </td>\n<td rowspan=\"3\">\n                    TÜV Rheinland India Pvt. Ltd.\n                </td>\n<td rowspan=\"3\">٢</td>\n</tr>\n<tr>\n<td>\n<b>Name:</b> Guruprasad BR<br/>\n<b>Phone Number:</b> +91 9620288803<br/>\n<b>Land Line:</b> +91 80 46498000<br/>\n<b>Email:</b> guruprasad.br@ind.tuv.com\n                </td>\n<td>\n                    Ground &amp; First Floor, 27/B, 2nd Cross Road, Electronic City Phase 1, Bengaluru, Karnataka, India\n                </td>\n</tr>\n<tr>\n<td>\n<b>Name:</b> Mr. K.ANANDAN<br/>\n<b>Tel:</b> +91 80-33034800<br/>\n<b>Cell:</b> +91-9940091418<br/>\n<b>Fax:</b> +91 80 67458058<br/>\n<b>Email:</b> k.anandan@tuv-sud.in\n                </td>\n<td>\n                    2<sup>nd</sup> Floor, Kushal Garden Arcade, 1A, 2<sup>nd</sup> Phase, Peenya Industrial Area, Bangalore-560058, India\n                </td>\n<td>\n                    TÜV-SUD South Asia Pvt. Ltd.\n                </td>\n<td>٣</td>\n</tr>\n</tbody>\n</table>",
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b03_table.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p003_b04",
+      "block_type": "text",
+      "text": "جدول ٤: الأسعار الموحدة لاختبارات المواصفات الأوروبية بمعامل المجموعة (أ) بالحصين لأجهزة الاتصالات ذات الماركات المصرية",
+      "bbox": {
+        "x1": 193,
+        "y1": 1978,
+        "x2": 1473,
+        "y2": 2022
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b04_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p003_b05",
+      "block_type": "text",
+      "text": "ملف (٢) - إصدار ٢٠٢٦",
+      "bbox": {
+        "x1": 140,
+        "y1": 2028,
+        "x2": 423,
+        "y2": 2067
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b05_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p003_b06",
+      "block_type": "text",
+      "text": "فاكس: ٠٢٢٥٢٤٤١٥٠",
+      "bbox": {
+        "x1": 174,
+        "y1": 2063,
+        "x2": 381,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b06_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p003_b07",
+      "block_type": "text",
+      "text": "ت: ٠٢٢٥٢٤٤٠٠٠",
+      "bbox": {
+        "x1": 542,
+        "y1": 2063,
+        "x2": 722,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b07_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p003_b08",
+      "block_type": "text",
+      "text": "مبنى ٨4 القرية التقنية الكبير ٢٨ طريق القاهرة الإلكترونية الصحراوي",
+      "bbox": {
+        "x1": 847,
+        "y1": 2063,
+        "x2": 1483,
+        "y2": 2101
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b08_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p003_b09",
+      "block_type": "text",
+      "text": "http://www.tra.gov.eg",
+      "bbox": {
+        "x1": 656,
+        "y1": 2101,
+        "x2": 917,
+        "y2": 2140
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b09_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p003_b10",
+      "block_type": "footer",
+      "text": "صفحة ٨/٣",
+      "bbox": {
+        "x1": 140,
+        "y1": 2172,
+        "x2": 254,
+        "y2": 2206
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_003/strict_type_approval_procedures_p003_b10_footer.png"
+    }
+  ]
+}

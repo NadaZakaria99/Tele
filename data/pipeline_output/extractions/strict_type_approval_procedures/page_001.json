@@ -1,0 +1,288 @@
+{
+  "doc_id": "strict_type_approval_procedures",
+  "doc_name": "Strict Type Approval Procedures.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 1,
+  "original_size": [
+    1608,
+    2274
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\strict_type_approval_procedures\\page_001.png",
+  "extraction_timestamp": "2026-05-23T15:22:44.191005+00:00",
+  "blocks": [
+    {
+      "block_id": "strict_type_approval_procedures_p001_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 1093,
+        "y1": 55,
+        "x2": 1544,
+        "y2": 221
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b00_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b01",
+      "block_type": "header",
+      "text": "الإجراءات المحكمة لاعتماد النوع",
+      "bbox": {
+        "x1": 537,
+        "y1": 287,
+        "x2": 1060,
+        "y2": 341
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b01_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b02",
+      "block_type": "text",
+      "text": "على الشركة المتقدمة اتباع الخطوات التالية لاعتماد نوع المنتج الذي تسري عليه الإجراءات المحكمة:",
+      "bbox": {
+        "x1": 428,
+        "y1": 393,
+        "x2": 1473,
+        "y2": 432
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b02_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b03",
+      "block_type": "header",
+      "text": "الخطوة الأولى",
+      "bbox": {
+        "x1": 690,
+        "y1": 471,
+        "x2": 907,
+        "y2": 523
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b03_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b04",
+      "block_type": "text",
+      "text": "تتقدم الشركة المتقدمة لدى معمل من ضمن المعامل المعتمدة للإجراءات المحكمة بالمجموعة (أ) و المشار إليها في جدول ١ يقوم بإصدار شهادة مطابقة المواصفات ( Verification of Compliance (VoC) ) للمنتج بعد التأكد من اجتياز المنتج الاختبارات الفنية للتوافق مع المواصفات الأوروبية المعتمدة (CE Harmonized Standards).",
+      "bbox": {
+        "x1": 138,
+        "y1": 568,
+        "x2": 1476,
+        "y2": 712
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b04_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b05",
+      "block_type": "header",
+      "text": "ملاحظات:",
+      "bbox": {
+        "x1": 1341,
+        "y1": 735,
+        "x2": 1478,
+        "y2": 778
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b05_header.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b06",
+      "block_type": "text",
+      "text": "(١-١) الاختبارات الفنية لتوافق المنتج مع المواصفات الأوروبية المعتمدة (CE Standards) يُقبل إجراؤها و إصدار تقاريرها بالأساس من معامل المجموعة (أ) فقط لكن في حالة كون المنتج مختبراً من قبل بمعمل ضمن المجموعة (ب) المشار إليها في جدول ١ تتقدم الشركة بتقرير الاختبار الصادرة إلى معمل بالمجموعة (أ) لمراجعتها بالتنسيق مع الجهاز القومي لتنظيم الاتصالات لتحديد عما إن كانت مقبولة أم لا.",
+      "bbox": {
+        "x1": 138,
+        "y1": 780,
+        "x2": 1473,
+        "y2": 964
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b06_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b07",
+      "block_type": "text",
+      "text": "(٢-١) يحق لمعامل المجموعة (أ) طلب عينات من المنتج لإجراء الاختبارات الفنية اللازمة لإصدار شهادة مطابقة المواصفات ( Verification of Compliance (VoC) ) والاحتفاظ بهذه العينات لمدة عام للرجوع لها عند الحاجة.",
+      "bbox": {
+        "x1": 138,
+        "y1": 1001,
+        "x2": 1473,
+        "y2": 1094
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b07_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b08",
+      "block_type": "text",
+      "text": "(٣-١) بالنسبة للأجهزة التي لا تعد خاصة الاتصالات فيها خاصية أساسية كما في الأجهزة الطبية يُكتفى بإصدار شهادة مطابقة المواصفات (VoC) لمكون الاتصالات (Communication Module) الموجود به على فرض أن هذا المكون تسري عليه الإجراءات المحكمة و إلا فيتم اعتماد نوع مكون الاتصالات طبقاً للإجراءات المطبقة عليه.",
+      "bbox": {
+        "x1": 138,
+        "y1": 1137,
+        "x2": 1473,
+        "y2": 1273
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b08_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b09",
+      "block_type": "text",
+      "text": "(٤-١) لدى الجهاز القومي لتنظيم الاتصالات اتفاقيات ثنائية مع معامل المجموعة (أ) بالحصين المذكورة في جدول ٤ تحدد أسعاراً موحدة لاختبارات المواصفات الأوروبية (CE) لأجهزة الاتصالات ذات الماركات المصرية و يسرد جدول ٤ قائمة بذلك الأسعار.",
+      "bbox": {
+        "x1": 138,
+        "y1": 1321,
+        "x2": 1473,
+        "y2": 1458
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b09_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b10",
+      "block_type": "text",
+      "text": "جدول ١: المعامل المعتمدة للإجراءات المحكمة",
+      "bbox": {
+        "x1": 992,
+        "y1": 1510,
+        "x2": 1494,
+        "y2": 1551
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b10_text.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b11",
+      "block_type": "table",
+      "text": "الدولة المجموعة (أ) المجموعة (ب) الصين المعامل المذكورة في جدول ٢ لا يوجد حالياً الهند المعامل المذكورة في جدول ٣ كل المعامل الحاصلة على شهادة الأيزو ١٧٠٢٥ من أي من جهات الاعتماد الدولية المسجلة بمنظمة ILAC في نطاق الاختبارات المطبقة. باقي دول العالم لا يوجد حالياً",
+      "bbox": {
+        "x1": 138,
+        "y1": 1551,
+        "x2": 1466,
+        "y2": 1821
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": "<table border=\"1\" style=\"width: 100%; border-collapse: collapse;\">\n<thead>\n<tr>\n<th style=\"text-align: center;\">الدولة</th>\n<th style=\"text-align: center;\">المجموعة (أ)</th>\n<th style=\"text-align: center;\">المجموعة (ب)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center;\">الصين</td>\n<td style=\"text-align: center;\">المعامل المذكورة في <u>جدول ٢</u></td>\n<td style=\"text-align: center;\">لا يوجد حالياً</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">الهند</td>\n<td style=\"text-align: center;\">المعامل المذكورة في <u>جدول ٣</u></td>\n<td style=\"text-align: center;\">كل المعامل الحاصلة على شهادة الأيزو ١٧٠٢٥ من أي من جهات الاعتماد الدولية المسجلة بمنظمة ILAC في نطاق الاختبارات المطبقة.</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">باقي دول العالم</td>\n<td style=\"text-align: center;\">لا يوجد حالياً</td>\n<td style=\"text-align: center;\"></td>\n</tr>\n</tbody>\n</table>",
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b11_table.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b12",
+      "block_type": "footer",
+      "text": "ملف (٢) - إصدار ٢٠٢٦",
+      "bbox": {
+        "x1": 138,
+        "y1": 2026,
+        "x2": 423,
+        "y2": 2065
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b12_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b13",
+      "block_type": "footer",
+      "text": "فاكس: ٠٢٢٥٢٤٤١٥٥",
+      "bbox": {
+        "x1": 174,
+        "y1": 2060,
+        "x2": 381,
+        "y2": 2097
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b13_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b14",
+      "block_type": "footer",
+      "text": "ت: ٠٢٢٥٢٤٤٠٠٠",
+      "bbox": {
+        "x1": 542,
+        "y1": 2060,
+        "x2": 722,
+        "y2": 2097
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b14_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b15",
+      "block_type": "footer",
+      "text": "مبنى B4 القرية الذكية الكيلو ٢٨ طريق القاهرة الإسكندرية الصحراوي",
+      "bbox": {
+        "x1": 847,
+        "y1": 2060,
+        "x2": 1484,
+        "y2": 2099
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b15_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b16",
+      "block_type": "footer",
+      "text": "http://www.trs.gov.eg",
+      "bbox": {
+        "x1": 656,
+        "y1": 2101,
+        "x2": 917,
+        "y2": 2138
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b16_footer.png"
+    },
+    {
+      "block_id": "strict_type_approval_procedures_p001_b17",
+      "block_type": "footer",
+      "text": "صفحة ٨/١",
+      "bbox": {
+        "x1": 138,
+        "y1": 2172,
+        "x2": 254,
+        "y2": 2208
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/strict_type_approval_procedures/page_001/strict_type_approval_procedures_p001_b17_footer.png"
+    }
+  ]
+}

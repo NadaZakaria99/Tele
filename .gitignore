@@ -1,10 +1,7 @@
 # .gitignore for my_work_new/
 
 # ── Data (large files, runtime artifacts) ─────────────────────────────────────
-data/docs_images/
-data/pipeline_output/
 data/legacy/
-data/docs/
 docs_images/
 pipeline_output/
 *.db

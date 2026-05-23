@@ -1,0 +1,78 @@
+{
+  "doc_id": "user_awareness_guide_for_international_mobile_roaming_service",
+  "doc_name": "User Awareness Guide for International Mobile Roaming Service.pdf",
+  "doc_type": "Legal Circular",
+  "page_num": 2,
+  "original_size": [
+    1608,
+    2275
+  ],
+  "inference_size": [
+    989,
+    1400
+  ],
+  "page_image_path": "C:\\Users\\n.zakaria\\Downloads\\nbe-knowledge-assistant-modified\\nbe-modified\\data\\docs_images\\user_awareness_guide_for_international_mobile_roaming_service\\page_002.png",
+  "extraction_timestamp": "2026-05-23T15:39:34.363088+00:00",
+  "blocks": [
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p002_b00",
+      "block_type": "header",
+      "text": "NTRA National Telecom Regulatory Authority الهيئة الوطنية لتنظيم الاتصالات",
+      "bbox": {
+        "x1": 133,
+        "y1": 89,
+        "x2": 508,
+        "y2": 232
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_002/user_awareness_guide_for_international_mobile_roaming_service_p002_b00_header.png"
+    },
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p002_b01",
+      "block_type": "header",
+      "text": "حقوقك أثناء استخدام خدمات التجهيزات الدولية",
+      "bbox": {
+        "x1": 680,
+        "y1": 344,
+        "x2": 1476,
+        "y2": 410
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_002/user_awareness_guide_for_international_mobile_roaming_service_p002_b01_header.png"
+    },
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p002_b02",
+      "block_type": "text",
+      "text": "• إتاحة معلومات كاملة حول باقات التجهيزات الدولية للمكالمات والإنترنت على موقع مقدمي خدمات التليفون المحمول الإلكتروني، ومن خلال مراكز خدمة العملاء والأفريغ. • إخطارك بالمعلومات التالية عبر رسائل نصية قصيرة مجانية فور وصولك واستقبالك لشبكة مقدم خدمة المحمول بالدولة المقصودة: • أسعار استلام المكالمات الصوتية وإرسال الرسائل النصية. • أسعار استخدام الإنترنت على شبكة المحمول بالدولة المستضيفة. • وسيلة الاتصال بمقدم الخدمة المحلي الخاص بك مجاناً أثناء التجهيز. • أي قيود استخدام أثناء التجهيزات الدولية، يترتب عليها زيادة في مبالغ الفاتورة.",
+      "bbox": {
+        "x1": 114,
+        "y1": 428,
+        "x2": 1476,
+        "y2": 830
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_002/user_awareness_guide_for_international_mobile_roaming_service_p002_b02_text.png"
+    },
+    {
+      "block_id": "user_awareness_guide_for_international_mobile_roaming_service_p002_b03",
+      "block_type": "text",
+      "text": "",
+      "bbox": {
+        "x1": 275,
+        "y1": 1083,
+        "x2": 1323,
+        "y2": 1724
+      },
+      "confidence": null,
+      "language": "ara",
+      "table_data": null,
+      "crop_path": "crops/user_awareness_guide_for_international_mobile_roaming_service/page_002/user_awareness_guide_for_international_mobile_roaming_service_p002_b03_text.png"
+    }
+  ]
+}
