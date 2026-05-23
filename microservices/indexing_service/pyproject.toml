@@ -1,0 +1,33 @@
+[project]
+name = "indexing-service"
+version = "0.1.0"
+description = "NBE document indexing microservice — Enrich → Embed → Milvus → MinIO"
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi>=0.115,<1.0",
+    "uvicorn[standard]>=0.32,<1.0",
+    "pydantic>=2.0,<3.0",
+    "pydantic-settings>=2.0,<3.0",
+    "langchain>=0.3",
+    "langchain-core>=0.3",
+    "langchain-milvus>=0.1,<0.2",
+    "langchain-nvidia-ai-endpoints>=0.3",
+    "langchain-text-splitters>=0.3",
+    "pymilvus>=2.4,<2.5",
+    "boto3>=1.34",
+    "nbe-schemas",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "httpx>=0.28"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv.sources]
+nbe-schemas = { path = "../../shared/nbe_schemas", editable = true }
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]

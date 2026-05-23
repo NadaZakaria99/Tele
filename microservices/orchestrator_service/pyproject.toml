@@ -1,0 +1,27 @@
+[project]
+name = "orchestrator-service"
+version = "0.1.0"
+description = "NBE pipeline orchestrator — listens to MinIO events and triggers ingestion"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi>=0.115,<1.0",
+    "uvicorn[standard]>=0.32,<1.0",
+    "pydantic>=2.0,<3.0",
+    "pydantic-settings>=2.0,<3.0",
+    "minio>=7.2.0",
+    "pypdfium2>=4.0",
+    "Pillow>=10.0",
+    "httpx>=0.28",
+    "python-multipart>=0.0.9",
+    "nbe-schemas",                # shared schemas
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv.sources]
+nbe-schemas = { path = "../../shared/nbe_schemas", editable = true }

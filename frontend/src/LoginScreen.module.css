@@ -1,0 +1,414 @@
+/* =====================================================================
+   LoginScreen.module.css — Enhancement Pass
+   Reference: frontend_enhancements/login_page.html
+   Deep ambient green bg · Glassmorphism card · Stagger animations
+   All class names match LoginScreen.tsx exactly — no TSX changes needed
+   ===================================================================== */
+
+/* ── Page container — deep green ambient background ── */
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  /* Rich ambient multi-radial green background */
+  background:
+    radial-gradient(circle at 0% 0%,    #004a2d 0%, transparent 50%),
+    radial-gradient(circle at 100% 0%,  #2b5c43 0%, transparent 50%),
+    radial-gradient(circle at 100% 100%, #1a3a2a 0%, transparent 50%),
+    radial-gradient(circle at 0% 100%,  #5c7468 0%, transparent 50%),
+    #003d1f;
+  padding: 24px;
+}
+
+/* Animated blurred ambient overlay (CSS-only particle approximation) */
+.container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(0,74,45,0.90)  0%, transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(43,92,67,0.80)  0%, transparent 45%),
+    radial-gradient(circle at 80% 85%, rgba(26,58,42,0.80)  0%, transparent 45%),
+    radial-gradient(circle at 5%  80%, rgba(92,116,104,0.70) 0%, transparent 45%);
+  filter: blur(80px);
+  opacity: 0.80;
+  animation: meshMove 20s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+/* Particle Canvas */
+.particleCanvas {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Subtle grid overlay */
+.grid {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(ellipse 90% 80% at 50% 50%, black 20%, transparent 100%);
+  pointer-events: none;
+}
+
+/* Orbs hidden — effect absorbed into ::before */
+.orb1, .orb2 { display: none; }
+
+/* ── Glassmorphism card ── */
+.card {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 540px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  /* Spring slide-up entrance */
+  animation: slideUpFade 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.22);
+}
+
+/* ── Logo header — stagger slot 0 ── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 32px 20px;
+  flex-direction: column;
+  gap: 14px;
+  animation: fadeIn 0.5s ease both 0.10s;
+}
+
+.headerLogoImage {
+  height: 64px;
+  max-width: 220px;
+  object-fit: contain;
+  /* Clean display on frosted glass — no extra box */
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.systemName {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--nbe-green);
+  letter-spacing: 0.2px;
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+}
+
+/* ── System status pill — stagger slot 1 ── */
+.statusBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* Pill shape: bg-white/40 rounded-full border border-white/50 */
+  background: rgba(255, 255, 255, 0.40);
+  border: 1px solid rgba(255, 255, 255, 0.50);
+  border-radius: var(--radius-full);
+  padding: 8px 20px;
+  margin: 0 32px 20px;
+  animation: fadeIn 0.5s ease both 0.20s;
+}
+
+.dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.dotGreen  { background: #2E7D32; box-shadow: 0 0 6px #2E7D32; }
+.dotRed    { background: var(--red); box-shadow: 0 0 6px var(--red); }
+.dotPulse  { background: #2E7D32; animation: pulse 1.2s ease-in-out infinite; }
+
+.statusText {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--nbe-green);
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(0, 85, 44, 0.10);
+  margin: 0 32px 20px;
+}
+
+/* ── Sections — staggered fade-in using nth-child ── */
+.section {
+  margin: 0 32px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* Name input section — 4th child in card */
+.section:nth-child(4) {
+  animation: fadeIn 0.5s ease both 0.30s;
+}
+/* Role selection section — 5th child in card */
+.section:nth-child(5) {
+  animation: fadeIn 0.5s ease both 0.40s;
+}
+
+.mainLabel {
+  display: block;
+  font-size: 24px; /* matches text-headline-md */
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: center;
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+  margin-bottom: 8px;
+}
+.subLabel {
+  display: block;
+  font-size: 14px; /* matches text-label-md */
+  font-weight: 700;
+  color: var(--text-secondary);
+  letter-spacing: 0.2px;
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+}
+
+/* ── Input with underline sweep ── */
+.inputWrapper {
+  position: relative;
+}
+.inputWrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--nbe-green);
+  transition: width 0.4s ease, left 0.4s ease;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+.inputWrapper:focus-within::after {
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.50);
+  border: 1.5px solid rgba(111, 122, 111, 0.30);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  color: var(--text-primary);
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+  font-size: 16px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+  text-align: center;
+}
+.input:focus {
+  border-color: rgba(0, 85, 44, 0.50);
+  /* Breathing focus ring from reference */
+  animation: breathe 2s ease-in-out infinite;
+}
+.input::placeholder { color: var(--text-muted); }
+
+/* ── Role selection cards ── */
+.roles {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.roleCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: rgba(255, 255, 255, 0.60);
+  border: 2px solid rgba(255, 255, 255, 0.50);
+  border-radius: var(--radius-lg);
+  padding: 18px 20px;
+  cursor: pointer;
+  text-align: right;
+  /* Smooth transitions matching reference magnetic-card */
+  transition: all 0.30s cubic-bezier(0.23, 1, 0.32, 1);
+  position: relative;
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+  width: 100%;
+  box-shadow: var(--shadow-sm);
+}
+.roleCard:hover {
+  border-color: rgba(0, 85, 44, 0.50);
+  background: rgba(255, 255, 255, 0.80);
+  box-shadow: 0 0 15px rgba(0, 85, 44, 0.10);
+  transform: translateY(-1px);
+}
+.roleCardSelected {
+  border-color: var(--nbe-green) !important;
+  background: rgba(255, 255, 255, 0.80) !important;
+  box-shadow: 0 0 15px rgba(0, 85, 44, 0.15) !important;
+}
+
+/* Role icon — wraps the emoji */
+.roleIcon {
+  flex-shrink: 0;
+  font-size: 30px;
+  line-height: 1;
+  width: 52px; height: 52px;
+  background: rgba(240, 237, 237, 0.60);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  margin-top: 2px;
+}
+.roleCard:hover .roleIcon,
+.roleCardSelected .roleIcon {
+  /* primary-fixed tint on selected/hover */
+  background: rgba(154, 246, 181, 0.35);
+}
+
+.roleInfo { flex: 1; }
+
+.roleTitle {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+  transition: color 0.2s;
+}
+
+.roleSubtitle {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-family: 'IBM Plex Mono', monospace;
+  margin-bottom: 6px;
+}
+
+.roleDesc {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.accessBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+  animation: fadeIn 0.2s ease;
+}
+
+.accessBadge {
+  font-size: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  padding: 3px 9px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--nbe-green);
+  color: var(--nbe-green);
+  background: rgba(0, 85, 44, 0.07);
+  font-weight: 600;
+}
+
+/* Elastic bounce checkmark */
+.checkmark {
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  background: var(--nbe-green) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  color: #FFFFFF;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 2px;
+  animation: elasticBounce 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* ── Primary CTA button — stagger slot 4 ── */
+.loginBtn {
+  display: flex;
+  width: calc(100% - 64px);
+  margin: 0 32px 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* Solid green CTA matching reference */
+  background: var(--nbe-green);
+  color: #FFFFFF;
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 16px;
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+  font-size: 24px; /* matches text-headline-md */
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  box-shadow: 0 4px 18px rgba(0, 85, 44, 0.30);
+  transition: all 0.30s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 0.5s ease both 0.50s;
+}
+.loginBtn:hover:not(:disabled) {
+  background: var(--nbe-green-mid);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 28px rgba(0, 85, 44, 0.35);
+}
+.loginBtn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+.loginBtn:disabled {
+  background: var(--surface-4);
+  color: var(--text-muted);
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+.loginBtnLoading {
+  background: var(--surface-3) !important;
+  color: var(--text-secondary) !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+.spinner {
+  width: 18px; height: 18px;
+  border: 2.5px solid transparent;
+  border-top-color: var(--nbe-green);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  display: inline-block;
+}
+
+/* ── Footer strip — translucent glass bottom ── */
+.footer {
+  padding: 18px 32px;
+  border-top: 1px solid rgba(255, 255, 255, 0.20);
+  background: rgba(255, 255, 255, 0.10);
+  text-align: center;
+  font-size: 11px;
+  color: var(--text-secondary);
+  font-family: 'IBM Plex Mono', monospace;
+  line-height: 1.6;
+}
+
+/* ══════════════════════════════════════
+   LOCAL KEYFRAMES
+═══════════════════════════════════════ */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,38 @@
+[project]
+name = "extraction-service"
+version = "0.1.0"
+description = "NBE document extraction microservice — Chandra OCR-2 + visual crop generation"
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi>=0.115,<1.0",
+    "uvicorn[standard]>=0.32,<1.0",
+    "pydantic>=2.0,<3.0",
+    "pydantic-settings>=2.0,<3.0",
+    "pillow>=12.0",
+    "torch>=2.0",
+    "torchvision",
+    "transformers>=4.40",
+    "huggingface-hub>=0.20",
+    "langchain-core>=0.3",
+    "httpx>=0.28",
+    "python-multipart>=0.0.9",
+    "accelerate>=0.26",
+    "chandra-ocr[hf]>=0.2.0",
+    "bitsandbytes>=0.46.1",
+    "beautifulsoup4",
+    "nbe-schemas",                # shared schemas (local editable install)
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "httpx>=0.28"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv.sources]
+nbe-schemas = { path = "../../shared/nbe_schemas", editable = true }
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]

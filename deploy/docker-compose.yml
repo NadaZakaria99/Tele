@@ -1,0 +1,263 @@
+# =============================================================================
+# NBE Knowledge Assistant — Master Docker Compose (NVIDIA API Edition)
+# =============================================================================
+# All NIM containers removed. Embedding / reranking / LLM are served by
+# NVIDIA's hosted API (integrate.api.nvidia.com/v1) using your NGC_API_KEY.
+# Only the extraction_service still runs locally (it needs a local GPU for
+# the Chandra OCR-2 model — no hosted equivalent).
+#
+# Usage (run from the PROJECT ROOT):
+#   cp deploy/config/.env.example deploy/config/.env   # fill in your values
+#   docker compose -f deploy/docker-compose.yml --env-file deploy/config/.env up -d
+# =============================================================================
+
+version: "3.9"
+
+volumes:
+  hf_cache:
+  pipeline_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${DATA_DIR:-C:/Users/n.zakaria/nbe-knowledge-assistant-main/data}
+  milvus_data:
+  minio_data:
+  etcd_data:
+
+networks:
+  nbe-backend:
+    driver: bridge
+  nbe-frontend:
+    driver: bridge
+
+services:
+
+  # ── Infrastructure: etcd ───────────────────────────────────────────────────
+  etcd:
+    image: quay.io/coreos/etcd:v3.5.14
+    container_name: nbe-etcd
+    restart: unless-stopped
+    networks: [nbe-backend]
+    volumes:
+      - etcd_data:/etcd
+    environment:
+      - ETCD_AUTO_COMPACTION_MODE=revision
+      - ETCD_AUTO_COMPACTION_RETENTION=1000
+      - ETCD_QUOTA_BACKEND_BYTES=4294967296
+      - ETCD_SNAPSHOT_COUNT=50000
+    command: >
+      etcd
+      --advertise-client-urls=http://etcd:2379
+      --listen-client-urls=http://0.0.0.0:2379
+      --data-dir=/etcd
+
+  # ── Infrastructure: MinIO ──────────────────────────────────────────────────
+  minio:
+    image: minio/minio:RELEASE.2024-11-07T00-52-20Z
+    container_name: nbe-minio
+    restart: unless-stopped
+    networks: [nbe-backend, nbe-frontend]
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # Console UI
+    volumes:
+      - minio_data:/data
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_ROOT_PASSWORD: ${MINIO_SECRET_KEY:-minioadmin}
+    command: server /data --console-address ":9001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+
+  # ── Infrastructure: Milvus Standalone ─────────────────────────────────────
+  milvus:
+    image: milvusdb/milvus:v2.4.15
+    container_name: nbe-milvus
+    restart: unless-stopped
+    networks: [nbe-backend]
+    ports:
+      - "19530:19530"
+      - "9091:9091"
+    volumes:
+      - milvus_data:/var/lib/milvus
+    environment:
+      ETCD_ENDPOINTS: etcd:2379
+      MINIO_ADDRESS: minio:9000
+      MINIO_ACCESS_KEY_ID: ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_SECRET_ACCESS_KEY: ${MINIO_SECRET_KEY:-minioadmin}
+      MINIO_USE_SSL: "false"
+    depends_on:
+      - etcd
+      - minio
+    command: ["milvus", "run", "standalone"]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
+      interval: 30s
+      timeout: 20s
+      retries: 5
+
+  # ── Milvus UI ──────────────────────────────────────────────────────────────
+  attu:
+    image: zilliz/attu:latest
+    container_name: nbe-attu
+    restart: unless-stopped
+    networks: [nbe-backend]
+    ports:
+      - "8013:3000"
+    environment:
+      MILVUS_URL: nbe-milvus:19530
+    depends_on:
+      milvus:
+        condition: service_healthy
+
+  # ── Service: Extraction (GPU — Chandra OCR-2, runs LOCALLY) ───────────────
+  # This is the only service that still runs on your local GPU.
+  # It uses the HuggingFace Chandra OCR-2 model for Arabic document OCR.
+  extraction-service:
+    build:
+      context: ..
+      dockerfile: microservices/extraction_service/Dockerfile
+    container_name: nbe-extraction
+    restart: unless-stopped
+    networks: [nbe-backend]
+    ports:
+      - "8080:8000"
+    runtime: nvidia
+    environment:
+      HF_TOKEN: ${HF_TOKEN}
+      MAX_INFERENCE_DIM: ${MAX_INFERENCE_DIM:-1600}
+      OUTPUT_DIR: /data/pipeline_output
+      INDEXING_SERVICE_URL: http://nbe-indexing:8001
+    volumes:
+      - pipeline_data:/data
+      - hf_cache:/root/.cache/huggingface
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    depends_on:
+      - indexing-service
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 300s
+
+  # ── Service: Orchestrator (PDF watcher + pipeline coordinator) ────────────
+  orchestrator-service:
+    build:
+      context: ..
+      dockerfile: microservices/orchestrator_service/Dockerfile
+    container_name: nbe-orchestrator
+    restart: unless-stopped
+    networks: [nbe-backend]
+    ports:
+      - "8002:8002"
+    environment:
+      MINIO_ENDPOINT: nbe-minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:-minioadmin}
+      MINIO_SECURE: "false"
+      MINIO_INGESTION_BUCKET: "nbe-ingestion"
+      EXTRACTION_SERVICE_URL: http://nbe-extraction:8000
+      INDEXING_SERVICE_URL: http://nbe-indexing:8001
+    volumes:
+      - pipeline_data:/data
+    depends_on:
+      - extraction-service
+      - minio
+
+  # ── Service: Indexing ─────────────────────────────────────────────────────
+  # Embeddings are generated via NVIDIA hosted API (no local NIM container).
+  indexing-service:
+    build:
+      context: ..
+      dockerfile: microservices/indexing_service/Dockerfile
+    container_name: nbe-indexing
+    restart: unless-stopped
+    networks: [nbe-backend]
+    ports:
+      - "8001:8001"
+    environment:
+      # ── NVIDIA hosted API replaces local NIM embedding container ──────────
+      INFERENCE_BASE_URL: https://integrate.api.nvidia.com/v1
+      NVIDIA_API_KEY: ${NGC_API_KEY}
+      EMBEDDING_MODEL: nvidia/llama-nemotron-embed-1b-v2
+      # ── Milvus ────────────────────────────────────────────────────────────
+      MILVUS_HOST: nbe-milvus
+      MILVUS_PORT: 19530
+      MILVUS_COLLECTION: ${MILVUS_COLLECTION:-nbe_documents}
+      # ── MinIO ─────────────────────────────────────────────────────────────
+      MINIO_ENDPOINT: http://nbe-minio:9000
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY:-minioadmin}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY:-minioadmin}
+      # ── Pipeline paths ─────────────────────────────────────────────────────
+      CATALOG_DB_PATH: /data/pipeline_output/catalog.db
+      DATA_DIR: /data
+      PIPELINE_OUTPUT_DIR: /data/pipeline_output
+      REINGESTION_POLICY: ${REINGESTION_POLICY:-replace}
+    volumes:
+      - pipeline_data:/data
+    depends_on:
+      milvus:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # ── Service: RAG ──────────────────────────────────────────────────────────
+  # LLM, embedding, and reranking all use NVIDIA hosted API.
+  rag-service:
+    build:
+      context: ..
+      dockerfile: microservices/rag_service/Dockerfile
+    container_name: nbe-rag
+    restart: unless-stopped
+    networks: [nbe-backend, nbe-frontend]
+    ports:
+      - "8003:8002"
+    environment:
+      NVIDIA_API_KEY: ${NGC_API_KEY}
+      # ── All three model calls go to NVIDIA hosted API ─────────────────────
+      INFERENCE_BASE_URL: https://integrate.api.nvidia.com/v1
+      EMBEDDING_BASE_URL: https://integrate.api.nvidia.com/v1
+      RERANK_BASE_URL: https://integrate.api.nvidia.com/v1
+      SAFETY_BASE_URL: https://integrate.api.nvidia.com/v1
+      # ── Milvus ────────────────────────────────────────────────────────────
+      MILVUS_HOST: nbe-milvus
+      MILVUS_PORT: 19530
+      MILVUS_COLLECTION: ${MILVUS_COLLECTION:-nbe_documents}
+      LLM_MODEL: ${LLM_MODEL:-meta/llama-3.1-8b-instruct}
+    depends_on:
+      milvus:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8002/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # ── Service: Frontend ─────────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    container_name: nbe-frontend
+    restart: unless-stopped
+    networks: [nbe-backend, nbe-frontend]
+    ports:
+      - "3000:3000"
+    depends_on:
+      - rag-service

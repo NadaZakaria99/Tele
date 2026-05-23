@@ -1,0 +1,399 @@
+/* =====================================================================
+   CitationPanel.module.css — Enhancement Pass
+   Reference: frontend_enhancements/main-chat-page.html (RightSidebar)
+   bg-surface-container · white source cards · gold CTA · hover lift
+   ===================================================================== */
+
+/* ── Panel shell — light grey sidebar bg ── */
+.panel {
+  width: 296px;
+  flex-shrink: 0;
+  /* bg-surface-container = #f0eded */
+  background: var(--surface-2);
+  border-right: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: slideInLeft 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ── Panel header — green, matches reference ── */
+.panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid #d1d5db;
+  flex-shrink: 0;
+  background: var(--nbe-green);
+  color: #FFFFFF;
+}
+
+.panelTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-left: 8px;
+}
+
+/* Citation count badge — bright gold, dark green text */
+.panelCount {
+  font-size: 11px;
+  font-weight: 700;
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+  background: var(--nbe-gold-brand); /* #ffb81c */
+  color: var(--nbe-green);
+  padding: 2px 10px;
+  border-radius: 4px;
+}
+
+/* Close button */
+.closeBtn {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: var(--radius-sm);
+  color: #FFFFFF;
+  width: 28px; height: 28px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.closeBtn:hover {
+  background: rgba(186, 26, 26, 0.25);
+  border-color: rgba(186, 26, 26, 0.50);
+  color: #FFAAAA;
+}
+
+/* ── Source item list — white cards on grey bg ── */
+.sourceList {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 220px;
+  overflow-y: auto;
+  flex-shrink: 0;
+  background: var(--surface-2);
+}
+.sourceList::-webkit-scrollbar { width: 6px; }
+.sourceList::-webkit-scrollbar-track { background: #f1f1f1; }
+.sourceList::-webkit-scrollbar-thumb { background: #ccc; border-radius: 10px; }
+.sourceList::-webkit-scrollbar-thumb:hover { background: #999; }
+
+/* Source cards — white on grey, hover shadow lift */
+.sourceItem {
+  background: #FFFFFF;
+  border: 1px solid #e5e7eb;
+  border-radius: var(--radius-sm);
+  padding: 14px 14px;
+  text-align: right;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease, background 0.3s ease;
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+  width: 100%;
+}
+.sourceItem:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-color: #d1d5db;
+  transform: translateY(-2px);
+}
+
+/* Active selected card — green border, green-tinted bg */
+.sourceItemActive {
+  border-color: var(--nbe-green-mid) !important;
+  box-shadow: 0 8px 14px rgba(0, 112, 60, 0.10), 0 4px 6px rgba(0, 112, 60, 0.05) !important;
+  transform: translateY(-2px) !important;
+  background: #f0fdf4 !important;
+}
+
+.sourceItemTop {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+/* Citation number — green bold text */
+.sourceIndex {
+  font-size: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: var(--nbe-green);
+  font-weight: 700;
+}
+.sourceDoc {
+  font-size: 13px;
+  font-weight: 700;
+  color: #374151;
+  flex: 1;
+}
+.sourcePage {
+  font-size: 11px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #9ca3af;
+}
+
+/* Score / relevance indicator */
+.sourceScore {
+  font-size: 11px;
+  font-weight: 600;
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+.scoreNum {
+  background: var(--surface-3);
+  color: var(--text-secondary);
+  padding: 1px 6px;
+  border-radius: var(--radius-full);
+  font-size: 10px;
+}
+.sourcePreview {
+  font-size: 11px;
+  color: #6b7280; /* text-gray-500 */
+  line-height: 1.50;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* ── Detail view — white, scrollable ── */
+.detail {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: var(--surface-1);
+}
+.detail::-webkit-scrollbar { width: 6px; }
+.detail::-webkit-scrollbar-track { background: #f1f1f1; }
+.detail::-webkit-scrollbar-thumb { background: #ccc; border-radius: 10px; }
+.detail::-webkit-scrollbar-thumb:hover { background: #999; }
+
+.detailHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.detailTitleWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.detailDoc {
+  font-size: 14px;
+  font-weight: 700;
+  color: #374151;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.detailPage {
+  font-size: 11px;
+  color: #9ca3af;
+  font-family: 'IBM Plex Mono', monospace;
+  margin-top: 3px;
+}
+
+/* ── View mode tabs ── */
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.tabBtn {
+  background: var(--surface-2);
+  border: none;
+  padding: 8px;
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.18s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.tabBtn:hover { color: var(--nbe-green); background: #e6f4ea; }
+/* Active tab */
+.tabBtnActive {
+  background: var(--nbe-green);
+  color: #FFFFFF;
+  box-shadow: var(--shadow-sm);
+}
+
+.contentArea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ── Image view ── */
+.imageContainer {
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid #d1d5db;
+  background: #fff;
+  padding: 4px;
+  /* Hover zoom interaction from reference */
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.imageContainer:hover { transform: scale(1.02); }
+
+/* Skeleton shimmer */
+.imgSkeleton {
+  height: 180px;
+  background: var(--surface-3);
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.imgShimmer {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg,
+    rgba(255,255,255,0) 0%,
+    rgba(255,255,255,0.40) 50%,
+    rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.citationImg {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+  max-height: 300px;
+  background: #fff;
+  border-radius: 4px;
+  cursor: zoom-in;
+  transition: opacity 0.15s ease;
+}
+.citationImg:hover { opacity: 0.92; }
+
+.imgError {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+.imgLink {
+  color: var(--nbe-green);
+  text-decoration: none;
+  font-size: 11px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+.imgLink:hover { text-decoration: underline; }
+
+.noImageMsg {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+  padding: 32px 16px;
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+}
+
+/* ── Text excerpt view ── */
+.textContent {
+  background: var(--surface-1);
+  border: 1.5px solid #e5e7eb;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+.textLabel {
+  font-size: 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #FFFFFF;
+  padding: 8px 12px;
+  border-bottom: 1px solid rgba(0, 85, 44, 0.15);
+  background: var(--nbe-green);
+  letter-spacing: 0.4px;
+  font-weight: 600;
+}
+.textBody {
+  padding: 12px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.75;
+  max-height: 200px;
+  overflow-y: auto;
+  direction: rtl;
+}
+.textBody table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+.textBody th, .textBody td {
+  border: 1px solid #e5e7eb;
+  padding: 5px 8px;
+  text-align: right;
+}
+.textBody th {
+  background: #f0fdf4;
+  color: var(--nbe-green);
+  font-weight: 700;
+}
+.textBody h3 {
+  font-size: 12px;
+  color: var(--nbe-green);
+  margin-bottom: 6px;
+}
+
+/* ── "View original document" CTA ── */
+/* Reference: bg-brand-gold (#ffb81c), text-primary (dark green), font-bold */
+.actionBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  text-align: center;
+  background: var(--nbe-gold-brand); /* #ffb81c */
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--nbe-green); /* dark green text on gold */
+  font-family: 'IBM Plex Sans Arabic', 'Cairo', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding: 12px;
+  text-decoration: none;
+  transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  margin-top: auto;
+  letter-spacing: 0.2px;
+  box-shadow: var(--shadow-sm);
+}
+.actionBtn:hover {
+  background: #f0ad15;
+  box-shadow: 0 4px 14px rgba(255, 184, 28, 0.35);
+  transform: translateY(-1px);
+  color: var(--nbe-green);
+}
+
+/* ══════════════════════════════════════
+   LOCAL KEYFRAMES
+═══════════════════════════════════════ */
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-18px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}

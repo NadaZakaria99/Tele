@@ -1,0 +1,9 @@
+[project]
+name = "nbe-schemas"
+version = "0.1.0"
+description = "Shared Pydantic schemas for the NBE RAG microservices pipeline"
+requires-python = ">=3.10"
+dependencies = ["pydantic>=2.0,<3.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

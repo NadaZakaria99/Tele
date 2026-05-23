@@ -1,0 +1,45 @@
+# .gitignore for my_work_new/
+
+# ── Data (large files, runtime artifacts) ─────────────────────────────────────
+data/docs_images/
+data/pipeline_output/
+data/legacy/
+data/docs/
+docs_images/
+pipeline_output/
+*.db
+*.zip
+old-doc.txt
+# ── Secrets ───────────────────────────────────────────────────────────────────
+deploy/config/.env
+.env
+**/.env
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+dist/
+.uv/
+
+# ── NIM cache ─────────────────────────────────────────────────────────────────
+/opt/nim/
+
+# ── HuggingFace model cache ───────────────────────────────────────────────────
+~/.cache/huggingface/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+*.log
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp

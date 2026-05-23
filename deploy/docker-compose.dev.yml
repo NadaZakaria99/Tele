@@ -1,0 +1,55 @@
+# =============================================================================
+# docker-compose.dev.yml — Development Overrides
+# =============================================================================
+# Usage:
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up
+#
+# Enables:
+#   - Hot reload on source code changes (volume mounts)
+#   - Skips NIM containers (use NVIDIA API Catalog instead for faster dev loop)
+#   - Exposes all internal ports for local debugging
+
+version: "3.9"
+
+services:
+  extraction_service:
+    volumes:
+      - ../microservices/extraction_service/src:/app/src:ro
+      - ../data:/data
+    environment:
+      LOG_LEVEL: debug
+    command: ["uvicorn", "extraction_service.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+  indexing_service:
+    volumes:
+      - ../microservices/indexing_service/src:/app/src:ro
+      - ../data:/data
+    environment:
+      LOG_LEVEL: debug
+      # Override to use NVIDIA API Catalog during development (no local NIM needed)
+      INFERENCE_BASE_URL: https://integrate.api.nvidia.com/v1
+      NVIDIA_API_KEY: ${NGC_API_KEY}
+    command: ["uvicorn", "indexing_service.main:app", "--host", "0.0.0.0", "--port", "8001", "--reload"]
+
+  rag_service:
+    volumes:
+      - ../microservices/rag_service/src:/app/src:ro
+    environment:
+      LOG_LEVEL: debug
+      # Point all NIM endpoints to the API Catalog for dev
+      INFERENCE_BASE_URL: https://integrate.api.nvidia.com/v1
+      EMBEDDING_BASE_URL: https://integrate.api.nvidia.com/v1
+      RERANK_BASE_URL: https://integrate.api.nvidia.com/v1
+      SAFETY_BASE_URL: https://integrate.api.nvidia.com/v1
+      NVIDIA_API_KEY: ${NGC_API_KEY}
+    command: ["uvicorn", "rag_service.main:app", "--host", "0.0.0.0", "--port", "8002", "--reload"]
+
+  # Skip NIM containers in dev mode — comment these back in to test local NIMs
+  nim-embedding:
+    profiles: ["nim"]
+  nim-rerank:
+    profiles: ["nim"]
+  nim-llm:
+    profiles: ["nim"]
+  nim-safety:
+    profiles: ["nim"]

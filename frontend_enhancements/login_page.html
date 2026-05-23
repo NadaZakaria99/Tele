@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html class="light" dir="rtl" lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-fixed": "#ffdcc6",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed": "#9af6b5",
+                        "inverse-primary": "#7eda9a",
+                        "on-primary-fixed": "#00210e",
+                        "on-tertiary-fixed-variant": "#5b4300",
+                        "surface-dim": "#dcd9d9",
+                        "secondary-container": "#ff8928",
+                        "surface-container-highest": "#e5e2e1",
+                        "tertiary-fixed": "#ffdf9d",
+                        "on-error": "#ffffff",
+                        "error": "#ba1a1a",
+                        "tertiary-container": "#7b5c00",
+                        "primary-fixed-dim": "#7eda9a",
+                        "on-tertiary-container": "#ffd782",
+                        "on-background": "#1c1b1b",
+                        "on-primary": "#ffffff",
+                        "inverse-on-surface": "#f3f0ef",
+                        "primary-container": "#00703c",
+                        "on-secondary-fixed": "#311300",
+                        "primary": "#00552c",
+                        "inverse-surface": "#313030",
+                        "on-primary-container": "#94f0af",
+                        "surface-tint": "#006d3a",
+                        "on-surface": "#1c1b1b",
+                        "surface-container-high": "#eae7e7",
+                        "surface-container": "#f0eded",
+                        "on-tertiary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "surface-container-low": "#f6f3f2",
+                        "surface": "#fcf9f8",
+                        "outline-variant": "#becabd",
+                        "on-tertiary-fixed": "#251a00",
+                        "surface-variant": "#e5e2e1",
+                        "on-primary-fixed-variant": "#00522a",
+                        "on-surface-variant": "#3f4940",
+                        "secondary-fixed-dim": "#ffb786",
+                        "surface-bright": "#fcf9f8",
+                        "tertiary": "#5e4500",
+                        "background": "#fcf9f8",
+                        "secondary": "#964900",
+                        "tertiary-fixed-dim": "#f9bd00",
+                        "on-secondary": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "outline": "#6f7a6f",
+                        "on-secondary-fixed-variant": "#723600",
+                        "on-secondary-container": "#642f00"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "container-padding": "2rem",
+                        "margin-md": "2rem",
+                        "unit": "8px",
+                        "gutter": "1.5rem",
+                        "margin-sm": "1rem",
+                        "margin-lg": "4rem"
+                    },
+                    "fontFamily": {
+                        "label-md": ["IBM Plex Sans Arabic"],
+                        "headline-lg": ["IBM Plex Sans Arabic"],
+                        "headline-lg-mobile": ["IBM Plex Sans Arabic"],
+                        "display-lg": ["IBM Plex Sans Arabic"],
+                        "body-lg": ["IBM Plex Sans Arabic"],
+                        "headline-md": ["IBM Plex Sans Arabic"],
+                        "body-md": ["IBM Plex Sans Arabic"],
+                        "caption": ["IBM Plex Sans Arabic"]
+                    },
+                    "fontSize": {
+                        "label-md": ["14px", { "lineHeight": "20px", "fontWeight": "500" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "headline-lg-mobile": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "display-lg": ["48px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+            background: #004a2d;
+            overflow-x: hidden;
+        }
+
+        .ambient-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            background:
+                radial-gradient(circle at 0% 0%, #004a2d 0%, transparent 50%),
+                radial-gradient(circle at 100% 0%, #2b5c43 0%, transparent 50%),
+                radial-gradient(circle at 100% 100%, #1a3a2a 0%, transparent 50%),
+                radial-gradient(circle at 0% 100%, #5c7468 0%, transparent 50%),
+                #d1d5db;
+            filter: blur(80px);
+            opacity: 0.8;
+            animation: mesh-move 20s ease-in-out infinite alternate;
+        }
+
+        @keyframes mesh-move {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.1) translate(2%, 2%);
+            }
+        }
+
+        #particle-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+            opacity: 0.3;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
+            transform: translateY(20px);
+            opacity: 0;
+            animation: slideUpFade 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        }
+
+        @keyframes slideUpFade {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .stagger-0 {
+            animation-delay: 0.1s;
+        }
+
+        .stagger-1 {
+            animation-delay: 0.2s;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards 0.2s;
+        }
+
+        .stagger-2 {
+            animation-delay: 0.3s;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards 0.3s;
+        }
+
+        .stagger-3 {
+            animation-delay: 0.4s;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards 0.4s;
+        }
+
+        .stagger-4 {
+            animation-delay: 0.5s;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards 0.5s;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .magnetic-card {
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+            perspective: 1000px;
+            border-width: 2px;
+        }
+
+        .peer:checked+.magnetic-card,
+        .magnetic-card:has(.peer:checked) {
+            border-color: #00552c !important;
+            box-shadow: 0 0 15px rgba(0, 85, 44, 0.15) !important;
+        }
+
+        .check-bounce {
+            animation: elastic-bounce 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        @keyframes elastic-bounce {
+            0% {
+                transform: scale(0);
+            }
+
+            70% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .input-enhanced::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: #00552c;
+            transition: all 0.4s ease;
+            transform: translateX(-50%);
+        }
+
+        .input-enhanced:focus-within::after {
+            width: 100%;
+        }
+
+        .input-breathing:focus {
+            box-shadow: 0 0 0 4px rgba(0, 85, 44, 0.1);
+            animation: breathe 2s infinite ease-in-out;
+        }
+
+        @keyframes breathe {
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 4px rgba(0, 85, 44, 0.1);
+            }
+
+            50% {
+                box-shadow: 0 0 0 8px rgba(0, 85, 44, 0.2);
+            }
+        }
+
+        .btn-morph {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-morph.loading {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+            font-size: 0;
+        }
+
+        .btn-morph.loading .laser-scan {
+            display: block;
+        }
+
+        .laser-scan {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #00552c;
+        }
+
+        .laser-line {
+            position: absolute;
+            width: 80%;
+            height: 2px;
+            background: #9af6b5;
+            left: 10%;
+            top: 10%;
+            box-shadow: 0 0 10px #9af6b5;
+            animation: scan-move 1.5s infinite ease-in-out;
+        }
+
+        @keyframes scan-move {
+            0% {
+                top: 10%;
+            }
+
+            50% {
+                top: 85%;
+            }
+
+            100% {
+                top: 10%;
+            }
+        }
+
+        .scan-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+        }
+    </style>
+    <style>
+        body {
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+            background: #004a2d;
+            overflow-x: hidden;
+        }
+
+        .ambient-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -2;
+            background:
+                radial-gradient(circle at 0% 0%, #004a2d 0%, transparent 50%),
+                radial-gradient(circle at 100% 0%, #2b5c43 0%, transparent 50%),
+                radial-gradient(circle at 100% 100%, #1a3a2a 0%, transparent 50%),
+                radial-gradient(circle at 0% 100%, #5c7468 0%, transparent 50%),
+                #d1d5db;
+            filter: blur(80px);
+            opacity: 0.8;
+            animation: mesh-move 20s ease-in-out infinite alternate;
+        }
+
+        @keyframes mesh-move {
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.1) translate(2%, 2%);
+            }
+        }
+
+        #particle-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+            opacity: 0.3;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.2);
+            transform: translateY(20px);
+            opacity: 0;
+            animation: slideUpFade 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        }
+
+        @keyframes slideUpFade {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .stagger-0 {
+            animation-delay: 0.1s;
+        }
+
+        .stagger-1 {
+            animation-delay: 0.2s;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards 0.2s;
+        }
+
+        .stagger-2 {
+            animation-delay: 0.3s;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards 0.3s;
+        }
+
+        .stagger-3 {
+            animation-delay: 0.4s;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards 0.4s;
+        }
+
+        .stagger-4 {
+            animation-delay: 0.5s;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards 0.5s;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .magnetic-card {
+            transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+            perspective: 1000px;
+            border-width: 2px;
+        }
+
+        .peer:checked+.magnetic-card,
+        .magnetic-card:has(.peer:checked) {
+            border-color: #00552c !important;
+            box-shadow: 0 0 15px rgba(0, 85, 44, 0.15) !important;
+        }
+
+        .check-bounce {
+            animation: elastic-bounce 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        @keyframes elastic-bounce {
+            0% {
+                transform: scale(0);
+            }
+
+            70% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .input-enhanced::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: #00552c;
+            transition: all 0.4s ease;
+            transform: translateX(-50%);
+        }
+
+        .input-enhanced:focus-within::after {
+            width: 100%;
+        }
+
+        .input-breathing:focus {
+            box-shadow: 0 0 0 4px rgba(0, 85, 44, 0.1);
+            animation: breathe 2s infinite ease-in-out;
+        }
+
+        @keyframes breathe {
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 4px rgba(0, 85, 44, 0.1);
+            }
+
+            50% {
+                box-shadow: 0 0 0 8px rgba(0, 85, 44, 0.2);
+            }
+        }
+
+        .btn-morph {
+            position: relative;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .btn-morph.loading {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0;
+            font-size: 0;
+        }
+
+        .btn-morph.loading .laser-scan {
+            display: block;
+        }
+
+        .laser-scan {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #00552c;
+        }
+
+        .laser-line {
+            position: absolute;
+            width: 80%;
+            height: 2px;
+            background: #9af6b5;
+            left: 10%;
+            top: 10%;
+            box-shadow: 0 0 10px #9af6b5;
+            animation: scan-move 1.5s infinite ease-in-out;
+        }
+
+        @keyframes scan-move {
+            0% {
+                top: 10%;
+            }
+
+            50% {
+                top: 85%;
+            }
+
+            100% {
+                top: 10%;
+            }
+        }
+
+        .scan-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body class="min-h-screen flex items-center justify-center p-4">
+    <div class="ambient-bg"></div>
+    <canvas id="particle-canvas" width="1280" height="1024"></canvas>
+    <!-- Main Container -->
+    <main class="w-full max-w-[540px] rounded-xl glass-card overflow-hidden">
+        <!-- Header / Logo Section -->
+        <div class="px-8 pt-10 pb-6 flex justify-center stagger-0">
+            <img alt="البنك الأهلي المصري" class="h-16 w-auto object-contain"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpkNVA702uL71pZ5ySOSM47u0Y3KOGMvfXY5oCuSoRwpDrPfm7gLF_chMAveOMDIat4BIH_fiHwIWRzvFyj5GieB3l4V_H0BcugwwlNfuOuGmMdKfsxQ_1p1AQYXoE3ZUME7M0yg7MVO8MRz0VF7CIpPux1JP-2gfoFXd0C1GtrNvflxSoupLWXP2kE5NSvqj4O3ZSpXzf6HScPzyXtb41Q5QX0RcdPuwGIguVDU5Rg5SeCYc76SpA_J47h-GpxN2BHvkLaoZZTQ">
+        </div>
+        <!-- Content Canvas -->
+        <div class="px-10 pb-12 space-y-8">
+            <!-- System Status Badge -->
+            <div class="flex items-center justify-center stagger-1">
+                <div class="inline-flex items-center gap-3 px-4 py-2 bg-white/40 rounded-full border border-white/50">
+                    <span class="w-2 h-2 rounded-full bg-[#2E7D32] animate-pulse"></span>
+                    <span class="font-label-md text-label-md text-primary">النظام جاهز للاستخدام</span>
+                </div>
+            </div>
+            <!-- Greeting / Name Input -->
+            <div class="space-y-3 stagger-2">
+                <label class="block font-headline-md text-headline-md text-on-surface text-center" for="username">
+                    بماذا تحب أن أناديك اليوم؟
+                </label>
+                <div class="relative input-enhanced">
+                    <input
+                        class="w-full px-6 py-4 bg-white/50 border border-outline/30 rounded-xl font-body-md text-body-md focus:ring-0 focus:border-primary/50 outline-none transition-all text-center input-breathing"
+                        id="username" name="username" placeholder="...أدخل اسمك" type="text">
+                </div>
+            </div>
+            <!-- Role Selection -->
+            <div class="space-y-4 stagger-3">
+                <h3 class="font-label-md text-label-md text-on-surface-variant px-1">نوع الصلاحية</h3>
+                <div class="grid gap-4">
+                    <!-- Role Card 1: Branch Teller -->
+                    <label
+                        class="magnetic-card group relative flex items-center gap-6 p-5 bg-white/60 border border-white/50 rounded-xl cursor-pointer hover:border-primary/50 transition-all shadow-sm"
+                        data-role="teller">
+                        <input class="sr-only peer" name="role" type="radio" value="teller">
+                        <!-- Role Icon Container -->
+                        <div
+                            class="flex-shrink-0 w-14 h-14 bg-surface-container/60 flex items-center justify-center rounded-xl text-primary-container group-hover:bg-primary-fixed/50 transition-colors">
+                            <span class="material-symbols-outlined text-[32px]">account_balance</span>
+                        </div>
+                        <!-- Text Details -->
+                        <div class="flex-grow">
+                            <div class="flex items-center justify-between">
+                                <span class="font-headline-md text-[18px] text-on-surface">موظف خدمة العملاء</span>
+                                <span
+                                    class="material-symbols-outlined text-primary opacity-0 peer-checked:opacity-100 check-bounce"
+                                    style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                            </div>
+                            <span class="block font-label-md text-label-md text-on-surface-variant">Branch Teller</span>
+                            <p class="mt-1 font-caption text-caption text-outline">استعلام عن الإجراءات التشغيلية
+                                اليومية والدوريات العامة</p>
+                        </div>
+                        <!-- Liquid Border (Dynamic) -->
+
+                    </label>
+                    <!-- Role Card 2: Legal Counsel (Initially Selected) -->
+                    <label
+                        class="magnetic-card group relative flex items-center gap-6 p-5 bg-white/60 border border-white/50 rounded-xl cursor-pointer hover:border-primary/50 transition-all shadow-sm"
+                        data-role="legal">
+                        <input checked="" class="sr-only peer" name="role" type="radio" value="legal">
+                        <!-- Role Icon Container -->
+                        <div
+                            class="flex-shrink-0 w-14 h-14 bg-primary-fixed/50 flex items-center justify-center rounded-xl text-primary-container">
+                            <span class="material-symbols-outlined text-[32px]">balance</span>
+                        </div>
+                        <!-- Text Details -->
+                        <div class="flex-grow">
+                            <div class="flex items-center justify-between">
+                                <span class="font-headline-md text-[18px] text-on-surface">المستشار القانوني</span>
+                                <span class="material-symbols-outlined text-primary check-bounce"
+                                    style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                            </div>
+                            <span class="block font-label-md text-label-md text-on-surface-variant">Senior Legal
+                                Counsel</span>
+                            <p class="mt-1 font-caption text-caption text-outline">الوصول الكامل بما يشمل التعميمات
+                                القانونية والدوريات السرية</p>
+                        </div>
+                        <!-- Liquid Border -->
+
+                    </label>
+                </div>
+            </div>
+            <!-- Login Action -->
+            <div class="pt-4 stagger-4 flex justify-center">
+                <button
+                    class="btn-morph w-full py-4 bg-primary text-on-primary font-headline-md text-headline-md rounded-xl hover:bg-primary-container active:scale-[0.98] shadow-lg flex items-center justify-center"
+                    id="login-btn" type="submit">
+                    <span class="btn-text">دخول إلى النظام</span>
+                    <div class="laser-scan">
+                        <span class="material-symbols-outlined scan-icon">description</span>
+                        <div class="laser-line"></div>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <!-- Simple Footer Info -->
+        <footer
+            class="px-10 py-6 border-t border-white/20 bg-white/10 flex flex-col md:flex-row-reverse justify-between items-center gap-4">
+            <span class="font-caption text-caption text-on-surface-variant">© ٢٠٢٤ البنك الأهلي المصري. جميع الحقوق
+                محفوظة.</span>
+            <div class="flex gap-4">
+                <a class="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors"
+                    href="#">سياسة الخصوصية</a>
+                <a class="font-caption text-caption text-on-surface-variant hover:text-primary transition-colors"
+                    href="#">اتصل بنا</a>
+            </div>
+        </footer>
+    </main>
+    <script>
+        // Particle System
+        const canvas = document.getElementById('particle-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        let mouse = { x: null, y: null };
+
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        window.addEventListener('resize', resize);
+        resize();
+
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = e.x;
+            mouse.y = e.y;
+        });
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 1;
+                this.speedX = Math.random() * 0.5 - 0.25;
+                this.speedY = Math.random() * 0.5 - 0.25;
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+
+                // Mouse Parallax effect
+                if (mouse.x) {
+                    let dx = mouse.x - canvas.width / 2;
+                    let dy = mouse.y - canvas.height / 2;
+                    this.x += dx * 0.001;
+                    this.y += dy * 0.001;
+                }
+
+                if (this.x > canvas.width) this.x = 0;
+                if (this.x < 0) this.x = canvas.width;
+                if (this.y > canvas.height) this.y = 0;
+                if (this.y < 0) this.y = canvas.height;
+            }
+            draw() {
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function init() {
+            particles = [];
+            for (let i = 0; i < 50; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        function animateParticles() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach((p, index) => {
+                p.update();
+                p.draw();
+
+                // Draw lines
+                for (let j = index; j < particles.length; j++) {
+                    const dx = p.x - particles[j].x;
+                    const dy = p.y - particles[j].y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < 150) {
+                        ctx.strokeStyle = `rgba(255, 255, 255, ${0.1 * (1 - dist / 150)})`;
+                        ctx.lineWidth = 0.5;
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        ctx.stroke();
+                    }
+                }
+            });
+            requestAnimationFrame(animateParticles);
+        }
+
+        init();
+        animateParticles();
+
+        // Magnetic Card Hover Effect
+        const cards = document.querySelectorAll('.magnetic-card');
+        cards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                const rotateX = (y - centerY) / 10;
+                const rotateY = -(x - centerX) / 20;
+
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.02, 1.02, 1.02)`;
+            });
+
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = `perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)`;
+            });
+        });
+
+        // Login Button Morphing
+        const loginBtn = document.getElementById('login-btn');
+        loginBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            loginBtn.classList.add('loading');
+            loginBtn.querySelector('.btn-text').style.opacity = '0';
+
+            // Redirect simulation after scan
+            setTimeout(() => {
+                // In a real app: window.location.href = '/dashboard';
+                console.log("Logged in!");
+                loginBtn.classList.remove('loading');
+                loginBtn.querySelector('.btn-text').style.opacity = '1';
+            }, 3000);
+        });
+    </script>
+
+
+</body>
+
+</html>
